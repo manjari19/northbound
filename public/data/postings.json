@@ -1,0 +1,5770 @@
+{
+ "updated_at": "2026-10-22T04:29:13+00:00",
+ "count": 355,
+ "sources": {
+  "greenhouse:stripe": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:faire": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:databricks": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:clio": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:figma": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:cloudflare": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:samsara": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:dropbox": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ashby:cohere": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "lever:plaid": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "lever:wealthsimple": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "smartrecruiters:Visa": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "greenhouse:affirm": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ashby:ramp": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ashby:linear": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ashby:notion": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "smartrecruiters:BoschGroup": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "workday:Salesforce": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "workday:NVIDIA": {
+   "ok": false,
+   "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 371
+  },
+  "list:Simplify Summer 2026 (off-season roles)": {
+   "ok": true,
+   "fetched": 371
+  }
+ },
+ "postings": [
+  {
+   "id": "b8a9ed3ed9f8",
+   "company": "Qualcomm",
+   "title": "Display Systems Engineer Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721661677",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "32c6b2f5ce4c",
+   "company": "Qualcomm",
+   "title": "Edge AI and Display Hardware Architecture Development Engineering Intern - Interim Engineering Intern - Systems",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721661830",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b26a1533133c",
+   "company": "Qualcomm",
+   "title": "Camera Design Implementation Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721664170",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1bbbd39b4850",
+   "company": "Qualcomm",
+   "title": "Applied AI Engineer Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721664194",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e20d3717d8be",
+   "company": "Steel",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "97f670fbc588",
+   "company": "GeoSpectrum Technologies",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Dartmouth, NS, Canada"
+   ],
+   "url": "https://geospectrum.bamboohr.com/careers/286/",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dca69ad07b4e",
+   "company": "Picton Mahoney Asset Management",
+   "title": "Data Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://pictonmahoney.bamboohr.com/careers/387/",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f4360ccc0492",
+   "company": "Maple Leaf Sports & Entertainment Partnership (MLSE)",
+   "title": "Business Strategy & Product Management Intern - AI",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://mlse.wd3.myworkdayjobs.com/MLSE/job/Toronto-Ontario/Business-Strategy---Product-Management--AI--Intern_JR0000887-2",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "38076343beb6",
+   "company": "Bank of Montreal",
+   "title": "Data & AI Analyst Co-op Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Data---AI-Analyst--Winter-2027--Co-op-Internship----4-Months_R260029651",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "87fd46e13b74",
+   "company": "CIBC",
+   "title": "AI and Quantum Scientist Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/AI-and-Quantum-Scientist-Co-op_2621649",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e83a2911117f",
+   "company": "CIBC",
+   "title": "Analyst Co-op - Enterprise Data and Records",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Analyst--Enterprise-Data-and-Records-co-op_2621668",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e38d0a10afa0",
+   "company": "CIBC",
+   "title": "Product Analyst Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Product-Analyst-Co-op_2621541",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "61c2b223fd21",
+   "company": "CIBC",
+   "title": "Analyst Co-op - Enterprise Data and Records",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Analyst--Enterprise-Data-and-Records-co-op_2621668-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "71a5839847ba",
+   "company": "CIBC",
+   "title": "AI and Quantum Scientist Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/AI-and-Quantum-Scientist-Co-op_2621649-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a8e08226121f",
+   "company": "Citco",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/18964",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f5850dfc8c56",
+   "company": "Qualcomm",
+   "title": "Machine Learning AISW Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721636765",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "863f5f49c16c",
+   "company": "Qualcomm",
+   "title": "QDSP Hardware Physical Design Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721636316",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6d6b36e2c424",
+   "company": "Nuovo Photography",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://apply.workable.com/nuovophotography/j/7DE79BE9A8/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "06113994d498",
+   "company": "TD Bank",
+   "title": "Wealth Operations Automation Intern Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Wealth-Operations-Automation-Intern---Co-Op--Winter-2027-_R_1512131",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e970c995662c",
+   "company": "Semtech",
+   "title": "PCB Layout Intern",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/PCB-Layout-Intern_REQ3632",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0b1c84f0fdf7",
+   "company": "SOTI",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Mississauga, ON, Canada"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-_R10604",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7df1851042e0",
+   "company": "Hitachi",
+   "title": "AI Intern Supply Chain",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/AI-Intern--Supply-Chain--Winter-2027--12months-_R0145043",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "53f049276e55",
+   "company": "Altera",
+   "title": "Quartus User Interface Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5a1dd370dd1e",
+   "company": "Altera",
+   "title": "FPGA IP Design Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9d56de5efa0b",
+   "company": "HeyGen",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF",
+    "LA",
+    "Singapore"
+   ],
+   "url": "https://job-boards.greenhouse.io/heygen/jobs/4540716007",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "729c2343c640",
+   "company": "University of Ottawa",
+   "title": "Teaching Assistant Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://uottawa.wd3.myworkdayjobs.com/uOttawa_External_Career_Site/job/Ottawa-ON/CUPE---Winter-2027---Teaching-Assistant---ADM4379_JR40054",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "28bc49b387d9",
+   "company": "CIBC",
+   "title": "Analytics Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Analytics-Co-op_2621449-2",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "26bbf706188d",
+   "company": "Manulife Financial",
+   "title": "AI Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Winter-Co-op-2027---AI--12-Months-_JR26081678-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "08e0d2571066",
+   "company": "Manulife Financial",
+   "title": "AI Intern - AI",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Summer-Intern-2027---AI_JR26081688-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0b674ddd2c3f",
+   "company": "NVIDIA",
+   "title": "ASIC Verification Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a9fbe51f8d33",
+   "company": "CIBC",
+   "title": "Analytics Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Analytics-Co-op_2621449-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "bdf97a53d1ee",
+   "company": "Ciena",
+   "title": "Services Business Intelligence & Analytics Intern",
+   "locations": [
+    "Montreal, QC, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Montreal/Services-Business-Intelligence---Analytics-Intern_R031851",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "57905a7b9ced",
+   "company": "AstraZeneca",
+   "title": "Patient Data Insights Intern",
+   "locations": [
+    "Mississauga, ON, Canada"
+   ],
+   "url": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/Canada---Mississauga/Patient-Data-Insights-Intern_R-262150",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9e0ee62fa34f",
+   "company": "Accenture",
+   "title": "MES & Supply Chain Systems Co-op Analyst",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ontario---Toronto/Industry-X----MES---Supply-Chain-Engineering-Co-op-Analyst---Toronto---NAELFY27_R00365351",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "afa2ccefcedd",
+   "company": "CIBC",
+   "title": "Application Developer Co-op - Enterprise Technology & Business Management",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Application-Software-Developer-Co-op--Winter-2027---Enterprise-Technology---Business-Management_2621524",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "579b05b205fa",
+   "company": "CIBC",
+   "title": "Application/Software Developer Co-op - Capital Markets Technology",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Application-Software-Developer-Co-op--Winter-2027---Capital-Markets-Technology_2621523-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "56e3571bfd48",
+   "company": "CIBC",
+   "title": "Application/Software Developer Co-op - Capital Markets Technology",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op--Winter-2027---Capital-Markets-Technology_2621523",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "458b7b635fb2",
+   "company": "CIBC",
+   "title": "Application Developer Co-op - Enterprise Technology & Business Management",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op--Winter-2027---Enterprise-Technology---Business-Management_2621524-2",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "890b9fd53ec9",
+   "company": "Kepler Communications",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c93d06b5c789",
+   "company": "Waabi",
+   "title": "Safety Methodologies Intern Co-op",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF",
+    "Pittsburgh, PA"
+   ],
+   "url": "https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "41f88ed2baa0",
+   "company": "Behaviour Interactive",
+   "title": "Product Management Intern - 7 Days to Die",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://jobs.lever.co/bhvr/540b00d3-8693-4c2b-9e98-10e33cb0ce62/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2a4922fecacd",
+   "company": "Synopsys",
+   "title": "Technical-Engineering Intern",
+   "locations": [
+    "Mississauga, ON, Canada"
+   ],
+   "url": "https://synopsys.avature.net/careers/JobDetail/19195",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "32fd81e29829",
+   "company": "Qualcomm",
+   "title": "Automotive Engineering Intern",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721615591",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d247265f66c1",
+   "company": "KPMG",
+   "title": "AI Builder Intern/Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://careers.kpmg.ca/jobs/34407?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3d63db823309",
+   "company": "Electronic Arts",
+   "title": "Analytics Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Analytics-Intern/216232",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "76beb55ddffb",
+   "company": "Electronic Arts",
+   "title": "AI/ML Software Engineer Co-op Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/AI-ML-Software-Engineer-Intern-Summer-2027-8-Months-Masters-QVS/216234",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dd5b996c377c",
+   "company": "TechInsights",
+   "title": "Software Development Co-op Student",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://techinsights.applytojob.com/apply/3yhis78252/Software-Development-Coop-Student-Winter-2026",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e7e68c0c411a",
+   "company": "Nokia",
+   "title": "Embedded C/C++ Software Developer Co-op Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "61791d05b8bf",
+   "company": "Moment Energy",
+   "title": "Test Engineering Co-op",
+   "locations": [
+    "Surrey, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/momentenergy/jobs/4455115009",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8e561ccb2e2b",
+   "company": "BC Pensions",
+   "title": "Application Developer Co-op",
+   "locations": [
+    "Victoria, BC, Canada"
+   ],
+   "url": "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1013/job/227",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027",
+    "Spring 2027"
+   ],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b6e9e0bb18f6",
+   "company": "Altera",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03320",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4cb0ca874675",
+   "company": "Alliaxis",
+   "title": "Manufacturing Excellence Co-op Student",
+   "locations": [
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/Manufacturing-Excellence-Co-Op-Student--Winter-2027---Etudiant-Coop-excellence-manufacturire--Hiver-2027_R-58664-2",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "812fe4c2cac0",
+   "company": "Tenstorrent",
+   "title": "Systems Intern - Multiple Teams",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264407007",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1f2e91fd96ed",
+   "company": "Later",
+   "title": "Data Science Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/later/jobs/8889650002",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "141cf544ded5",
+   "company": "Microsoft",
+   "title": "Research Intern - Machine Learning",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557040927",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cc11dde70c94",
+   "company": "Kensington",
+   "title": "Analytics Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/kensingtontours/jobs/5262680007",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "56b527cadaf2",
+   "company": "Interac",
+   "title": "Product Intern - Money Movement",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://interac.wd3.myworkdayjobs.com/Interac/job/Toronto/Product-Intern--Money-Movement_REQ-2386",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3578f777da9b",
+   "company": "Johnson & Johnson",
+   "title": "External Manufacturing Center of Excellence Intern",
+   "locations": [
+    "New Brunswick, NJ",
+    "Hopewell Township, NJ"
+   ],
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/EM-Center-of-Excellence-Intern_R-103760",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "985cd1d99782",
+   "company": "Ciena",
+   "title": "Embedded Software Developer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "53b67f3e3669",
+   "company": "National Bank of Canada",
+   "title": "Artificial Intelligence Scientist Intern",
+   "locations": [
+    "Canada"
+   ],
+   "url": "https://bnc.avature.net/en_CA/careers/JobDetail/36110",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "656e92067fa2",
+   "company": "National Bank of Canada",
+   "title": "Artificial Intelligence Developer Intern",
+   "locations": [
+    "Canada"
+   ],
+   "url": "https://bnc.avature.net/en_CA/careers/JobDetail/36120",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "14e8bac4fa21",
+   "company": "Pebl",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/pebl/49d8b355-620b-4dde-be4b-5489abf4c9cf/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c79c8a6c43a9",
+   "company": "Electronic Arts",
+   "title": "Technical Artist Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-Co-op/216406",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7069ceb6a7f2",
+   "company": "Electronic Arts",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216287",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5454e53f5c61",
+   "company": "Astera Labs",
+   "title": "Firmware Engineer Co-op Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4739544005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "37c31956d731",
+   "company": "Johnson & Johnson",
+   "title": "AI/ML/Data Science Intern",
+   "locations": [
+    "Boston, MA",
+    "Barcelona, Spain",
+    "Spring House, PA",
+    "New Brunswick, NJ",
+    "Madrid, Spain",
+    "NYC",
+    "High Wycombe, UK"
+   ],
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/AI-ML-Data-Science-Intern_R-104697",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2c6081e02943",
+   "company": "Lumentum",
+   "title": "Electrical Engineer Intern Co-op",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Electrical-Engineer-Co-op-Intern_20261433",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d513706622e7",
+   "company": "Manulife Financial",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering_JR26081686-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8aa6bfe4cd2a",
+   "company": "Manulife Financial",
+   "title": "Software Engineer Intern - Software Engineering",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering--12-Months-_JR26091053-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3d11988cc2a7",
+   "company": "Interac",
+   "title": "Business Systems & AI Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://interac.wd3.myworkdayjobs.com/Interac/job/Toronto/Business-Systems---AI-Intern_REQ-2393",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7e7cd507abe5",
+   "company": "Interac",
+   "title": "Payments Product Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://interac.wd3.myworkdayjobs.com/Interac/job/Toronto/Payments-Product-intern_REQ-2389",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "80ed99896cdd",
+   "company": "Interac",
+   "title": "Technical Analyst Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://interac.wd3.myworkdayjobs.com/Interac/job/Toronto/Technical-Analyst-Intern_REQ-2394",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d75b9b71d735",
+   "company": "1Password",
+   "title": "Data Intern - Product Analytics",
+   "locations": [
+    "Remote in USA",
+    "Remote in Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/1password/412c1aac-13ce-4cc9-9c81-90a9a7a2ee48/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-12",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7c8d185eaf73",
+   "company": "Astera Labs",
+   "title": "Analog/Mixed-Signal IC Design Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4739756005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-12",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0a4c3008f970",
+   "company": "SOTI",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Mississauga, ON, Canada"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-12",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3c4fb15cb647",
+   "company": "Canadian Tire",
+   "title": "Product Strategy Student Intern",
+   "locations": [
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Oakville-ON/Product-Strategy-Student--4-months----Winter-2027_JR164980",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-12",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0f94ab320b99",
+   "company": "Aptiv",
+   "title": "HVP/Cert Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert---Engineering-Intern_J000704374",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2a19604e3ab1",
+   "company": "Aptiv",
+   "title": "Cloud Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "46c30bb1cba5",
+   "company": "Aptiv",
+   "title": "HVP/Cert Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineering-Intern_J000704372",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f2e8644da320",
+   "company": "Aptiv",
+   "title": "HVP/Certification Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert-Engineering-Intern_J000704377",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "69e89cfecd1c",
+   "company": "Aptiv",
+   "title": "Cloud Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704376",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dd8212306e24",
+   "company": "Aptiv",
+   "title": "Cloud Software Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704381",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "342d9e7995b4",
+   "company": "Aptiv",
+   "title": "Cloud Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704380",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "de83f4d6ca21",
+   "company": "Manulife Financial",
+   "title": "Data Engineering Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Winter-Co-op-2027---Data-Engineering_JR26081658-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e371dc214db5",
+   "company": "Manulife Financial",
+   "title": "Data Engineering Co-op",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Winter-Co-op-2027---Data-Engineering_JR26081660-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0fcb19230b51",
+   "company": "Manulife Financial",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Winter-Co-op-2027---Software-Engineering_JR26081663-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2462e04efa79",
+   "company": "Manulife Financial",
+   "title": "Software Engineering Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Winter-Co-op-2027---Software-Engineering--8-Months-_JR26081664-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "939e673d592d",
+   "company": "Manulife Financial",
+   "title": "AI Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Winter-Co-op-2027---AI_JR26081677-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3f833fec9eb9",
+   "company": "Aptiv",
+   "title": "Cloud Software Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Software-Engineer-Intern_J000704375",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b8231dfc9539",
+   "company": "Aptiv",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Software-Engineering-Intern_J000704368-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b035271003f5",
+   "company": "Aptiv",
+   "title": "Engineering Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704361",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "09b382242bd7",
+   "company": "Aptiv",
+   "title": "Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704362",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "97058c05e8d4",
+   "company": "Elk Valley Resources",
+   "title": "Business Administration Co-op - Maintenance Excellence",
+   "locations": [
+    "Sparwood, BC, Canada"
+   ],
+   "url": "https://jobs.lever.co/evr/f99e042d-7629-4822-b82f-521b6bdc1db3/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "98740fe06698",
+   "company": "Electronic Arts",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9dd4e9a2d839",
+   "company": "Electronic Arts",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-Months-Sports-Technology/216225",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7b1178c0b10f",
+   "company": "Electronic Arts",
+   "title": "C++ Software Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-months-UFC/216226",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "50fe2898d1d1",
+   "company": "Electronic Arts",
+   "title": "Gameplay Software Engineer Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8021ea38c49f",
+   "company": "Magnet Forensics",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Ontario, Canada",
+    "Waterloo, ON, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/magnetforensics/6eba87dc-f110-47b2-8015-31311ca60f52/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0db9f879d583",
+   "company": "Tenstorrent",
+   "title": "AI Software Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5259347007",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "29a60a099e34",
+   "company": "Equitable Bank",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/eqbank/c924506b-22ad-4906-aea5-61d9b79163f3/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "02d4ae16e8dd",
+   "company": "Workday",
+   "title": "Software Development Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "956ff53101ca",
+   "company": "Workday",
+   "title": "Product Manager Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Product-Manager-Intern_JR-0110808",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "48b60d5a1f64",
+   "company": "Workday",
+   "title": "Machine Learning Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-10-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "35c2c73591e3",
+   "company": "PSP Investments",
+   "title": "GenAI and Digital Workplace Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://investpsp.wd3.myworkdayjobs.com/psp_careers/job/Montreal/Intern--GenAI-and-Digital-Workplace--January---April-2027-_R5003",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027",
+    "Spring 2027"
+   ],
+   "posted": "2026-10-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8df40eecb766",
+   "company": "Manulife Financial",
+   "title": "Software Engineering Co-op",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Winter-Co-op-2027---Software-Engineering_JR26081661-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "686748ed4b07",
+   "company": "Manulife Financial",
+   "title": "Grit Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-2027---GRIT_JR26080516",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ac8b0e7fbaf7",
+   "company": "Manulife Financial",
+   "title": "Product Management & Risk Technology Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-2027---Product-Management---Risk-Technology_JR26080875",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-10-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1ffe64946005",
+   "company": "Tenstorrent",
+   "title": "Hardware Intern - AI HW & System on a Chip",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256568007",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3417de1a895e",
+   "company": "The Semios Group",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://apply.workable.com/semios/j/4B5D1FB613/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "450dd6f039e9",
+   "company": "Autodesk",
+   "title": "Research Intern - AI Research",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/PhD-Researcher--AI-Research_26WD101373-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0f864e23cb87",
+   "company": "Autodesk",
+   "title": "Research Intern - AI Research",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Toronto-ON-CAN/PhD-Researcher--AI-Research_26WD101373",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "aea3df4c3150",
+   "company": "Solink",
+   "title": "Software Engineer Co-op - Apps",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/solink/c973029a-83fa-449e-b4a9-0a1514165430/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7cb359f35256",
+   "company": "Moment Energy",
+   "title": "Firmware Engineering Co-op",
+   "locations": [
+    "Surrey, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/momentenergy/jobs/4434575009",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "14a8ec4c2b65",
+   "company": "Moment Energy",
+   "title": "Software Engineering Co-op",
+   "locations": [
+    "Surrey, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/momentenergy/jobs/4434577009",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f86bb7fbb31c",
+   "company": "Astera Labs",
+   "title": "Physical Design Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731401005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2e42fc714954",
+   "company": "Astera Labs",
+   "title": "Platform Applications Engineer Intern Co-op - Tools Development Engineer - COSMOS Platform Software",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4733856005",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "49dc762e6dd4",
+   "company": "Astera Labs",
+   "title": "System Validation Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "568bdd165e04",
+   "company": "Astera Labs",
+   "title": "Design-for-Test Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "San Jose, CA"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4728387005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b3533cae9f1c",
+   "company": "Astera Labs",
+   "title": "Design Verification Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731392005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cc1c8142b172",
+   "company": "Astera Labs",
+   "title": "Digital Design Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731399005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "36faaec8582b",
+   "company": "MistyWest",
+   "title": "Engineering Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://apply.workable.com/mistywest/j/5D68DE0118/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f9019d454a86",
+   "company": "Lumentum",
+   "title": "Embedded Software Engineer Co-op Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer-Co-op-Intern_20261370",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "fc29da12ce1b",
+   "company": "Ciena",
+   "title": "Hardware Design Co-op",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b989dcb0915a",
+   "company": "AltaGas",
+   "title": "Data Analytics & Process Automation Co-op",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/XMLNAME-2027-Data-Analytics---AltaGas---2027-Process-Automation-Co-op-Student_R7321-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e7abd98fff96",
+   "company": "CAE",
+   "title": "Data Specialist Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Spcialiste-de-donnes_123901",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4e71472ce508",
+   "company": "CAE",
+   "title": "Artificial Intelligence Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire----Intelligence-artificielle_123902",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cbc1048e11a5",
+   "company": "CAE",
+   "title": "Full Stack Developer Intern - Training Center Operations Experience",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Dveloppeur-Full-Stack_123907-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7e34270449d2",
+   "company": "McKesson",
+   "title": "Pharmaceutical Distribution Developer Intern - Pharmaceutical Distribution",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-QC-Montreal-Ville-Saint-Laurent/Stagiaire-dveloppeur-se--en-distribution-pharmaceutique---Developper-Pharmaceutical-Distirbution---Winter-Intern_JR0154903",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-05",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cec540bc3a06",
+   "company": "SOTI",
+   "title": "Data Scientist Intern",
+   "locations": [
+    "Mississauga, ON, Canada"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Data-Scientist--Intern--Jan-2027-12-Months-_R10571",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9744903293b9",
+   "company": "Lumentum",
+   "title": "Embedded Software Developer Co-op - Optical Circuit Switch",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Developer-Co-op--Optical-Circuit-Switch-_20261320",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "085a68c92b57",
+   "company": "Hitachi Energy",
+   "title": "Electrical Component Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Electrical-Component-Engineering-Intern--Winter-2027--16months-_R0145359",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "60c95dbe46be",
+   "company": "Semtech",
+   "title": "Software Developer Co-op - Web/Cloud Application",
+   "locations": [
+    "Richmond, BC, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3644",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6e2eb20f8b00",
+   "company": "Definity Financial",
+   "title": "Operations Analyst Co-op Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Waterloo, ON, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9410",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1bf5fec51eb9",
+   "company": "Nokia",
+   "title": "Automation Engineer Co-op Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41168",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dc0a5e47ac4f",
+   "company": "Kinaxis",
+   "title": "AI/ML Researcher Intern",
+   "locations": [
+    "Remote in Canada"
+   ],
+   "url": "https://careers-kinaxis.icims.com/jobs/35465/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f1489141f92b",
+   "company": "Solink",
+   "title": "Software Engineer Co-op - Agents",
+   "locations": [
+    "Ottawa, ON, Canada",
+    "Remote in Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/solink/8493613d-ea47-4182-ac0b-f5f24d11f49e/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a441f8ffcb70",
+   "company": "Montreal Institute for Learning Algorithms",
+   "title": "AI Safety Research Intern - AI Safety",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://apply.workable.com/mila-2/j/1E81635604/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e89d112932ca",
+   "company": "Pinterest",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138039",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1528e592b289",
+   "company": "Marvell",
+   "title": "Firmware Engineer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Firmware-Engineer-Intern---Winter-2027_2604738",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "af1ff0d1f417",
+   "company": "Hitachi Energy",
+   "title": "Hardware Test Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Hardware-Test-Engineering-Intern--Summer-2027--16months-_R0142476",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "15479eeb39c3",
+   "company": "Marvell",
+   "title": "Firmware Engineer Intern Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Firmware-Engineer-Intern---BS-MS---2027-Co-Op_2604959",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c57ce1d56cfe",
+   "company": "Hewlett Packard",
+   "title": "AI Applied Engineering Intern",
+   "locations": [
+    "Vancouver, WA"
+   ],
+   "url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d08993de2544",
+   "company": "Intel",
+   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "33d2bc7e2827",
+   "company": "Hewlett Packard",
+   "title": "AI Applied Engineering Intern",
+   "locations": [
+    "Vancouver, WA"
+   ],
+   "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-10-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5bfbb02ed643",
+   "company": "L3Harris Technologies",
+   "title": "Manufacturing Engineering Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Manufacturing-Engineering-Co-op-(Waterdown,-CAN)-ON-L9H-0C5/1435254800/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8121010989c4",
+   "company": "L3Harris Technologies",
+   "title": "Manufacturing Engineering Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Manufacturing-Engineering-Co-op-(Waterdown,-CAN)-ON-L9H-0C5/1435254600/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6e5a07a36d09",
+   "company": "Electronic Arts",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216227",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9b54e46c40df",
+   "company": "Marvell",
+   "title": "IC Validation Engineer Intern Co-op - BS/MS",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/IC-Validation-Engineer-Intern---BS-MS---2027-Co-Op_2603925",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f4fc96360e6c",
+   "company": "Manulife Financial",
+   "title": "ALM Data Management & Analytics Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Winter-Co-op-2027---ALM-Data-Management---Analytics_JR26091831",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "851f3835845c",
+   "company": "Intel",
+   "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d46bfb42d71c",
+   "company": "L3Harris Technologies",
+   "title": "Systems Engineering Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Systems-Engineering-Test-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1434804100/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-29",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8dc1fed4e386",
+   "company": "Foresters Financial",
+   "title": "Software Engineer Co-op - AI",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://foresters.wd3.myworkdayjobs.com/ForestersFinancialCareers/job/Toronto-Ontario/Software-Engineer-Co-op-Student--AI---4-month-contract-_R-2332",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-29",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d5b5527576f0",
+   "company": "Electronic Arts",
+   "title": "AI Engineer Intern - AI Platform",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/AI-Engineer-Intern/216223",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-28",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b87b27d694e6",
+   "company": "Foresters Financial",
+   "title": "Software Engineer Co-op Student",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://foresters.wd3.myworkdayjobs.com/ForestersFinancialCareers/job/Toronto/Software-Engineer-Co-op-Student--4-months-contract-_R-2329",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-28",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "41af8c598cd0",
+   "company": "Ciena",
+   "title": "Hardware Design and Verification Intern - PCBA",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-28",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f3be3aff9204",
+   "company": "Qualcomm",
+   "title": "Soft IP ASIC Engineer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721302471",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-28",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ee1ffb866cc7",
+   "company": "Kinaxis",
+   "title": "Developer Intern - Back End Technologies",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://careers-kinaxis.icims.com/jobs/35372/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "454a0d3d9022",
+   "company": "Intuit",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.intuit.com/job/toronto/winter-2027-software-developer-co-op-4-or-8-months/27595/101130613680",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "42b51e9d7c58",
+   "company": "Nokia",
+   "title": "Operations Analytics Co-op Intern - Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40261",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Spring 2027"
+   ],
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4e344a5ed634",
+   "company": "Acuity",
+   "title": "Firmware Development Intern",
+   "locations": [
+    "Brossard, QC, Canada"
+   ],
+   "url": "https://careers.acuityinc.com/job/Brossard-Stage-en-d%C3%A9veloppement-micrologicielfirmware-Qu%C3%A9b-J4Y-0C4/1434107300/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "302b321c9e06",
+   "company": "Moment Energy",
+   "title": "Data Scientist Co-op",
+   "locations": [
+    "Surrey, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/momentenergy/jobs/4421775009",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-25",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ea60e1604313",
+   "company": "Acuity",
+   "title": "Hardware Development Intern - Hardware",
+   "locations": [
+    "Brossard, QC, Canada"
+   ],
+   "url": "https://careers.acuityinc.com/job/Brossard-Stagiaire-d%C3%A9veloppement-mat%C3%A9riel-(hardware)-Qu%C3%A9b-J4Y-0C4/1433678100/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-09-24",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "808010555634",
+   "company": "Ciena",
+   "title": "Hardware Design and Verification Intern - PCBA",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-24",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0eaf74dfdce8",
+   "company": "Qualcomm",
+   "title": "Firmware Development Intern - PAL",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721229661",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "54655870abed",
+   "company": "Mackenzie Investments",
+   "title": "Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://careersen-mackenzieinvestments.icims.com/jobs/6014/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ddc8c08222a4",
+   "company": "Semtech",
+   "title": "Digital IC Design Engineering Intern - Signal Integrity Products Group",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3977be45ca4d",
+   "company": "Semtech",
+   "title": "Validation Engineering Intern - Signal Integrity Products Group",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Validation-Engineering-Intern_REQ3628",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "633165742c69",
+   "company": "Semtech",
+   "title": "Analog Design Engineer Intern",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "191cf545c2de",
+   "company": "Semtech",
+   "title": "Firmware Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Firmware-Design-Intern_REQ3617",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e68987e54c4f",
+   "company": "Semtech",
+   "title": "Applications Engineer Intern",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3615",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "fbeb214f4697",
+   "company": "Semtech",
+   "title": "IC Packaging Design Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/IC-Packaging-Design-Intern_REQ3619",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "76977b5f34a9",
+   "company": "Semtech",
+   "title": "Analog Design Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b60f677697c9",
+   "company": "Semtech",
+   "title": "Analog Design Engineer Intern - Signal Integrity Products Group",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "fd40ada129d9",
+   "company": "Semtech",
+   "title": "Digital IC Design Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Digital-IC-Design-Engineering-Intern_REQ3620",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "05dc194ece43",
+   "company": "Semtech",
+   "title": "Applications Engineering Intern",
+   "locations": [
+    "Burlington, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8d0923e3ace3",
+   "company": "Semtech",
+   "title": "Validation Engineering Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Validation-Engineering-Intern_REQ3618",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9fe26435cda5",
+   "company": "Marvell",
+   "title": "Analog Design Intern Co-op - BS",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Analog-Design-Intern---BS---2027-Co-Op_2604788",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "59f683519519",
+   "company": "Marvell",
+   "title": "Analog Design Intern Co-op - Master’s",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "796087b262a5",
+   "company": "Marvell",
+   "title": "Analog and Mixed Signal Layout Engineer Intern Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/AMS-Layout-Engineer-Intern---BS---2027-Co-Op_2604790",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9fe7acf89106",
+   "company": "Marvell",
+   "title": "Data Center Silicon Hardware Engineering Intern Co-op - BS",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7d3feddbbe83",
+   "company": "Semtech",
+   "title": "Analog Design Engineer Intern",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3624",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "46a2f0da64fa",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5247bbbb741c",
+   "company": "Electronic Arts",
+   "title": "Rendering Engineer Intern - Apex Legends",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/Rendering-Engineer-Intern/216222",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9f5a136c4ad5",
+   "company": "Electronic Arts",
+   "title": "AI Engineer Intern - Creative Innovations - Character Pipelines",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://jobs.ea.com/en_US/careers/JobDetail/AI-Engineer/216236",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8357483d7c93",
+   "company": "Entrust",
+   "title": "Software Development Intern - Citizen Remote Identity Verification",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/Canada---Ottawa/Intern--Software-Development---Hybrid-in-Ottawa_R004360",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a6f0cb65cf03",
+   "company": "Entrust",
+   "title": "Software Development Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/Canada---Ottawa/XMLNAME--Intern---Software-Development----8-months---Hybrid-Ottawa_R004359",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "88e954ab760f",
+   "company": "Hitachi Energy",
+   "title": "Electrical Component Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Electrical-Component-Engineering-Intern--Fall-2026-or-Winter-2027-_R0144279",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026",
+    "Winter 2027"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d4cad449580b",
+   "company": "Analog Devices",
+   "title": "Analog Design Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9f6a1e95a34a",
+   "company": "Analog Devices",
+   "title": "Embedded Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "87caebbb0965",
+   "company": "Teledyne",
+   "title": "Industrialization and Statistical Analysis Intern",
+   "locations": [
+    "Bromont, QC, Canada"
+   ],
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Bromont-QC-TDY/Stagiaire-en-industrialisation-et-analyse-statistique_REQ36708",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c96c07613981",
+   "company": "TechInsights",
+   "title": "Circuit Analysis Co-op",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://techinsights.applytojob.com/apply/bKNlLKEsBR/Circuit-Analysis-Coop-Student-Winter-2027",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c4ebbbd33e7e",
+   "company": "Danaher",
+   "title": "Hardware Engineer Co-op",
+   "locations": [
+    "Concord, Vaughan, ON, Canada"
+   ],
+   "url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Concord-Ontario-Canada/Hardware-Engineering-Co-op_R1317537",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "10c17955f6ab",
+   "company": "CAE",
+   "title": "Software Developer Intern - Content Creation Tools",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-017---Stagiaire-dveloppeur-se--de-logiciels_123658",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b2fd70ac31ca",
+   "company": "CAE",
+   "title": "Software Developer Intern - Immersive",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-112-Stagiaire-dveloppeur-se--logiciel---Environnement-immersif_123653-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4ac1ed7ccad0",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern - Summer 2027",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://amazon.jobs/en/jobs/10553947/software-development-engineer-intern-summer-2027-can",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027",
+    "Winter 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dfb5ae16fba8",
+   "company": "Qualcomm",
+   "title": "IP Applications Engineering Intern - Interim Engineering Intern - HW",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721156615",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "33dd89a8c2ba",
+   "company": "The Brattle Group",
+   "title": "Energy Analyst Intern - Economics - Multiple Teams",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4736066005",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "86283066100c",
+   "company": "BGIS",
+   "title": "Asset Management Analyst Intern",
+   "locations": [
+    "Whitchurch-Stouffville, ON, Canada",
+    "Toronto, ON, Canada",
+    "North York, ON, Canada",
+    "Richmond Hill, ON, Canada",
+    "Scarborough, ON, Canada",
+    "Vaughan, ON, Canada",
+    "Markham, ON, Canada"
+   ],
+   "url": "https://fa-evcg-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/233080",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f4acfa5ead47",
+   "company": "Tower Research Capital",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8212179",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9b50ef28884f",
+   "company": "4AG Robotics",
+   "title": "AI Co-op Student",
+   "locations": [
+    "Salmon Arm, BC, Canada"
+   ],
+   "url": "https://ats.rippling.com/4ag/jobs/921801f5-ae83-4a49-a234-221a87d94fe7",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "61127ebd696b",
+   "company": "Qualcomm",
+   "title": "Firmware Engineer Intern - Embedded Software Engineering - Embedded Firmware and SDK Development",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721141411",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "bdffa09e0cf8",
+   "company": "Qualcomm",
+   "title": "Physical Mixed Layout Engineer Intern - Canada - Interim Engineering Intern - HW",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721142985",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "65f63f4e00b5",
+   "company": "4AG Robotics",
+   "title": "Robotics Software Co-op",
+   "locations": [
+    "Salmon Arm, BC, Canada"
+   ],
+   "url": "https://ats.rippling.com/4ag/jobs/71d97d10-87f2-4f53-88b7-97f27f392d24",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b97fc8ff460f",
+   "company": "Qualcomm",
+   "title": "Low Power AI Software Development Intern - Interim Engineering Intern - Software",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721143440",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8e06deda0212",
+   "company": "Qualcomm",
+   "title": "Silicon Validation Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721143274",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dadf71a22bf2",
+   "company": "TRC Companies",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://careers.trccompanies.com/jobs/26840?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4ee836596439",
+   "company": "Sun Life",
+   "title": "Full Stack Developer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Waterford, Ireland"
+   ],
+   "url": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Waterford-Waterford-Ireland/Student--Full-Stack-Developer_JR00126897",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c111e4906a17",
+   "company": "Rockwell Automation",
+   "title": "Robotics Research Co-op - Data Engineering",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Waterloo-Ontario-Canada/Co-op--Robotics-Research---Data-Engineering--OTTO-at-Rockwell-Automation-_R26-6871-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1700bf6c21b2",
+   "company": "Rockwell Automation",
+   "title": "Robotics Research Co-op - Data Engineering",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Waterloo-Ontario-Canada/Co-op--Robotics-Research---Data-Engineering--OTTO-at-Rockwell-Automation-_R26-6871",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e458b740e619",
+   "company": "National Bank of Canada",
+   "title": "Analyst Intern - Credit Risk Analytics",
+   "locations": [
+    "Canada"
+   ],
+   "url": "https://bnc.avature.net/en_CA/careers/JobDetail/35546",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [],
+   "posted": "2026-09-17",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d710c3104f97",
+   "company": "Apera AI",
+   "title": "Software Developer Co-op - Full Stack",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5240259007",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-09-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f527ed69147b",
+   "company": "Marvell",
+   "title": "Analog Layout Co-op Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Toronto-Canada/Analog-Layout-Intern---BS-MS---Summer-2027-Co-Op_2604789",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "484c0744157b",
+   "company": "AMD",
+   "title": "Technical Marketing Performance Analysis Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91953?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "30adad5ebfe8",
+   "company": "Nokia",
+   "title": "Hardware Engineer Co-op Intern - IP Routing",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39600",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0a397144edfe",
+   "company": "L3Harris Technologies",
+   "title": "FPGA Designer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-FPGA-Designer-Coop-(Waterdown,-CAN)-ON-L9H-0C5/1430127300/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "07a0df347e0e",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineering Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430130200/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c9abdba9be78",
+   "company": "L3Harris Technologies",
+   "title": "FPGA Software Tool Developer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-FPGA-Software-Tool-Developer-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430127100/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f23ba2f90301",
+   "company": "L3Harris Technologies",
+   "title": "Full Stack Developer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Niagara-on-the-Lake-Full-Stack-Developer-Co-op-1-ON/1430141300/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "53021b004438",
+   "company": "L3Harris Technologies",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430129400/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ca5a936ab128",
+   "company": "Qualcomm",
+   "title": "Sensors Subsystem Engineering Intern - Low-Power AI - Audio",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721109229",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "58aab85dbeb3",
+   "company": "Equitable Bank",
+   "title": "Data Scientist Intern - Winter 2027",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/eqbank/b152bad3-df48-4049-9d44-ba7e57ea6499/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c88320f516ca",
+   "company": "Equitable Bank",
+   "title": "Credit Risk Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/eqbank/de711d74-f78a-4cdd-a4a1-fdaa6e6602c3/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "19f0db8e9b4a",
+   "company": "Nokia",
+   "title": "Incubation Developer Student Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39968",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c2621b0047f6",
+   "company": "Apera AI",
+   "title": "Machine Learning Applied Scientist Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5239440007",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027",
+    "Spring 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "149c79b1a75d",
+   "company": "Brookfield",
+   "title": "Business Management Intern - Tech & Data",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://brookfield.wd5.myworkdayjobs.com/brookfieldprivate/job/Toronto-Ontario/Intern_R2052618-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0fffc5ab29fc",
+   "company": "Farm Credit Canada",
+   "title": "Data Analyst Student - Valuations",
+   "locations": [
+    "Drummondville, QC, Canada",
+    "Montreal, QC, Canada",
+    "Winnipeg, MB, Canada",
+    "Edmonton, AB, Canada",
+    "Regina, SK, Canada",
+    "Essex, ON, Canada",
+    "Rivière-du-Loup, QC, Canada"
+   ],
+   "url": "https://fccfac.wd3.myworkdayjobs.com/careers-carrieres/job/Regina-Saskatchewan/Student--Data-Analyst--Valuations-_R-1008821",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a60199441ed0",
+   "company": "Farm Credit Canada",
+   "title": "Data Analyst Student - Business Reporting",
+   "locations": [
+    "Regina, SK, Canada"
+   ],
+   "url": "https://fccfac.wd3.myworkdayjobs.com/careers-carrieres/job/Regina-Saskatchewan/Student--Data-Analyst--Business-Reporting-_R-1008822-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "92ad0b401ace",
+   "company": "NVIDIA",
+   "title": "Quantum and Chemistry Research Intern - Quantum and AI for Chemistry",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a10fdb03dbcc",
+   "company": "Equitable Bank",
+   "title": "Retail Lending AI Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/eqbank/1c46930a-7ffe-4760-9d31-e08ea191ddea/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "015e25e31ba4",
+   "company": "Definity Financial",
+   "title": "Technology Business Administration Co-op Intern - IT Business Management",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9345",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0fdf6ae017d6",
+   "company": "Equitable Bank",
+   "title": "Commercial Lending AI Engineer Intern - Winter 2027",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/eqbank/54045eae-334a-4486-8e97-96e49e6a1487/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "055fad4e78c5",
+   "company": "Google",
+   "title": "Student Researcher - BS/MS",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://www.google.com/about/careers/applications/jobs/results/104405499448828614",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "91e22b8f58c2",
+   "company": "Nexthop.ai",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Burnaby, BC, Canada"
+   ],
+   "url": "https://nexthopai.bamboohr.com/careers/64/",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "90b578987cf2",
+   "company": "DoorDash",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/doordashcanada/jobs/8170944",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d068f9c53b3a",
+   "company": "Altera",
+   "title": "Quartus Compiler Software Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-14",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d437debfc673",
+   "company": "Marvell",
+   "title": "Data Center Silicon Hardware Engineering Intern - Winter 2027",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2f77e53886d2",
+   "company": "BDO Canada",
+   "title": "Data & Analytics Co-op Intern",
+   "locations": [
+    "Montreal, QC, Canada",
+    "Toronto, ON, Canada",
+    "Calgary, AB, Canada",
+    "Oakville, ON, Canada",
+    "Ottawa, ON, Canada",
+    "Vancouver, BC, Canada",
+    "Halifax Regional Municipality, NS, Canada"
+   ],
+   "url": "https://bdo.wd3.myworkdayjobs.com/BDO/job/Toronto---Bay-St/Co-op-or-Intern--Data---Analytics--January-2027-_JR7061",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ff50352aaefd",
+   "company": "Lyft",
+   "title": "Software Engineer Intern - Backend",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cacd1e89e755",
+   "company": "Lyft",
+   "title": "Software Engineer Intern - Machine Learning",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "42987fc72c5b",
+   "company": "Lyft",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767710002?gh_jid=8767710002",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "09b24b2990c1",
+   "company": "Lyft",
+   "title": "Software Engineer Intern - Fullstack",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8d7dbfa62aca",
+   "company": "Lyft",
+   "title": "Data Science Intern - Algorithms",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767697002?gh_jid=8767697002",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a464d8c30d29",
+   "company": "Lyft",
+   "title": "Data Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8797376002?gh_jid=8797376002",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "86437810a1c0",
+   "company": "Lyft",
+   "title": "Software Developer Intern - Backend",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8796052002?gh_jid=8796052002",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4174c9cf335f",
+   "company": "Amazon",
+   "title": "Machine Learning Systems Software Development Engineer Intern - Annapurna Labs",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027",
+    "Winter 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0116a92bbd5f",
+   "company": "Nokia",
+   "title": "Optical Test Intern Co-op",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39964",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "723fe4d0df47",
+   "company": "Nokia",
+   "title": "Data Scientist Co-op/Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39965",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c3a837565bd1",
+   "company": "Blue Robotics",
+   "title": "Electronics Design Co-op",
+   "locations": [
+    "Victoria, BC, Canada"
+   ],
+   "url": "https://ats.rippling.com/blue-robotics/jobs/25a883e5-3fa4-459e-9762-5f33a3512cd8",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "64223e2e8a37",
+   "company": "John Deere",
+   "title": "Student - OEM/Marine Applications",
+   "locations": [
+    "Waterloo, IA"
+   ],
+   "url": "https://johndeere.eightfold.ai/careers/job/137483396343",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "14ea136654aa",
+   "company": "Qualcomm",
+   "title": "Machine Learning Compiler & Performance Engineering Intern - Systems",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721064018",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-11",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7cc69bfaebce",
+   "company": "L3Harris Technologies",
+   "title": "Electrical Engineer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Electrical-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1428467500/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "fb888ddf0dda",
+   "company": "L3Harris Technologies",
+   "title": "Electrical Engineer Co-op",
+   "locations": [
+    "Waterdown, Hamilton, ON, Canada"
+   ],
+   "url": "https://jobs.l3harris.com/job/Waterdown-Electrical-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1428467800/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "251fba19d5f9",
+   "company": "Exegy",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/exegy/2a066cc1-ff4c-4d1c-9559-68f390b91afb/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2f12d2b1268f",
+   "company": "Definity Financial",
+   "title": "Business Intelligence Co-op",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9351",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b5458f57818f",
+   "company": "Definity Financial",
+   "title": "Commercial Insurance Portfolio Analyst Co-op Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9349",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "bffa64314baf",
+   "company": "Geotab",
+   "title": "Embedded Developer Intern - Engine Data Reliability",
+   "locations": [
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5396891008",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "25ed251865db",
+   "company": "Kinaxis",
+   "title": "Developer Intern - AI Solutions",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://careers-kinaxis.icims.com/jobs/35343/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "685de8559dd3",
+   "company": "Hexagon AB",
+   "title": "Digital Hardware Engineer Intern - GNSS Positioning Digital Team",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://careers-hexagonpositioning.icims.com/jobs/3090/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "51041c0ffc80",
+   "company": "GoMaterials",
+   "title": "Data Quality Intern - Winter 2027",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://jobs.lever.co/gomaterials/be3fb0e8-54a1-43de-b998-99dd071eed19/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "30461eb0c600",
+   "company": "Pomerleau",
+   "title": "GIS Data Analyst Intern",
+   "locations": [
+    "Montreal, QC, Canada",
+    "Québec City, QC, Canada"
+   ],
+   "url": "https://pomerleau.avature.net/en_US/Jobs/JobDetail/3695",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "49e754479469",
+   "company": "Grass Valley",
+   "title": "Software Development Intern - Core Platform",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://grassvalley.applytojob.com/apply/r0V942NWEh/Stagiaire-Dveloppement-De-Logiciel-C-Intern-Software-Development-C",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "61ccd0c48d6d",
+   "company": "Loblaw Companies",
+   "title": "Analyst Co-op Student - Product Information Management",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://myview.wd3.myworkdayjobs.com/paradox_careers/job/500-Lake-Shore-Blvd-W-Toronto-ON/Analyst--Product-Information-Management---Co-op-Student_R2000697260-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "feaebd82d0cb",
+   "company": "Bird Construction",
+   "title": "Business Intelligence Student",
+   "locations": [
+    "Winnipeg, MB, Canada",
+    "Calgary, AB, Canada",
+    "Edmonton, AB, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://bird.wd3.myworkdayjobs.com/BirdConstructionCareers/job/Calgary-AB/Business-Intelligence-Student_JR-9521",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6d7ea8463bf0",
+   "company": "Hewlett Packard",
+   "title": "Business Intelligence and Infrastructure Analyst Intern",
+   "locations": [
+    "Vancouver, WA"
+   ],
+   "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Vancouver-Washington-United-States-of-America/Business-Intelligence-and-Infrastructure-Analysts--Intern_UNI4669-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3ad2dbfb5e50",
+   "company": "Hewlett Packard",
+   "title": "Business Intelligence and Infrastructure Analyst Intern",
+   "locations": [
+    "Vancouver, WA"
+   ],
+   "url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Vancouver-Washington-United-States-of-America/Business-Intelligence-and-Infrastructure-Analysts--Intern_UNI4669",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2026"
+   ],
+   "posted": "2026-09-06",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4a8e24d10f84",
+   "company": "Geotab",
+   "title": "Software Developer Intern - Mygeotab",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Oakville, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5383412008",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cdb09e7b04ad",
+   "company": "General Dynamics UK",
+   "title": "Software Engineering Co-op - 4 - 8 months",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000147511629",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a115154e74a0",
+   "company": "General Dynamics UK",
+   "title": "Software Engineering Co-op - 4 months - 8 months",
+   "locations": [
+    "Cole Harbour, NS, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000147583700",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c73f5eb50001",
+   "company": "Kinaxis",
+   "title": "Software Developer Co-op/Intern - Core Algorithms",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://careers-kinaxis.icims.com/jobs/35329/job?mobile=true&needsRedirect=false",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dc28f9a97637",
+   "company": "Bree",
+   "title": "Software Engineer Co-op - Product",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "http://jobs.ashbyhq.com/bree/17d8dd15-5f97-4003-8d6c-170dca13ff88/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "00fcb0e5019c",
+   "company": "Bree",
+   "title": "Software Engineer Co-op - Backend",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "http://jobs.ashbyhq.com/bree/42fe78c1-e73f-4918-bf71-776b8142112b/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9146c8f9f5ea",
+   "company": "Brave",
+   "title": "Software Engineer Intern - Waterloo University",
+   "locations": [
+    "Remote in Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/brave/jobs/8161945",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-09-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8294ca5f2a46",
+   "company": "Geotab",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Oakville, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5376578008",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-03",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "210a189fb835",
+   "company": "General Dynamics UK",
+   "title": "Software Engineering Co-op - Months",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000147563929",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-03",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6adf5531b179",
+   "company": "General Dynamics UK",
+   "title": "Software Developer Co-op - 16-Months",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000146985399",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "77ca06d77726",
+   "company": "Atlassian",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Burnaby, BC, Canada",
+    "Vancouver, BC, Canada",
+    "Richmond, BC, Canada"
+   ],
+   "url": "https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dab274a238a3",
+   "company": "Geotab",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Oakville, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5361630008",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cf409f0323fb",
+   "company": "General Dynamics UK",
+   "title": "Software Engineer Co-op - 8 Months",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000147019949",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "dab0f7a4877a",
+   "company": "AMD",
+   "title": "ASIC Verification Engineer Intern/Co-op",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91207?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "24758ca71785",
+   "company": "Nokia",
+   "title": "DSP Firmware Engineer Co-op/Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39237",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027",
+    "Spring 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9d11f042742d",
+   "company": "Geotab",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5350915008",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ab49dc57b7de",
+   "company": "RTX",
+   "title": "Performance Indicator Development and Process and Project Management Internship",
+   "locations": [
+    "Longueuil, QC, Canada"
+   ],
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Dveloppement-d-indicateurs-de-performance-et-gestion-des-processus-et-projets---Internship---Winter-2027--Development-of-Performance-Indicators-and-Process-and-Project-Management_01867284",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "bd2df2fd7b08",
+   "company": "Stripe",
+   "title": "Software Engineer Intern - Summer or Winter",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://stripe.com/jobs/search?gh_jid=8130805",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026",
+    "Winter 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9e25d36709d1",
+   "company": "AMD",
+   "title": "Firmware Engineer Intern/Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90301?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c7ef16325635",
+   "company": "AMD",
+   "title": "Product Management Intern/Co-op - Multiple Teams",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90411?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "aa7388d2f3a6",
+   "company": "AMD",
+   "title": "Firmware Engineer Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91320?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a5d2b278c120",
+   "company": "AMD",
+   "title": "Hardware Design Engineer Intern/Co-op - Long Term",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90367?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "822b323c56c0",
+   "company": "AMD",
+   "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91363?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "057333c0b4ef",
+   "company": "AMD",
+   "title": "Graphics Software Engineer Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90305?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6b37537a2349",
+   "company": "AMD",
+   "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90383?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "4e4f5dd8cfa4",
+   "company": "AMD",
+   "title": "Hardware Design Engineer Intern/Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90372?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "91fc53853c4d",
+   "company": "AMD",
+   "title": "Firmware Engineer Intern/Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91313?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7a9a6637b889",
+   "company": "AMD",
+   "title": "Diagnostics Design Engineer Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90435?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "68c4f39bfe94",
+   "company": "AMD",
+   "title": "Graphics Software Engineer Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91359?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ceb9f80faaeb",
+   "company": "AMD",
+   "title": "Firmware Engineer Intern/Co-op - Long Term",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90297?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "418a0809ea51",
+   "company": "AMD",
+   "title": "Software Engineer Intern/Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91367?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e8e378ef8ffa",
+   "company": "General Dynamics UK",
+   "title": "Software Engineering Co-op - 8 Months",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/GDMSI/744000146822449",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e435f99f72f0",
+   "company": "Geotab",
+   "title": "Vehicle Systems Engineering Intern - Winter/January 2027 - 4, 8 Months",
+   "locations": [
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5381043008",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f9794f43f3f5",
+   "company": "AMD",
+   "title": "Analog and Mixed Signal Engineer Intern/Co-op",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/91369?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "992e0d89906e",
+   "company": "RTX",
+   "title": "Data Analyst Intern - Global Sales",
+   "locations": [
+    "Saint-Hubert, Longueuil, QC, Canada"
+   ],
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-SAINT-HUBERT-H12--7007-Chemin-De-La-Savane--BLDG-H12-TRAINING/Stage---Hiver-2027----Ventes-globales---Internship---Winter-2027----Global-Sales_01869713",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "32cf0cec16f7",
+   "company": "Amgen",
+   "title": "Business Analyst Co-op",
+   "locations": [
+    "Burnaby, BC, Canada"
+   ],
+   "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate-Co-op-Student---Business-Analyst_R-254807",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ff092ee040b2",
+   "company": "CAE",
+   "title": "Software Engineering Intern - AI, Automation and Business Intelligence",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-FIN-275-Software-Engineering-Intern--AI--Automation-and-Business-Intelligence_123477-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "6dbd607f901c",
+   "company": "AMD",
+   "title": "AGS Libraries Intern/Co-op",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://careers.amd.com/jobs/90427?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "906df5efe8a6",
+   "company": "RTX",
+   "title": "Aerospace Engineering Intern - APU Programs Support",
+   "locations": [
+    "Longueuil, QC, Canada"
+   ],
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Support-aux-Programmes-des-GAP---Internship---Winter-2027---APU-Programs-Support_01869035",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-08-31",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d47a357fba19",
+   "company": "AMI",
+   "title": "Computer Vision Scientist Intern - Geometry and 3D Vision",
+   "locations": [
+    "Montreal, QC, Canada",
+    "Paris, France",
+    "NYC"
+   ],
+   "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-08-27",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "041e305eeb54",
+   "company": "Elk Valley Resources",
+   "title": "Geographic Information Systems Co-op",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://jobs.lever.co/evr/5e458beb-48ae-4035-b9d2-684047241896/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-26",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "82a9cdff7840",
+   "company": "Google",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada",
+    "Toronto, ON, Canada",
+    "Waterloo, ON, Canada"
+   ],
+   "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-24",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2c588b57568a",
+   "company": "RTX",
+   "title": "Customer First Centre Intern - Customer First Centre - Technical Helpdesk",
+   "locations": [
+    "Longueuil, QC, Canada"
+   ],
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Centre-Priorit-Clients---Internship---Winter-2027---Customer-First-Centre--Technical-helpdesk_01867386",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-08-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a9c41005fcb3",
+   "company": "Kepler Communications",
+   "title": "Embedded Software Engineer Intern - January 2027 - 4 months",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/kepler/2ad02ce3-1d56-4aee-9f1d-5199c780c0c1/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-08-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "ed3e820c70a3",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Canada",
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "59278838589a",
+   "company": "Thomson Reuters",
+   "title": "Applied Research Intern - NLP/ML/GenAI",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Canada-Toronto-Ontario/Applied-Research-Intern--NLP-ML-GenAI-_JREQ202812",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-08-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7dc7262fce84",
+   "company": "ResponsiveAds",
+   "title": "Full-Stack Developer Intern - ResponsiveAds - Studio 4",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://apply.workable.com/responsiveads-inc/j/493EAC12D6/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026",
+    "Fall 2026"
+   ],
+   "posted": "2026-08-10",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b0a0f9343eee",
+   "company": "Epic Games",
+   "title": "Machine Learning Intern",
+   "locations": [
+    "Canada",
+    "United Kingdom",
+    "United States"
+   ],
+   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026",
+    "Summer 2027"
+   ],
+   "posted": "2026-08-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "8f793bdac38d",
+   "company": "Epic Games",
+   "title": "Machine Learning Intern - Special Projects - Epic Research Group",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026",
+    "Winter 2027",
+    "Spring 2027",
+    "Summer 2027",
+    "Fall 2027"
+   ],
+   "posted": "2026-08-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9d902c99673b",
+   "company": "Yotta Labs",
+   "title": "Research Engineer Intern - AI Systems",
+   "locations": [
+    "Remote in USA",
+    "Remote in Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-08-02",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c31e9421c5f9",
+   "company": "InstaLILY",
+   "title": "Software Engineer 1 Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/instalilyai/jobs/4342089009",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-31",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d9e9c404f5c9",
+   "company": "ShyftLabs",
+   "title": "AI Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/shyftlabs/4f389ea7-9b98-4ed0-99c2-b25ea8cc2dcd/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-21",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0815af3662bf",
+   "company": "Google",
+   "title": "Student Researcher",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Kitchener, ON, Canada"
+   ],
+   "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-07-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "67df1e98e83f",
+   "company": "Google",
+   "title": "Student Researcher",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Kitchener, ON, Canada"
+   ],
+   "url": "https://www.google.com/about/careers/applications/jobs/results/128430823337534150",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-07-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "2400739b46c1",
+   "company": "Georgian Partners Growth",
+   "title": "AI/ML Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/georgian/2ae71a4b-dd9d-4068-8ef2-81351ee74cab/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2027"
+   ],
+   "posted": "2026-07-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "cd216c252676",
+   "company": "Bree",
+   "title": "Machine Learning Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "http://jobs.ashbyhq.com/bree/5e79b2fd-164c-4e72-91ef-1b8fd1c5518a/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-07-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "84a82a130521",
+   "company": "DRW",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7991196",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2028"
+   ],
+   "posted": "2026-07-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f7a7df80a4c0",
+   "company": "DRW",
+   "title": "AI/ML Research Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7991171",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2028"
+   ],
+   "posted": "2026-07-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1c799bed0b66",
+   "company": "Orennia",
+   "title": "Analytics Intern",
+   "locations": [
+    "Calgary, AB, Canada"
+   ],
+   "url": "https://boards.greenhouse.io/orennia/jobs/5277706008",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "66c386ed644c",
+   "company": "Marvell",
+   "title": "Analog Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Vancouver-Canada/Analog-Engineer-Intern---PhD_2502424-1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3d8bbe27d9d8",
+   "company": "Marvell",
+   "title": "Analog Engineer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1cee40b00eb0",
+   "company": "Marvell",
+   "title": "Silicon Photonics Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Silicon-Photonics-Intern---PhD_2502469-1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "1a6d18cf51a9",
+   "company": "Aptiv",
+   "title": "Engineer Intern",
+   "locations": [
+    "Kanata, Ottawa, ON, Canada",
+    "Kitchener, ON, Canada"
+   ],
+   "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000691719",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a692fe078c5b",
+   "company": "Human Computer Lab",
+   "title": "Software/ML Engineering Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF"
+   ],
+   "url": "https://jobs.ashbyhq.com/human-computer-lab/7d13ae27-1f02-4d9b-8d39-e3d9d67df705/application",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "d82e552bf388",
+   "company": "Human Computer Lab",
+   "title": "Controls Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF"
+   ],
+   "url": "https://jobs.ashbyhq.com/human-computer-lab/3ceb956a-f231-4238-bb2e-365515b930a7/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "aa8d73002057",
+   "company": "Human Computer Lab",
+   "title": "Electrical Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF"
+   ],
+   "url": "https://jobs.ashbyhq.com/human-computer-lab/004ff3a2-7e38-4959-8bd7-48489cbc78f4/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-07-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e6bba98828b8",
+   "company": "Chainlink Labs",
+   "title": "Research Intern",
+   "locations": [
+    "Boston, MA",
+    "Seattle, WA",
+    "Remote in USA",
+    "NYC",
+    "Remote in Canada",
+    "Remote in Switzerland"
+   ],
+   "url": "https://jobs.ashbyhq.com/chainlink-labs/c71ed144-8eb4-4acf-9bf3-137b1b067ed8/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-06-24",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f5c29c2650f2",
+   "company": "Later",
+   "title": "AI Automation Engineer Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/later/jobs/8604889002",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-06-23",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0ca9ca20147f",
+   "company": "Cadence Design Systems",
+   "title": "Analog/Mixed-Signal IC Design Co-op/Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-06-20",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "a743b10bdf90",
+   "company": "Textron",
+   "title": "Stage automne 2026 – Technologie de l'information / 2026 fall Internship - Information Technology - Mirabel - Qc",
+   "locations": [
+    "Mirabel, QC, Canada"
+   ],
+   "url": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343165",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-06-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "af7c0ee83910",
+   "company": "Clio",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Calgary, AB, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://clio.wd3.myworkdayjobs.com/en-US/ClioCareerSite/job/Toronto/Software-Developer--Co-op_REQ-1577",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026",
+    "Winter 2026",
+    "Spring 2027"
+   ],
+   "posted": "2026-06-16",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "e482a5c79d3c",
+   "company": "Marvell",
+   "title": "Analog Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Vancouver-Canada/Analog-Engineer-Intern---PhD_2502424",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-06-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "95030301e8e1",
+   "company": "Cadence Design Systems",
+   "title": "Analog/Mixed-Signal IC Design Co-Op/Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-06-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "fe41318ba740",
+   "company": "Marvell",
+   "title": "Analog Engineer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-06-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "12f5014b2dfa",
+   "company": "Marvell",
+   "title": "Analog Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-06-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5441a1ddbddc",
+   "company": "TribalScale",
+   "title": "Agile Software Engineer Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/tribalscale/jobs/4687337006",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-06-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "7ee773b21ec2",
+   "company": "Block",
+   "title": "Applied Research Intern Co-op",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026",
+    "Winter 2027"
+   ],
+   "posted": "2026-06-09",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "0b8c9d815c93",
+   "company": "Astera Labs",
+   "title": "Firmware Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4609356005",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-06-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "3de3ea3a929f",
+   "company": "Magna",
+   "title": "Junior Full Stack Developer Co-op",
+   "locations": [
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/Junior-Full-Stack-Developer-Coop_R00244793",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-05-30",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "912f4221eb91",
+   "company": "Nuclear Promise X",
+   "title": "Software Developer Intern - Digital Transformation",
+   "locations": [
+    "Canada"
+   ],
+   "url": "https://jobs.ashbyhq.com/NPX/048ca8da-bfb9-4454-8147-ac9497629634/application",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-05-18",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "5e59e1ae1253",
+   "company": "Corpay",
+   "title": "Software Developer Co-op",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://corpay.wd103.myworkdayjobs.com/en-US/ext_001/job/Vancouver---Parking/Software-Developer--Co-op-_R05866",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-05-15",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "06bab43a8a27",
+   "company": "Cohere",
+   "title": "Machine Learning Intern/Co-op",
+   "locations": [
+    "Canada",
+    "United Kingdom",
+    "United States"
+   ],
+   "url": "https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b/application",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-05-13",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "77cf5c8efb50",
+   "company": "Acceldata",
+   "title": "Software Engineering Co-op",
+   "locations": [
+    "Kitchener, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/acceldata/3b6d3dfe-5e49-41c9-98a5-f732fa63fdf4/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-05-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "b59391ad9703",
+   "company": "Acceldata",
+   "title": "Field Engineering Co-op",
+   "locations": [
+    "Kitchener, ON, Canada"
+   ],
+   "url": "https://jobs.lever.co/acceldata/d69a1a62-284c-47d1-b74f-ea02dffad32f/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-05-08",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c3fe008d09c9",
+   "company": "Squarepoint Capital",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://boards.greenhouse.io/embed/job_app?token=7905463",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026"
+   ],
+   "posted": "2026-05-07",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "9a4178d90114",
+   "company": "Cohere",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "SF",
+    "NYC"
+   ],
+   "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026",
+    "Winter 2026"
+   ],
+   "posted": "2026-05-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "026a76a89e59",
+   "company": "Cohere",
+   "title": "Research Internship",
+   "locations": [
+    "Montreal, QC, Canada",
+    "London, UK",
+    "Toronto, ON, Canada",
+    "SF"
+   ],
+   "url": "https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785/application",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Fall 2026",
+    "Winter 2026"
+   ],
+   "posted": "2026-05-01",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "f7dbe56012fe",
+   "company": "Digs",
+   "title": "Software Engineering Intern - Test Automation",
+   "locations": [
+    "Vancouver, WA"
+   ],
+   "url": "https://job-boards.greenhouse.io/digs/jobs/4663939006",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Spring 2026"
+   ],
+   "posted": "2026-03-19",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "90526142fd41",
+   "company": "Ernst & Young",
+   "title": "Intern/Co-op - Assurance Technology Risk - Gestion des risques technologiques",
+   "locations": [
+    "Edmonton, AB, Canada"
+   ],
+   "url": "https://eyglobal.yello.co/jobs/Z5l1IcAarbkthLOcBeIpRQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Fall 2026",
+    "Winter 2027",
+    "Spring 2027"
+   ],
+   "posted": "2026-03-04",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "c505ac7c0fc5",
+   "company": "Brookfield",
+   "title": "Artificial Intelligence Intern - Renewable Power & Transition",
+   "locations": [
+    "NYC",
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://brookfield.wd5.myworkdayjobs.com/brookfieldprivate/job/New-York-New-York/Artificial-Intelligence-Intern--Renewable-Power---Transition_R2048741",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2026"
+   ],
+   "posted": "2026-02-25",
+   "first_seen": "2026-10-21"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+.layout { display: grid; gap: 32px; }
+@media (min-width: 960px) { .layout { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 40px; } }
+
+.input { display: grid; gap: 12px; align-content: start; min-width: 0; }
+.inputActions { display: flex; gap: 8px; }
+
+.formula { margin-top: 12px; padding-top: 18px; border-top: 1px solid var(--line); }
+.formula p { margin: 8px 0 0; color: var(--muted); }
+.formula .example {
+  color: var(--text);
+  border-left: 3px solid var(--amber);
+  padding: 4px 0 4px 12px;
+}
+
+.output { min-width: 0; }
+.summary { display: grid; gap: 12px; margin-bottom: 18px; }
+.summary h2 { font-size: 22px; }
+.aiRow { display: flex; gap: 8px; flex-wrap: wrap; }
+.aiRow input { flex: 1 1 240px; width: auto; }
+.aiError { margin: 0; color: var(--red); font-size: 14px; }
+
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.result { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 16px; }
+.resultHead { display: flex; gap: 14px; justify-content: space-between; align-items: flex-start; }
+.bullet { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+.checks { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.checks li { display: grid; gap: 1px; font-size: 14.5px; padding-left: 12px; border-left: 2px solid var(--line); }
+.label { font-size: 13px; color: var(--muted); font-weight: 500; }
+.pass { margin: 10px 0 0; color: var(--teal); font-size: 14px; }
+
+.rewrite { margin-top: 14px; padding: 12px; border-radius: var(--r-sm); background: var(--teal-soft); display: grid; gap: 4px; justify-items: start; }
+.rewrite p { margin: 0; }

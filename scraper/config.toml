@@ -1,0 +1,46 @@
+# northbound scraper config
+# Bad slugs are skipped and logged, so it's safe to add guesses and check the Action log.
+
+[filters]
+# A posting is kept only if its title matches one of these (case-insensitive, word-ish match)
+title_include = ["intern", "internship", "co-op", "coop", "co op", "student", "work term"]
+# ...and none of these
+title_exclude = ["internal", "international", "internist", "phd", "mba", "senior", "staff", "principal", "manager,"]
+# Drop postings first seen more than this many days ago (keeps the JSON small)
+max_age_days = 120
+
+[alerts]
+# Only text you about these categories. Options: Software, Data & ML, Product, Hardware, Quant, Other
+categories = ["Software", "Data & ML", "Product"]
+# Never send more than this many lines in one alert
+max_lines = 6
+
+# Community-maintained lists on GitHub (huge coverage, updated constantly)
+[[github_lists]]
+name = "Simplify Summer 2027"
+url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json"
+
+[[github_lists]]
+name = "Simplify Summer 2026 (off-season roles)"
+url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json"
+
+# Direct company career boards. These catch roles before the lists do.
+[ats]
+greenhouse = ["stripe", "databricks", "cloudflare", "figma", "faire", "samsara", "clio", "dropbox", "affirm"]
+lever = ["plaid", "wealthsimple"]
+ashby = ["cohere", "ramp", "notion", "linear"]
+smartrecruiters = ["Visa", "BoschGroup"]
+
+# Workday needs host + tenant + site. Copy them from the careers URL:
+# https://<host>/<site>  and the API lives at https://<host>/wday/cxs/<tenant>/<site>/jobs
+[[ats.workday]]
+company = "NVIDIA"
+host = "nvidia.wd5.myworkdayjobs.com"
+tenant = "nvidia"
+site = "NVIDIAExternalCareerSite"
+
+[[ats.workday]]
+company = "Salesforce"
+host = "salesforce.wd12.myworkdayjobs.com"
+tenant = "salesforce"
+site = "External_Career_Site"

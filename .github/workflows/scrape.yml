@@ -1,0 +1,47 @@
+name: Scrape postings
+
+on:
+  schedule:
+    # Every 2 hours at :17 (GitHub's :00 slots are crowded and run late)
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        env:
+          NB_TZ: America/Vancouver
+          TWILIO_SID: ${{ secrets.TWILIO_SID }}
+          TWILIO_TOKEN: ${{ secrets.TWILIO_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scraper/scrape.py
+
+      - name: Commit new data
+        run: |
+          if git diff --quiet -- public/data/postings.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "northbound-bot"
+          git config user.email "northbound-bot@users.noreply.github.com"
+          git add public/data/postings.json
+          git commit -m "data: refresh postings"
+          git push
