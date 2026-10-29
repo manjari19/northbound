@@ -608,6 +608,18 @@ TITLE_NOISE = {"intern", "internship", "the", "and", "of", "for", "a", "an", "to
                "winter", "spring", "summer", "fall", "term", "months", "month", "us", "usa", "canada", "remote"}
 
 
+TITLE_STEMS = {"engineering": "engineer", "developers": "developer", "analytics": "analyst", "analysis": "analyst",
+               "scientist": "science", "researcher": "research", "designer": "design"}
+
+
+def _stem(w: str) -> str:
+    """Treat word forms as one word, so "Software Engineering Intern" == "Software Engineer Intern"."""
+    w = TITLE_STEMS.get(w, w)
+    if len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
+        w = w[:-1]
+    return w
+
+
 def dup_key(p: dict) -> str:
     """Two listings are the same job when company, first city and the set of meaningful title words match.
     So "ML Systems SDE Intern, Annapurna Labs - 2027" == "Machine Learning Systems SDE Intern - Annapurna Labs"."""
@@ -616,7 +628,7 @@ def dup_key(p: dict) -> str:
     title = p["title"].lower()
     for short, full in TITLE_SYNONYMS.items():
         title = re.sub(rf"\b{re.escape(short)}\b", full, title)
-    words = {w for w in re.findall(r"[a-z]+", title) if w not in TITLE_NOISE}
+    words = {_stem(w) for w in re.findall(r"[a-z]+", title) if w not in TITLE_NOISE}
     first_city = norm((p["locations"] or [""])[0].split(",")[0])
     return f"{company}|{first_city}|{' '.join(sorted(words))}"
 
