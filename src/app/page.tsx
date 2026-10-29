@@ -245,7 +245,7 @@ export default function Home() {
                 <strong>
                   <CountUp value={fresh} />
                 </strong>{" "}
-                new roles found today
+                new roles posted today
               </span>
             ) : (
               <span>Checking for new roles…</span>

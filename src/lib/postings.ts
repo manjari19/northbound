@@ -171,9 +171,11 @@ export function termLabel(t: string): string {
   return m ? `${n} (${m})` : n;
 }
 
-/** "New" means the scraper found it today, the same rule the alert emails use. */
+/** "New" means posted today. When a source gives no posting date, fall back to the day
+ *  the scraper first saw it, so a board that only just started loading doesn't mark
+ *  days-old roles as new. */
 export function isNew(p: Posting): boolean {
-  return daysAgo(p.first_seen) === 0;
+  return daysAgo(p.posted ?? p.first_seen) === 0;
 }
 
 export function relativeTime(iso: string): string {
