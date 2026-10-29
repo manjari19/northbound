@@ -82,9 +82,9 @@ export function LiveClock() {
 
 /* ------------------------------------------------------------ next sweep countdown */
 
-const SWEEP_MS = 5 * 60 * 1000;
+const SWEEP_MS = 30 * 60 * 1000;
 
-/** "Next sweep in 3:41". The local scraper runs every five minutes. */
+/** "Next sweep in 23:41". GitHub Actions runs the scraper every 30 minutes. */
 export function NextSweep({ updatedAt }: { updatedAt: string }) {
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => {
@@ -113,10 +113,10 @@ export function NextSweep({ updatedAt }: { updatedAt: string }) {
             {mm}:{String(ss).padStart(2, "0")}
           </strong>
         </span>
-      ) : left > -10 * 60 * 1000 ? (
+      ) : left > -20 * 60 * 1000 ? (
         <span>Sweeping job boards now…</span>
       ) : (
-        <span>Scraper is paused. Start it to keep the board fresh.</span>
+        <span>Next sweep is running a little late. GitHub Actions will catch up.</span>
       )}
       <span className="sweep-sep" aria-hidden="true" />
       <span className="muted">last sweep {ago === 0 ? "just now" : `${ago} min ago`}</span>

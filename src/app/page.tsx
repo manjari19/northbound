@@ -45,7 +45,7 @@ function PostingsPreview({ rows }: { rows: Posting[] }) {
   return (
     <div className={styles.preview}>
       <h3 className={styles.previewTitle}>Every new role, the moment it posts</h3>
-      <p className={styles.previewSub}>Pulled from 60+ job boards and community lists every five minutes.</p>
+      <p className={styles.previewSub}>Pulled from 60+ job boards and community lists every 30 minutes.</p>
       <div className={styles.table} role="table" aria-label="Newest postings">
         {rows.map((p) => (
           <div key={p.id} className={styles.tr} role="row">

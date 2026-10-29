@@ -1,6 +1,6 @@
 # northbound
 
-My personal co-op hunt board: every Canadian internship and co-op posting worth a look, refreshed every two hours, with an application tracker, a résumé bullet checker and an interview prep plan next to it.
+My personal co-op hunt board: every Canadian internship and co-op posting worth a look, refreshed every 30 minutes, with an application tracker, a résumé bullet checker and an interview prep plan next to it.
 
 ## What's in it
 
@@ -17,14 +17,14 @@ Tracker and prep progress live in `localStorage`, so there's no login or databas
 ## How the data works
 
 ```
-GitHub Actions (every 2h)
+GitHub Actions (every 30 min)
   └─ scraper/scrape.py
        ├─ Simplify's community lists on GitHub
        ├─ Greenhouse, Lever, Ashby, SmartRecruiters, Workday boards (scraper/config.toml)
        ├─ keeps intern/co-op titles in Canada, dedupes, keeps first-seen dates
        ├─ writes public/data/postings.json and commits it
-       └─ texts/Discords new Software, Data & ML and Product roles
-Netlify redeploys on the commit → site fetches /data/postings.json
+       └─ emails new Canadian Software, Data & ML and Product roles (never the same job twice)
+The live site reads postings.json straight from GitHub, so data commits don't trigger a rebuild
 ```
 
 Standard library Python only, no `requirements.txt` needed.
@@ -56,24 +56,6 @@ Edit `scraper/config.toml`. The slug is the bit in the careers URL:
 
 Alert categories, title filters and the age cutoff are in the same file.
 
-## Scraping every 5 minutes on my Mac
-
-GitHub Actions stays at every 2 hours for the public site. Running every 5 minutes there would be late half the time and would trigger 288 Netlify builds a day. So the fast loop runs on my Mac instead:
-
-- `scraper/watch.py` runs the scraper every 5 minutes and writes `public/data/postings.local.json` (git-ignored)
-- `npm run dev` shows that local file, and open tabs refresh themselves every 5 minutes
-- New software, data and product roles pop up as macOS notifications, plus Twilio/Discord if `.env` has keys
-- The big GitHub lists are fetched with ETags, so unchanged runs download almost nothing
-
-```bash
-python3 scraper/watch.py --once      # test one run
-./scraper/macos/install.sh           # run in the background, start at login
-tail -f scraper/.cache/watch.log     # see what it's doing
-./scraper/macos/install.sh uninstall # stop it
-```
-
-Twilio keys go in `.env` (copy `.env.example`), not in GitHub secrets, so I don't get every text twice.
-
 ## ResumeRadar inside northbound
 
 The Résumé and Interview prep pages call the ResumeRadar API (the same Lambdas and Bedrock model the ResumeRadar site uses):
@@ -91,10 +73,8 @@ cd ~/Desktop/coding/resumeradar && ./scripts/deploy-coach.sh
 ## Email alerts
 
 1. Turn on 2-Step Verification for the Gmail account that will send the alerts, then create an app password at myaccount.google.com/apppasswords.
-2. Copy `.env.example` to `.env` and fill in `EMAIL_TO`, `SMTP_USER` (the sending Gmail address) and `SMTP_PASSWORD` (the app password).
-3. Test it: `python3.13 scraper/check_sources.py --email` checks every source and sends one sample email.
-
-Every run that finds new Software, Data & ML or Product roles sends one email listing all of them with Apply buttons.
+2. Add `EMAIL_TO`, `SMTP_USER` (the sending Gmail address) and `SMTP_PASSWORD` (the app password) as GitHub Actions secrets: `gh secret set EMAIL_TO` and so on.
+3. Every 30-minute run that finds new Canadian Software, Data & ML or Product roles sends one email with Apply buttons. `scraper/state/alerted.json` remembers every job already emailed, so nothing is ever sent twice, even if a source drops out for a run.
 
 ## Terms
 
