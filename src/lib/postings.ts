@@ -79,7 +79,11 @@ async function loadFeed(): Promise<Feed> {
     const local = await fetch("/data/postings.local.json", { cache: "no-cache" }).catch(() => null);
     if (local?.ok) return local.json();
   }
-  const r = await fetch("/data/postings.json", { cache: "no-cache" });
+  // In production the scraper commits fresh data to GitHub every 30 minutes, so read it from there
+  // instead of rebuilding the site. Falls back to the copy bundled at build time.
+  const remote = process.env.NEXT_PUBLIC_DATA_URL;
+  let r = remote ? await fetch(remote, { cache: "no-cache" }).catch(() => null) : null;
+  if (!r || !r.ok) r = await fetch("/data/postings.json", { cache: "no-cache" });
   if (!r.ok) throw new Error(`Couldn't load postings (HTTP ${r.status}). Run the scraper once to create them.`);
   return r.json();
 }

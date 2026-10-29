@@ -58,6 +58,8 @@ CONFIG = tomllib.loads((ROOT / "scraper" / "config.toml").read_text())
 OUT = Path(os.getenv("NB_OUT") or ROOT / "public" / "data" / "postings.json")
 SEED = ROOT / "public" / "data" / "postings.json"
 CACHE = ROOT / "scraper" / ".cache"
+# Every posting ID that has ever been emailed, so a job is never sent twice even if a source drops out for a run
+ALERTED = ROOT / "scraper" / "state" / "alerted.json"
 # "Today" means today where you live, not in UTC (set TZ in the workflow if you move)
 LOCAL = ZoneInfo(os.getenv("NB_TZ", "America/Vancouver"))
 NOW = datetime.now(LOCAL)
@@ -668,12 +670,34 @@ def merge(current: list[dict], previous: dict[str, dict]) -> tuple[list[dict], l
     return kept, new
 
 
+def load_alerted() -> dict[str, str]:
+    try:
+        return json.loads(ALERTED.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def record_alerted(ids: list[str]) -> None:
+    """Remember emailed IDs. Entries older than 120 days are pruned to keep the file small."""
+    ledger = load_alerted()
+    today = NOW.date().isoformat()
+    for i in ids:
+        ledger.setdefault(i, today)
+    cutoff = (NOW - timedelta(days=120)).date().isoformat()
+    ledger = {k: v for k, v in ledger.items() if v >= cutoff}
+    ALERTED.parent.mkdir(parents=True, exist_ok=True)
+    ALERTED.write_text(json.dumps(dict(sorted(ledger.items())), indent=0))
+
+
 def send_alerts(new: list[dict], first_run: bool) -> None:
     wanted = set(CONFIG["alerts"]["categories"])
     alert_regions = set(CONFIG["alerts"].get("regions", ["Canada", "Remote"]))
-    hits = [p for p in new if p["category"] in wanted and alert_regions.intersection(p.get("regions", []))]
-    if first_run:
-        print(f"First run: skipping alerts for {len(hits)} postings so you don't get 300 texts.")
+    already = load_alerted()
+    hits = [p for p in new if p["category"] in wanted and alert_regions.intersection(p.get("regions", []))
+            and p["id"] not in already]
+    if first_run or not ALERTED.exists():
+        record_alerted([p["id"] for p in hits])
+        print(f"First run: recorded {len(hits)} postings as already seen, no email sent.")
         return
     if not hits:
         print("No new postings worth alerting on.")
@@ -689,7 +713,8 @@ def send_alerts(new: list[dict], first_run: bool) -> None:
             print(f"(would also email {len(hits)} postings to {os.getenv('EMAIL_TO')})")
         return
 
-    send_email(hits)
+    if send_email(hits):
+        record_alerted([p["id"] for p in hits])
 
     sid, token = os.getenv("TWILIO_SID"), os.getenv("TWILIO_TOKEN")
     frm, to = os.getenv("TWILIO_FROM"), os.getenv("ALERT_TO")
@@ -722,11 +747,13 @@ def send_alerts(new: list[dict], first_run: bool) -> None:
             print(f"Discord failed: {e}", file=sys.stderr)
 
 
-def send_email(hits: list[dict]) -> None:
+def send_email(hits: list[dict]) -> bool:
+    """Returns True only when the email actually went out."""
     to, user = os.getenv("EMAIL_TO"), os.getenv("SMTP_USER")
     password = (os.getenv("SMTP_PASSWORD") or "").replace(" ", "")  # Gmail shows app passwords with spaces
     if not (to and user and password):
-        return
+        print("Email not configured (EMAIL_TO, SMTP_USER, SMTP_PASSWORD), skipping.")
+        return False
     shown = hits[:25]
     names = ", ".join(dict.fromkeys(p["company"] for p in shown[:3]))
     more = len({p["company"] for p in hits}) - len(dict.fromkeys(p["company"] for p in shown[:3]))
@@ -756,8 +783,7 @@ def send_email(hits: list[dict]) -> None:
     board = os.getenv("BOARD_URL", "http://localhost:3000").rstrip("/")
     ids = ",".join(p["id"] for p in hits[:60])
     extra += (f'<p style="margin-top:18px"><a href="{escape(board)}/postings/?ids={ids}" '
-              f'style="color:#0b7563;font-weight:600">See these on your board</a> '
-              f'<span style="color:#55607d">(needs npm run dev running)</span></p>')
+              f'style="color:#0b7563;font-weight:600">See these on your board</a></p>')
     msg.add_alternative(f"""<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:#121a33;max-width:560px">
       <h2 style="margin:0 0 4px;font-size:20px">{len(hits)} new posting{'s' if len(hits) != 1 else ''}</h2>
       <p style="margin:0 0 8px;color:#55607d">Found {NOW:%b %-d, %-I:%M %p}. Apply the day it posts.</p>
@@ -776,11 +802,13 @@ def send_email(hits: list[dict]) -> None:
                 s.login(user, password)
                 s.send_message(msg)
         print(f"Email sent to {to}.")
+        return True
     except smtplib.SMTPAuthenticationError:
         print("Email failed: the mail server rejected the login. For Gmail, SMTP_PASSWORD must be an app password, "
               "not your normal password.", file=sys.stderr)
     except (smtplib.SMTPException, OSError) as e:
         print(f"Email failed: {e}", file=sys.stderr)
+    return False
 
 
 def main() -> None:
@@ -809,6 +837,7 @@ def main() -> None:
     if previous and added:
         # Newly added sources would make every posting they carry look "new". Skip one round of alerts.
         print(f"Added {len(added)} new source(s), so this run is a quiet warm-up with no alerts.")
+        record_alerted([p["id"] for p in new])
         return
     send_alerts(new, first_run=not previous)
 

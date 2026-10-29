@@ -10,3 +10,6 @@ __pycache__
 public/data/postings.local.json
 scraper/.cache
 .DS_Store
+
+# Netlify CLI agent skills
+.agents/
