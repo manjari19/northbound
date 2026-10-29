@@ -19,6 +19,10 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Start from the newest commit on main, not the one that existed when the run was queued.
+          # Runs are serialized (concurrency above), so each one builds on the previous run's data.
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
