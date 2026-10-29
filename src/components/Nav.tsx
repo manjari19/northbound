@@ -21,11 +21,19 @@ export function Mark({ size = 22 }: { size?: number }) {
   );
 }
 
+export function Arrow() {
+  return (
+    <svg className="arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M7 17 17 7M8 7h9v9" />
+    </svg>
+  );
+}
+
 export default function Nav() {
   const path = usePathname();
   return (
     <header className="nav">
-      <div className="wrap">
+      <div className="nav-inner">
         <Link href="/" className="wordmark" aria-label="northbound home">
           <Mark />
           northbound
@@ -37,6 +45,9 @@ export default function Nav() {
             </Link>
           ))}
         </nav>
+        <Link href="/postings/" className="btn white nav-cta">
+          Find roles <Arrow />
+        </Link>
       </div>
     </header>
   );

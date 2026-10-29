@@ -1,8 +1,25 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { openFit } from "@/components/FitDrawer";
+import FitBadge from "@/components/FitBadge";
+import { Logo } from "@/components/fx";
+import { Arrow } from "@/components/Nav";
 import TrackSelect from "@/components/TrackSelect";
-import { ageLabel, daysAgo, relativeTime, useApps, useFeed, type Posting } from "@/lib/postings";
+import {
+  ageLabel,
+  isNew,
+  inRegions,
+  REGIONS,
+  relativeTime,
+  termLabel,
+  termOrder,
+  useApps,
+  useFeed,
+  useRegions,
+  type Posting,
+  type Region,
+} from "@/lib/postings";
 import styles from "./postings.module.css";
 
 const CATEGORIES = ["Software", "Data & ML", "Product", "Hardware", "Quant", "Other"] as const;
@@ -15,18 +32,18 @@ export default function PostingsPage() {
   const [cats, setCats] = useState<string[]>(["Software", "Data & ML", "Product"]);
   const [term, setTerm] = useState("");
   const [freshOnly, setFreshOnly] = useState(false);
+  const [onlyIds, setOnlyIds] = useState<Set<string> | null>(null);
   const [hideTracked, setHideTracked] = useState(false);
   const [bc, setBc] = useState(false);
+  const [payOnly, setPayOnly] = useState(false);
+  const [regions, setRegions] = useRegions();
   const [limit, setLimit] = useState(PAGE);
 
   const terms = useMemo(() => {
     const set = new Set<string>();
     feed?.postings.forEach((p) => p.terms.forEach((t) => set.add(t)));
-    const order = (t: string) => {
-      const [s, y] = t.split(" ");
-      return Number(y) * 10 + ["Winter", "Spring", "Summer", "Fall"].indexOf(s);
-    };
-    return [...set].sort((a, b) => order(b) - order(a));
+    // Soonest term first
+    return [...set].sort((a, b) => termOrder(a) - termOrder(b));
   }, [feed]);
 
   const tracked = useMemo(() => new Set(apps.map((a) => a.postingId).filter(Boolean)), [apps]);
@@ -35,15 +52,40 @@ export default function PostingsPage() {
     if (!feed) return [];
     const needle = q.trim().toLowerCase();
     return feed.postings.filter((p: Posting) => {
+      if (!inRegions(p, regions)) return false;
       if (!cats.includes(p.category)) return false;
+      if (payOnly && !p.pay) return false;
       if (term && !p.terms.includes(term)) return false;
-      if (freshOnly && (daysAgo(p.posted ?? p.first_seen) ?? 99) > 2) return false;
+      if (onlyIds) return onlyIds.has(p.id);
+      if (freshOnly && !isNew(p)) return false;
       if (hideTracked && tracked.has(p.id)) return false;
       if (bc && !p.locations.some((l) => /,\s*BC\b|british columbia|vancouver|burnaby|remote/i.test(l))) return false;
       if (needle && !`${p.company} ${p.title} ${p.locations.join(" ")}`.toLowerCase().includes(needle)) return false;
       return true;
     });
-  }, [feed, q, cats, term, freshOnly, hideTracked, bc, tracked]);
+  }, [feed, q, cats, term, freshOnly, hideTracked, bc, tracked, regions, payOnly, onlyIds]);
+
+  const regionCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    feed?.postings.forEach((p) => (p.regions?.length ? p.regions : ["Canada"]).forEach((r) => (c[r] = (c[r] ?? 0) + 1)));
+    return c;
+  }, [feed]);
+
+  const toggleRegion = (r: Region) => {
+    setLimit(PAGE);
+    setRegions((prev) => {
+      const next = prev.includes(r) ? prev.filter((x) => x !== r) : [...prev, r];
+      return next.length ? next : prev; // keep at least one region on
+    });
+  };
+
+  // ?fresh=1 (home page) opens with "New today" on. ?ids=a,b,c (alert emails) shows exactly those postings.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("fresh")) setFreshOnly(true);
+    const ids = params.get("ids");
+    if (ids) setOnlyIds(new Set(ids.split(",").filter(Boolean)));
+  }, []);
 
   const toggleCat = (c: string) => {
     setLimit(PAGE);
@@ -56,7 +98,7 @@ export default function PostingsPage() {
         <h1>Postings</h1>
         <p>
           {feed
-            ? `${feed.count} Canadian internship and co-op roles. Updated ${relativeTime(feed.updated_at)}.`
+            ? `${feed.count.toLocaleString()} internship and co-op roles in Canada and the US. Updated ${relativeTime(feed.updated_at)}.`
             : error ?? "Loading…"}
         </p>
       </header>
@@ -76,9 +118,23 @@ export default function PostingsPage() {
         <select className="select" value={term} onChange={(e) => setTerm(e.target.value)} aria-label="Work term">
           <option value="">Any term</option>
           {terms.map((t) => (
-            <option key={t}>{t}</option>
+            <option key={t} value={t}>
+              {termLabel(t)}
+            </option>
           ))}
         </select>
+        <div className={styles.chipRow}>
+          <span className={styles.chipLabel}>Where</span>
+          <div className="chips" aria-label="Regions">
+            {REGIONS.map((r) => (
+              <button key={r} className="chip" aria-pressed={regions.includes(r)} onClick={() => toggleRegion(r)}>
+                {r} <span className={styles.count}>{(regionCounts[r] ?? 0).toLocaleString()}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className={styles.chipRow}>
+          <span className={styles.chipLabel}>What</span>
         <div className="chips" aria-label="Categories">
           {CATEGORIES.map((c) => (
             <button key={c} className="chip" aria-pressed={cats.includes(c)} onClick={() => toggleCat(c)}>
@@ -86,14 +142,19 @@ export default function PostingsPage() {
             </button>
           ))}
         </div>
+        </div>
         <div className={styles.toggles}>
           <label className="toggle">
             <input type="checkbox" checked={freshOnly} onChange={(e) => setFreshOnly(e.target.checked)} />
-            Posted in the last 2 days
+            New today
           </label>
           <label className="toggle">
             <input type="checkbox" checked={bc} onChange={(e) => setBc(e.target.checked)} />
             BC or remote
+          </label>
+          <label className="toggle">
+            <input type="checkbox" checked={payOnly} onChange={(e) => setPayOnly(e.target.checked)} />
+            Pay listed
           </label>
           <label className="toggle">
             <input type="checkbox" checked={hideTracked} onChange={(e) => setHideTracked(e.target.checked)} />
@@ -102,8 +163,25 @@ export default function PostingsPage() {
         </div>
       </div>
 
+      {onlyIds ? (
+        <div className={styles.fromEmail} role="status">
+          <span>
+            Showing the {onlyIds.size} posting{onlyIds.size === 1 ? "" : "s"} from your alert email.
+          </span>
+          <button
+            className="btn"
+            onClick={() => {
+              setOnlyIds(null);
+              window.history.replaceState(null, "", "/postings/");
+            }}
+          >
+            Show all postings
+          </button>
+        </div>
+      ) : null}
+
       <p className="muted small" aria-live="polite" style={{ margin: "18px 0 10px" }}>
-        {feed ? `Showing ${Math.min(limit, rows.length)} of ${rows.length}` : ""}
+        {feed ? `Showing ${Math.min(limit, rows.length)} of ${rows.length.toLocaleString()}` : ""}
       </p>
 
       {feed && rows.length === 0 ? (
@@ -115,24 +193,35 @@ export default function PostingsPage() {
 
       <ul className={styles.list}>
         {rows.slice(0, limit).map((p) => {
-          const age = daysAgo(p.posted ?? p.first_seen) ?? 99;
+          const fresh = isNew(p);
           return (
             <li key={p.id} className={styles.row}>
+              <Logo name={p.company} size={40} />
               <div className={styles.main}>
                 <div className={styles.company}>{p.company}</div>
                 <div className={styles.title}>{p.title}</div>
                 <div className={styles.meta}>
                   <span>{p.locations.join("; ") || "Canada"}</span>
                   {p.terms.length ? <span>{p.terms.join(", ")}</span> : null}
+                  {p.pay ? <span className={styles.pay}>{p.pay}</span> : null}
                   <span>{p.category}</span>
                 </div>
               </div>
               <div className={styles.age}>
-                {age <= 1 ? <span className="pill new">{ageLabel(p)}</span> : <span className="muted">{ageLabel(p)}</span>}
+                {fresh ? (
+                  <span className="pill new" title={`Found today. Posted ${ageLabel(p)} ago by the company.`}>
+                    New
+                  </span>
+                ) : (
+                  <span className="muted" title="How long ago the company posted it">
+                    {ageLabel(p)}
+                  </span>
+                )}
               </div>
               <div className={styles.actions}>
+                <FitBadge target={p} onClick={() => openFit(p)} />
                 <a className="btn amber" href={p.url} target="_blank" rel="noreferrer">
-                  Apply
+                  Apply <Arrow />
                 </a>
                 <TrackSelect posting={p} />
               </div>
@@ -143,7 +232,7 @@ export default function PostingsPage() {
 
       {rows.length > limit ? (
         <div style={{ textAlign: "center", marginTop: 20 }}>
-          <button className="btn" onClick={() => setLimit((l) => l + PAGE)}>
+          <button className="btn white" onClick={() => setLimit((l) => l + PAGE)}>
             Show {Math.min(PAGE, rows.length - limit)} more
           </button>
         </div>

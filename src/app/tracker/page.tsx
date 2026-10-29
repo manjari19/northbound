@@ -1,7 +1,11 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { openFit } from "@/components/FitDrawer";
+import FitBadge from "@/components/FitBadge";
+import { Logo } from "@/components/fx";
 import Pipeline from "@/components/Pipeline";
+import { celebrate } from "@/components/TrackSelect";
 import { daysAgo, newId, STATUSES, today, useApps, type Application, type Status } from "@/lib/postings";
 import { exportBackup, importBackup } from "@/lib/store";
 import styles from "./tracker.module.css";
@@ -19,6 +23,7 @@ function AppRow({ app }: { app: Application }) {
 
   return (
     <li className={styles.row}>
+      <Logo name={app.company} size={40} />
       <div className={styles.main}>
         <div className={styles.company}>
           {app.url ? (
@@ -39,12 +44,14 @@ function AppRow({ app }: { app: Application }) {
       </div>
       <div className={styles.controls}>
         <select
-          className="select"
+          className="select status-select"
+          data-tracked={app.status}
           value={app.status}
           aria-label={`Status for ${app.company}`}
           onChange={(e) => {
             const status = e.target.value as Status;
             update({ status, appliedOn: app.appliedOn ?? (status !== "saved" ? today() : undefined) });
+            celebrate(status, app.company, e.target);
           }}
         >
           {STATUSES.map((s) => (
@@ -53,6 +60,7 @@ function AppRow({ app }: { app: Application }) {
             </option>
           ))}
         </select>
+        <FitBadge target={app} onClick={() => openFit({ ...app, id: app.postingId })} />
         <button className="btn ghost" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
           {open ? "Done" : app.notes ? "Edit notes" : "Add notes"}
         </button>

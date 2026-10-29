@@ -14,7 +14,33 @@ export type Posting = {
   terms: string[];
   posted: string | null;
   first_seen: string;
+  pay?: string | null;
+  regions?: Region[];
 };
+
+export const REGIONS = ["Canada", "US", "Remote"] as const;
+export type Region = (typeof REGIONS)[number];
+
+/** Region filter shared by the home board and the Postings page, remembered per browser. */
+export function useRegions() {
+  return useStored<Region[]>("regions", [...REGIONS]);
+}
+
+/** Rough hourly rate from strings like "$63/hr", "$45-52/hr", "$95k/yr". Null when unknown. */
+export function hourly(pay?: string | null): number | null {
+  if (!pay) return null;
+  const m = pay.replace(/,/g, "").match(/\$?\s*(\d+(?:\.\d+)?)\s*(k)?/i);
+  if (!m) return null;
+  let n = parseFloat(m[1]) * (m[2] ? 1000 : 1);
+  if (/yr|year|annual|k\b/i.test(pay) || n > 400) n = n / 2080;
+  else if (/mo|month/i.test(pay)) n = n / 173;
+  return n >= 10 && n <= 400 ? n : null;
+}
+
+export function inRegions(p: Posting, regions: Region[]): boolean {
+  const mine = p.regions?.length ? p.regions : (["Canada"] as Region[]); // older data files were Canada-only
+  return mine.some((r) => regions.includes(r));
+}
 
 export type Feed = { updated_at: string; count: number; postings: Posting[] };
 
@@ -40,22 +66,56 @@ export type Application = {
   appliedOn?: string;
   notes: string;
   updatedAt: string;
+  fitScore?: number;
 };
 
 let feedPromise: Promise<Feed> | null = null;
+let fetchedAt = 0;
+const REFRESH_MS = 5 * 60 * 1000;
+
+async function loadFeed(): Promise<Feed> {
+  // In `npm run dev`, prefer the file your 5-minute local scraper writes
+  if (process.env.NODE_ENV === "development") {
+    const local = await fetch("/data/postings.local.json", { cache: "no-cache" }).catch(() => null);
+    if (local?.ok) return local.json();
+  }
+  const r = await fetch("/data/postings.json", { cache: "no-cache" });
+  if (!r.ok) throw new Error(`Couldn't load postings (HTTP ${r.status}). Run the scraper once to create them.`);
+  return r.json();
+}
+
+function normalizeFeed(f: Feed): Feed {
+  for (const p of f.postings) p.terms = [...new Set(p.terms.map(normTerm))].sort((a, b) => termOrder(a) - termOrder(b));
+  return f;
+}
 
 export function useFeed() {
   const [feed, setFeed] = useState<Feed | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
-    feedPromise ??= fetch("/data/postings.json", { cache: "no-cache" }).then((r) => {
-      if (!r.ok) throw new Error(`Couldn't load postings (HTTP ${r.status}). Run the scraper once to create them.`);
-      return r.json();
-    });
-    feedPromise.then(setFeed).catch((e) => {
-      feedPromise = null;
-      setError(String(e.message || e));
-    });
+    let alive = true;
+    const pull = (force = false) => {
+      if (force || !feedPromise || Date.now() - fetchedAt > REFRESH_MS) {
+        fetchedAt = Date.now();
+        feedPromise = loadFeed().then(normalizeFeed);
+      }
+      feedPromise
+        .then((f) => alive && (setFeed(f), setError(null)))
+        .catch((e) => {
+          feedPromise = null;
+          if (alive) setError(String(e.message || e));
+        });
+    };
+    pull();
+    // Keep an open tab current without a reload
+    const timer = window.setInterval(() => document.visibilityState === "visible" && pull(true), REFRESH_MS);
+    const onVisible = () => document.visibilityState === "visible" && pull();
+    document.addEventListener("visibilitychange", onVisible);
+    return () => {
+      alive = false;
+      window.clearInterval(timer);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
   }, []);
   return { feed, error };
 }
@@ -84,6 +144,32 @@ export function ageLabel(p: Posting): string {
   if (n === 0) return "Today";
   if (n === 1) return "1d";
   return `${n}d`;
+}
+
+// Canadian co-op terms. Spring is the same as Winter (Jan-Apr).
+const MONTHS: Record<string, string> = { Winter: "Jan-Apr", Summer: "May-Aug", Fall: "Sep-Dec" };
+const SEASON_ORDER: Record<string, number> = { Winter: 1, Summer: 2, Fall: 3 };
+
+export function normTerm(t: string): string {
+  const [season, year] = t.split(" ");
+  return `${season === "Spring" ? "Winter" : season === "Autumn" ? "Fall" : season} ${year}`;
+}
+
+export function termOrder(t: string): number {
+  const [season, year] = normTerm(t).split(" ");
+  return Number(year) * 10 + (SEASON_ORDER[season] ?? 0);
+}
+
+/** "Winter 2027" -> "Winter 2027 (Jan-Apr)" */
+export function termLabel(t: string): string {
+  const n = normTerm(t);
+  const m = MONTHS[n.split(" ")[0]];
+  return m ? `${n} (${m})` : n;
+}
+
+/** "New" means the scraper found it today, the same rule the alert emails use. */
+export function isNew(p: Posting): boolean {
+  return daysAgo(p.first_seen) === 0;
 }
 
 export function relativeTime(iso: string): string {

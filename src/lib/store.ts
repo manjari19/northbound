@@ -70,7 +70,10 @@ export function useStored<T>(key: string, fallback: T): [T, (next: T | ((prev: T
 }
 
 /** Everything the site saves, for the backup button. */
-export const BACKUP_KEYS = ["apps", "lc.done", "lc.review", "stories", "storyMap", "practiced", "checks", "review.draft"];
+export const BACKUP_KEYS = [
+  "apps", "lc.done", "lc.review", "lc.srs", "lc.log", "lc.goal", "stories", "storyMap", "practiced", "storyFeedback",
+  "checks", "review.draft", "resume", "fits", "jds", "mocks", "radar.user", "interviewNotes", "rewrites",
+];
 
 export function exportBackup(): string {
   const data: Record<string, unknown> = { app: "northbound", exported_at: new Date().toISOString() };

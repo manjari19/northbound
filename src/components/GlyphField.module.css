@@ -1,0 +1,36 @@
+.field { position: absolute; inset: -60px 0 auto 0; height: 640px; pointer-events: none; overflow: hidden; --mx: 0; --my: 0;
+  mask-image: linear-gradient(180deg, #000 55%, transparent); -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent); }
+
+.aurora {
+  position: absolute; left: 50%; top: 40px; width: min(1100px, 120vw); height: 320px; translate: -50% 0;
+  background:
+    radial-gradient(40% 60% at 30% 50%, rgba(110, 231, 197, 0.16), transparent 70%),
+    radial-gradient(35% 55% at 68% 40%, rgba(169, 155, 255, 0.16), transparent 70%);
+  filter: blur(30px);
+  animation: sway 14s ease-in-out infinite alternate;
+}
+@keyframes sway {
+  from { transform: skewX(-6deg) translateX(-30px); opacity: 0.8; }
+  to { transform: skewX(6deg) translateX(30px); opacity: 1; }
+}
+
+.star {
+  position: absolute; border-radius: 50%; background: #dfe7ff;
+  translate: calc(var(--mx) * var(--depth) * -30px) calc(var(--my) * var(--depth) * -30px);
+  transition: translate .8s cubic-bezier(.2,.8,.2,1);
+  animation: twinkle 4s ease-in-out infinite;
+}
+.warm { background: var(--star); }
+@keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+
+.constellation {
+  position: absolute; left: 4%; top: 70px; width: 200px; height: 120px; opacity: 0.55;
+  translate: calc(var(--mx) * -14px) calc(var(--my) * -14px); transition: translate .8s cubic-bezier(.2,.8,.2,1);
+}
+.constellation polyline { fill: none; stroke: rgba(190, 210, 255, 0.25); stroke-width: 0.8; stroke-dasharray: 3 4; }
+.constellation circle { fill: #dfe7ff; }
+.constellation .polaris { fill: var(--star); filter: drop-shadow(0 0 4px var(--star)); }
+
+@media (max-width: 1100px) { .constellation { display: none; } }
+/* On phones text runs edge to edge, so only the stars above the headline stay */
+@media (max-width: 760px) { .side { display: none; } }

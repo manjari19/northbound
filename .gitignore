@@ -1,8 +1,12 @@
 node_modules
 .next
 out
-.env*
+.env
+.env.local
 *.tsbuildinfo
 next-env.d.ts
 __pycache__
 .netlify
+public/data/postings.local.json
+scraper/.cache
+.DS_Store

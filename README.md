@@ -2,8 +2,6 @@
 
 My personal co-op hunt board: every Canadian internship and co-op posting worth a look, refreshed every two hours, with an application tracker, a résumé bullet checker and an interview prep plan next to it.
 
-Inspired by [sweintern.dev](https://sweintern.dev), rebuilt for Canadian co-op terms.
-
 ## What's in it
 
 | Page | What it does |
@@ -58,11 +56,56 @@ Edit `scraper/config.toml`. The slug is the bit in the careers URL:
 
 Alert categories, title filters and the age cutoff are in the same file.
 
+## Scraping every 5 minutes on my Mac
+
+GitHub Actions stays at every 2 hours for the public site. Running every 5 minutes there would be late half the time and would trigger 288 Netlify builds a day. So the fast loop runs on my Mac instead:
+
+- `scraper/watch.py` runs the scraper every 5 minutes and writes `public/data/postings.local.json` (git-ignored)
+- `npm run dev` shows that local file, and open tabs refresh themselves every 5 minutes
+- New software, data and product roles pop up as macOS notifications, plus Twilio/Discord if `.env` has keys
+- The big GitHub lists are fetched with ETags, so unchanged runs download almost nothing
+
+```bash
+python3 scraper/watch.py --once      # test one run
+./scraper/macos/install.sh           # run in the background, start at login
+tail -f scraper/.cache/watch.log     # see what it's doing
+./scraper/macos/install.sh uninstall # stop it
+```
+
+Twilio keys go in `.env` (copy `.env.example`), not in GitHub secrets, so I don't get every text twice.
+
+## ResumeRadar inside northbound
+
+The Résumé and Interview prep pages call the ResumeRadar API (the same Lambdas and Bedrock model the ResumeRadar site uses):
+
+- **Résumé:** upload your PDF once (it stays in this browser). Bullets are pulled out and checked automatically.
+- **Check fit** on any posting or tracked application: 0-100 score, strengths, gaps, missing keywords, a 1-3 day project idea, and a tailoring plan. Greenhouse, Lever and Ashby job descriptions are fetched automatically. Others need a paste.
+- **Interview prep:** a Today queue with spaced repetition for LeetCode, a prep room plus mock interview for everything at Interviewing or Online assessment, and story practice with scored feedback.
+
+AI bullet rewrites and tailoring use one extra Lambda that lives in the ResumeRadar repo. Deploy it once:
+
+```bash
+cd ~/Desktop/coding/resumeradar && ./scripts/deploy-coach.sh
+```
+
+## Email alerts
+
+1. Turn on 2-Step Verification for the Gmail account that will send the alerts, then create an app password at myaccount.google.com/apppasswords.
+2. Copy `.env.example` to `.env` and fill in `EMAIL_TO`, `SMTP_USER` (the sending Gmail address) and `SMTP_PASSWORD` (the app password).
+3. Test it: `python3.13 scraper/check_sources.py --email` checks every source and sends one sample email.
+
+Every run that finds new Software, Data & ML or Product roles sends one email listing all of them with Apply buttons.
+
+## Terms
+
+Canadian co-op terms: Winter = Jan-Apr (Spring means the same thing and is merged into Winter), Summer = May-Aug, Fall = Sep-Dec. Postings that only list terms before `earliest_term` in `scraper/config.toml` are dropped. Postings that don't name a term are kept.
+
 ## Local development
 
 ```bash
 npm install
-npm run scrape   # refresh public/data/postings.json (DRY_RUN=1 prints alerts instead of sending)
+npm run scrape   # one-off refresh of public/data/postings.json (DRY_RUN=1 prints alerts instead of sending)
+npm run watch    # 5-minute loop in the foreground
 npm run dev      # http://localhost:3000
 ```
 

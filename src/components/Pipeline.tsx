@@ -1,12 +1,12 @@
 import { STATUSES, type Application } from "@/lib/postings";
 
 const COLORS: Record<string, string> = {
-  saved: "var(--line)",
-  applied: "color-mix(in srgb, var(--amber) 55%, var(--surface))",
-  oa: "color-mix(in srgb, var(--amber) 80%, var(--surface))",
-  interview: "var(--amber)",
-  offer: "var(--teal)",
-  rejected: "color-mix(in srgb, var(--red) 55%, var(--surface))",
+  saved: "#4a536d",
+  applied: "color-mix(in srgb, var(--violet) 55%, #0a0d14)",
+  oa: "color-mix(in srgb, var(--violet) 78%, #0a0d14)",
+  interview: "var(--violet)",
+  offer: "var(--aurora)",
+  rejected: "color-mix(in srgb, var(--red) 60%, #0a0d14)",
 };
 
 export default function Pipeline({ apps }: { apps: Application[] }) {

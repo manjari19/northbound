@@ -1,5 +1,6 @@
 # northbound scraper config
-# Bad slugs are skipped and logged, so it's safe to add guesses and check the Action log.
+# Bad slugs are skipped and logged, so it's safe to add guesses.
+# Run `python3.13 scraper/check_sources.py` to see which entries work.
 
 [filters]
 # A posting is kept only if its title matches one of these (case-insensitive, word-ish match)
@@ -8,11 +9,18 @@ title_include = ["intern", "internship", "co-op", "coop", "co op", "student", "w
 title_exclude = ["internal", "international", "internist", "phd", "mba", "senior", "staff", "principal", "manager,"]
 # Drop postings first seen more than this many days ago (keeps the JSON small)
 max_age_days = 120
+# Postings that only list terms before this one are dropped. Spring counts as Winter (Jan-Apr).
+# Postings with no term listed are always kept.
+earliest_term = "Winter 2027"
+# Which regions to collect. Options: "Canada", "US", "Remote" (remote with no country named)
+regions = ["Canada", "US", "Remote"]
 
 [alerts]
-# Only text you about these categories. Options: Software, Data & ML, Product, Hardware, Quant, Other
+# Only alert about these categories. Options: Software, Data & ML, Product, Hardware, Quant, Other
 categories = ["Software", "Data & ML", "Product"]
-# Never send more than this many lines in one alert
+# Which regions to alert on. US adds a lot of mail, so it's off by default. Add "US" to opt in.
+regions = ["Canada", "Remote"]
+# Max lines in a text message (emails list up to 25)
 max_lines = 6
 
 # Community-maintained lists on GitHub (huge coverage, updated constantly)
@@ -20,19 +28,43 @@ max_lines = 6
 name = "Simplify Summer 2027"
 url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json"
 
+# (Simplify's Summer2026 repo serves the same listings, so one list is enough)
+
 [[github_lists]]
-name = "Simplify Summer 2026 (off-season roles)"
-url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json"
+name = "CSCareers (vanshb03)"
+url = "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/dev/.github/scripts/listings.json"
+
+# README tables. Columns are matched by header (Company, Role/Position, Location, Salary, Apply/Posting, Age/Date)
+[[markdown_lists]]
+name = "SpeedyApply US"
+url = "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md"
+
+[[markdown_lists]]
+name = "SpeedyApply International"
+url = "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/INTERN_INTL.md"
+
+[[markdown_lists]]
+name = "SpeedyApply AI/ML"
+url = "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md"
+
+[[markdown_lists]]
+name = "Canadian Tech Internships (negarprh)"
+url = "https://raw.githubusercontent.com/negarprh/Canadian-Tech-Internships-2027/main/README.md"
 
 # Direct company career boards. These catch roles before the lists do.
 [ats]
-greenhouse = ["stripe", "databricks", "cloudflare", "figma", "faire", "samsara", "clio", "dropbox", "affirm"]
-lever = ["plaid", "wealthsimple"]
-ashby = ["cohere", "ramp", "notion", "linear"]
-smartrecruiters = ["Visa", "BoschGroup"]
+greenhouse = ["stripe", "databricks", "cloudflare", "figma", "faire", "samsara", "dropbox", "affirm",
+              "pinterest", "airbnb", "okta", "coinbase", "robinhood", "lyft", "instacart", "doordashusa", "hootsuite",
+              "anthropic", "scaleai", "roblox", "discord", "reddit", "duolingo", "datadog", "mongodb", "asana",
+              "brex", "verkada", "twitch", "gitlab", "elastic"]
+lever = []
+ashby = ["cohere", "ramp", "notion", "linear", "1password", "snowflake", "wealthsimple", "openai", "plaid"]
+smartrecruiters = ["BoschGroup"]
 
-# Workday needs host + tenant + site. Copy them from the careers URL:
-# https://<host>/<site>  and the API lives at https://<host>/wday/cxs/<tenant>/<site>/jobs
+# amazon.jobs public search (Vancouver and Toronto tech hubs)
+amazon = true
+
+# Workday: copy host and site from the careers URL https://<host>/<site>. Tenant is usually the subdomain.
 [[ats.workday]]
 company = "NVIDIA"
 host = "nvidia.wd5.myworkdayjobs.com"
@@ -44,3 +76,78 @@ company = "Salesforce"
 host = "salesforce.wd12.myworkdayjobs.com"
 tenant = "salesforce"
 site = "External_Career_Site"
+
+[[ats.workday]]
+company = "Clio"
+host = "clio.wd3.myworkdayjobs.com"
+tenant = "clio"
+site = "ClioCareerSite"
+
+[[ats.workday]]
+company = "Capital One"
+host = "capitalone.wd12.myworkdayjobs.com"
+tenant = "capitalone"
+site = "Capital_One"
+
+[[ats.workday]]
+company = "Motorola Solutions"
+host = "motorolasolutions.wd5.myworkdayjobs.com"
+tenant = "motorolasolutions"
+site = "Careers"
+
+[[ats.workday]]
+company = "TD Bank"
+host = "td.wd3.myworkdayjobs.com"
+tenant = "td"
+site = "TD_Bank_Careers"
+
+[[ats.workday]]
+company = "RBC (students)"
+host = "rbc.wd3.myworkdayjobs.com"
+tenant = "rbc"
+site = "ExternalPrivatePostingStudents"
+
+[[ats.workday]]
+company = "SOTI"
+host = "soti.wd3.myworkdayjobs.com"
+tenant = "soti"
+site = "SOTI-Next-Gen"
+
+[[ats.workday]]
+company = "Netflix"
+host = "netflix.wd108.myworkdayjobs.com"
+tenant = "netflix"
+site = "netflix"
+
+[[ats.workday]]
+company = "RBC"
+host = "rbc.wd3.myworkdayjobs.com"
+tenant = "rbc"
+site = "RBCGLOBAL1"
+
+[[ats.workday]]
+company = "BMO"
+host = "bmo.wd3.myworkdayjobs.com"
+tenant = "bmo"
+site = "External"
+
+[[ats.workday]]
+company = "Adobe"
+host = "adobe.wd5.myworkdayjobs.com"
+tenant = "adobe"
+site = "external_experienced"
+
+[[ats.workday]]
+company = "Autodesk"
+host = "autodesk.wd1.myworkdayjobs.com"
+tenant = "autodesk"
+site = "Ext"
+
+[[ats.workday]]
+company = "Intel"
+host = "intel.wd1.myworkdayjobs.com"
+tenant = "intel"
+site = "External"
+
+# Eightfold career sites share one API: host is the careers site, domain is the company's email domain.
+# (Microsoft blocks outside requests to theirs, so Microsoft roles come in through the community lists.)

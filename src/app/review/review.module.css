@@ -1,32 +1,47 @@
-.layout { display: grid; gap: 32px; }
-@media (min-width: 960px) { .layout { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 40px; } }
+.stack { display: grid; gap: 18px; max-width: 900px; }
+.err { margin: 0; color: var(--red); font-size: 14px; }
 
-.input { display: grid; gap: 12px; align-content: start; min-width: 0; }
-.inputActions { display: flex; gap: 8px; }
-
-.formula { margin-top: 12px; padding-top: 18px; border-top: 1px solid var(--line); }
-.formula p { margin: 8px 0 0; color: var(--muted); }
-.formula .example {
-  color: var(--text);
-  border-left: 3px solid var(--amber);
-  padding: 4px 0 4px 12px;
+.scoreBar {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px 18px; align-items: center;
+  padding: 18px; border: 1px solid var(--line); border-radius: var(--r-md); background: rgba(255,255,255,.025);
 }
+.scoreText h2 { font-size: 22px; }
+.scoreText p { margin: 4px 0 0; }
+.scoreActions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+.scoreActions input { flex: 1 1 220px; width: auto; }
 
-.output { min-width: 0; }
-.summary { display: grid; gap: 12px; margin-bottom: 18px; }
-.summary h2 { font-size: 22px; }
-.aiRow { display: flex; gap: 8px; flex-wrap: wrap; }
-.aiRow input { flex: 1 1 240px; width: auto; }
-.aiError { margin: 0; color: var(--red); font-size: 14px; }
-
-.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.result { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 16px; }
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.result { background: rgba(255,255,255,.02); border: 1px solid var(--line); border-radius: var(--r-md); padding: 16px 18px; animation: rise .35s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } }
 .resultHead { display: flex; gap: 14px; justify-content: space-between; align-items: flex-start; }
 .bullet { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
 .checks { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
 .checks li { display: grid; gap: 1px; font-size: 14.5px; padding-left: 12px; border-left: 2px solid var(--line); }
 .label { font-size: 13px; color: var(--muted); font-weight: 500; }
-.pass { margin: 10px 0 0; color: var(--teal); font-size: 14px; }
-
-.rewrite { margin-top: 14px; padding: 12px; border-radius: var(--r-sm); background: var(--teal-soft); display: grid; gap: 4px; justify-items: start; }
+.pass { margin: 10px 0 0; color: var(--aurora); font-size: 14px; }
+.rewriteBtn { margin-top: 10px; color: var(--violet); padding-left: 0; }
+.rewrite { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: var(--aurora-soft); border: 1px solid rgba(110,231,197,.3); display: grid; gap: 4px; justify-items: start; }
 .rewrite p { margin: 0; }
+
+.settings { border: 1px solid var(--line); border-radius: var(--r-md); padding: 12px 16px; }
+.settings summary { cursor: pointer; color: var(--muted); font-size: 14px; }
+.settings p { margin: 10px 0; }
+
+.newCheck {
+  display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr) auto; gap: 10px; align-items: center;
+  padding: 16px; border: 1px solid var(--line); border-radius: var(--r-md); background: rgba(255,255,255,.025);
+}
+.newCheckText { display: grid; }
+@media (max-width: 760px) { .newCheck { grid-template-columns: 1fr; } }
+
+.fitList { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.fitRow {
+  width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 14px; align-items: center; text-align: left;
+  padding: 12px 16px; border: 1px solid var(--line); border-radius: var(--r-md); background: rgba(255,255,255,.02); cursor: pointer;
+  transition: background .15s, border-color .15s, transform .15s;
+}
+.fitRow:hover { background: rgba(255,255,255,.04); border-color: var(--line-2); transform: translateX(2px); }
+.fitText { display: grid; min-width: 0; }
+.fitText span { color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.fitMeta { color: var(--faint); font-size: 13px; white-space: nowrap; }
+@media (max-width: 560px) { .fitRow { grid-template-columns: auto minmax(0, 1fr) auto; } .fitMeta { display: none; } }
