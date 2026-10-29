@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-10-29T18:42:41+00:00",
- "count": 4536,
+ "updated_at": "2026-10-29T20:36:21+00:00",
+ "count": 4547,
  "sources": {
-  "list:Canadian Tech Internships (negarprh)": {
+  "list:SpeedyApply US": {
    "ok": true,
-   "fetched": 273
-  },
-  "list:SpeedyApply International": {
-   "ok": true,
-   "fetched": 105
+   "fetched": 815
   },
   "list:SpeedyApply AI/ML": {
    "ok": true,
    "fetched": 628
   },
-  "list:SpeedyApply US": {
+  "list:Canadian Tech Internships (negarprh)": {
    "ok": true,
-   "fetched": 815
+   "fetched": 287
+  },
+  "list:SpeedyApply International": {
+   "ok": true,
+   "fetched": 105
+  },
+  "list:CSCareers (vanshb03)": {
+   "ok": true,
+   "fetched": 1587
   },
   "greenhouse:figma": {
    "ok": true,
    "fetched": 143
   },
-  "greenhouse:stripe": {
-   "ok": true,
-   "fetched": 730
-  },
-  "list:CSCareers (vanshb03)": {
-   "ok": true,
-   "fetched": 1588
-  },
   "greenhouse:faire": {
    "ok": true,
-   "fetched": 68
+   "fetched": 67
   },
-  "greenhouse:databricks": {
+  "greenhouse:cloudflare": {
    "ok": true,
-   "fetched": 906
+   "fetched": 462
+  },
+  "greenhouse:stripe": {
+   "ok": true,
+   "fetched": 731
   },
   "greenhouse:dropbox": {
    "ok": true,
@@ -44,79 +44,87 @@
   },
   "greenhouse:samsara": {
    "ok": true,
-   "fetched": 317
+   "fetched": 319
+  },
+  "greenhouse:affirm": {
+   "ok": true,
+   "fetched": 237
+  },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4440
   },
   "greenhouse:pinterest": {
    "ok": true,
    "fetched": 165
   },
-  "greenhouse:affirm": {
-   "ok": true,
-   "fetched": 238
-  },
   "greenhouse:airbnb": {
    "ok": true,
-   "fetched": 190
+   "fetched": 193
   },
-  "greenhouse:coinbase": {
+  "greenhouse:databricks": {
    "ok": true,
-   "fetched": 232
-  },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 385
+   "fetched": 908
   },
   "greenhouse:lyft": {
    "ok": true,
-   "fetched": 177
+   "fetched": 179
+  },
+  "greenhouse:okta": {
+   "ok": true,
+   "fetched": 386
+  },
+  "greenhouse:coinbase": {
+   "ok": true,
+   "fetched": 233
   },
   "greenhouse:robinhood": {
    "ok": true,
-   "fetched": 165
-  },
-  "greenhouse:instacart": {
-   "ok": true,
-   "fetched": 93
-  },
-  "greenhouse:discord": {
-   "ok": true,
-   "fetched": 44
+   "fetched": 166
   },
   "greenhouse:hootsuite": {
    "ok": true,
    "fetched": 4
   },
+  "greenhouse:instacart": {
+   "ok": true,
+   "fetched": 93
+  },
+  "greenhouse:anthropic": {
+   "ok": true,
+   "fetched": 673
+  },
   "greenhouse:scaleai": {
    "ok": true,
    "fetched": 169
   },
-  "list:Simplify Summer 2027": {
+  "greenhouse:discord": {
    "ok": true,
-   "fetched": 4446
+   "fetched": 44
   },
-  "greenhouse:reddit": {
+  "greenhouse:roblox": {
    "ok": true,
-   "fetched": 165
+   "fetched": 268
   },
-  "greenhouse:anthropic": {
+  "greenhouse:doordashusa": {
    "ok": true,
-   "fetched": 672
+   "fetched": 441
   },
   "greenhouse:duolingo": {
    "ok": true,
    "fetched": 58
   },
-  "greenhouse:doordashusa": {
+  "greenhouse:reddit": {
    "ok": true,
-   "fetched": 438
+   "fetched": 163
   },
   "greenhouse:datadog": {
    "ok": true,
-   "fetched": 397
+   "fetched": 396
   },
-  "greenhouse:verkada": {
+  "greenhouse:mongodb": {
    "ok": true,
-   "fetched": 337
+   "fetched": 369
   },
   "greenhouse:asana": {
    "ok": true,
@@ -126,77 +134,69 @@
    "ok": true,
    "fetched": 60
   },
+  "greenhouse:verkada": {
+   "ok": true,
+   "fetched": 337
+  },
   "greenhouse:brex": {
    "ok": true,
-   "fetched": 262
-  },
-  "greenhouse:gitlab": {
-   "ok": true,
-   "fetched": 231
-  },
-  "greenhouse:mongodb": {
-   "ok": true,
-   "fetched": 369
-  },
-  "ashby:linear": {
-   "ok": true,
-   "fetched": 32
-  },
-  "ashby:cohere": {
-   "ok": true,
-   "fetched": 121
+   "fetched": 267
   },
   "greenhouse:elastic": {
    "ok": true,
    "fetched": 403
   },
-  "ashby:notion": {
+  "greenhouse:gitlab": {
    "ok": true,
-   "fetched": 144
+   "fetched": 234
   },
-  "ashby:ramp": {
+  "ashby:linear": {
    "ok": true,
-   "fetched": 168
+   "fetched": 32
   },
   "ashby:1password": {
    "ok": true,
-   "fetched": 92
+   "fetched": 90
   },
   "ashby:wealthsimple": {
    "ok": true,
    "fetched": 39
   },
-  "ashby:plaid": {
-   "ok": true,
-   "fetched": 128
-  },
   "ashby:snowflake": {
    "ok": true,
-   "fetched": 361
+   "fetched": 360
+  },
+  "ashby:cohere": {
+   "ok": true,
+   "fetched": 121
+  },
+  "ashby:ramp": {
+   "ok": true,
+   "fetched": 168
+  },
+  "ashby:notion": {
+   "ok": true,
+   "fetched": 144
+  },
+  "ashby:plaid": {
+   "ok": true,
+   "fetched": 129
   },
   "ashby:openai": {
    "ok": true,
-   "fetched": 813
-  },
-  "greenhouse:roblox": {
-   "ok": true,
-   "fetched": 266
+   "fetched": 812
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
    "fetched": 100
   },
-  "greenhouse:cloudflare": {
-   "ok": true,
-   "fetched": 461
-  },
-  "workday:SOTI": {
-   "ok": true,
-   "fetched": 29
-  },
   "workday:RBC (students)": {
    "ok": true,
    "fetched": 30
+  },
+  "workday:SOTI": {
+   "ok": true,
+   "fetched": 33
   },
   "workday:Capital One": {
    "ok": true,
@@ -210,10 +210,6 @@
    "ok": true,
    "fetched": 152
   },
-  "workday:Autodesk": {
-   "ok": true,
-   "fetched": 29
-  },
   "workday:Salesforce": {
    "ok": true,
    "fetched": 200
@@ -222,15 +218,15 @@
    "ok": true,
    "fetched": 200
   },
-  "amazon": {
+  "workday:Autodesk": {
    "ok": true,
-   "fetched": 111
+   "fetched": 29
   },
-  "workday:Adobe": {
+  "workday:NVIDIA": {
    "ok": true,
    "fetched": 200
   },
-  "workday:NVIDIA": {
+  "workday:Adobe": {
    "ok": true,
    "fetched": 200
   },
@@ -238,11 +234,15 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:BMO": {
+  "workday:Intel": {
    "ok": true,
    "fetched": 200
   },
-  "workday:Intel": {
+  "amazon": {
+   "ok": true,
+   "fetched": 113
+  },
+  "workday:BMO": {
    "ok": true,
    "fetched": 200
   },
@@ -511,6 +511,78 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "2213df49cd95",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://go.vansh.nyc/Zo",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "af887ca4a34d",
+   "company": "National Interstate Insurance",
+   "title": "DevOps Developer Intern",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://go.vansh.nyc/Zr",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "4dac5a873b42",
+   "company": "Hewlett Packard Enterprise",
+   "title": "ASIC Verification Engineering Intern",
+   "locations": [
+    "Roseville, CA"
+   ],
+   "url": "https://go.vansh.nyc/Zt",
+   "source": "CSCareers (vanshb03)",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "dbd0153fca5f",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern, Perception for Driving at the Limits",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://go.vansh.nyc/Zu",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "ff0b07eeb4a5",
    "company": "Sophinea",
    "title": "Mobile App Developer Intern",
@@ -637,6 +709,82 @@
    "pay": null,
    "regions": [
     "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "ebb38f3d4dc6",
+   "company": "SOTI",
+   "title": "QA Intern (May 2027, 12 months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/QA-Intern--May-2027--12-months-_R10610",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "98863d4bea08",
+   "company": "SOTI",
+   "title": "Software Developer Intern - SOTI XSight (May 2027 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--May-2027-12-Months-_R10611",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "5c3ec3bed90a",
+   "company": "Amazon",
+   "title": "UX Researcher Intern – Summer 2027",
+   "locations": [
+    "Seattle, Washington, USA"
+   ],
+   "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
+   "source": "Amazon",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "74ee68d150e4",
+   "company": "Amazon",
+   "title": "UX Designer Intern – Summer 2027",
+   "locations": [
+    "Seattle, Washington, USA"
+   ],
+   "url": "https://www.amazon.jobs/en/jobs/10592766/ux-designer-intern-summer-2027",
+   "source": "Amazon",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
    ],
    "first_seen": "2026-10-29"
   },
@@ -1753,6 +1901,24 @@
    "url": "https://go.vansh.nyc/Zl",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2ba789087d2a",
+   "company": "GM Financial",
+   "title": "Data Engineer Intern",
+   "locations": [
+    "Arlington, TX"
+   ],
+   "url": "https://go.vansh.nyc/Zs",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
    "terms": [],
    "posted": "2026-10-28",
    "pay": null,
@@ -6540,26 +6706,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "a6b4060da2e5",
-   "company": "Fidelity Investments",
-   "title": "Data Strategy Intern",
-   "locations": [
-    "Boston, MA"
-   ],
-   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Intern--Data-Strategy_2135102",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-26",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "1a36847457be",
    "company": "Northrop Grumman",
    "title": "Software Engineer Intern",
@@ -8635,6 +8781,106 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "380d01ab2d40",
+   "company": "Royal Bank of Canada",
+   "title": "Developer Intern, RBC Amplify (Summer 2027)",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Developer--RBC-Amplify-2027--Toronto_R-0000187114",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-26",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "a93fcddfc03c",
+   "company": "Royal Bank of Canada",
+   "title": "Developer Intern, RBC Amplify (Summer 2027)",
+   "locations": [
+    "Vancouver, BC"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/VANCOUVER-British-Columbia-Canada/Developer--RBC-Amplify-2027--Vancouver_R-0000191199",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-26",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "6c698c135f94",
+   "company": "Royal Bank of Canada",
+   "title": "Developer Intern, RBC Amplify (Summer 2027)",
+   "locations": [
+    "Calgary, AB"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/CALGARY-Alberta-Canada/Developer--RBC-Amplify-2027--Calgary_R-0000191202",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-26",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "14dbb290b78c",
+   "company": "Royal Bank of Canada",
+   "title": "Data Engineer Intern, RBC Amplify (Summer 2027)",
+   "locations": [
+    "Calgary, AB"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/CALGARY-Alberta-Canada/Data-Engineer--RBC-Amplify-2027--Calgary_R-0000191201-2",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-26",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e6d4e79e194d",
+   "company": "Royal Bank of Canada",
+   "title": "Data Engineer Intern, RBC Amplify (Summer 2027)",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/Data-Engineer--RBC-Amplify-2027--Toronto_R-0000191192",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-26",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "1713c0a5f1ef",
    "company": "Cohere",
    "title": "Revenue Operations Intern (Winter, 2027)",
@@ -9644,7 +9890,9 @@
    "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Business-Analyst-co-op_2622052",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
-   "terms": [],
+   "terms": [
+    "Winter 2027"
+   ],
    "posted": "2026-10-25",
    "pay": null,
    "regions": [
@@ -9662,7 +9910,9 @@
    "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/AI-Scientist-Co-op_2622058",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
-   "terms": [],
+   "terms": [
+    "Winter 2027"
+   ],
    "posted": "2026-10-25",
    "pay": null,
    "regions": [
@@ -14508,6 +14758,24 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "46794dccdde4",
+   "company": "Allen Control Systems",
+   "title": "Android Developer Intern",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://go.vansh.nyc/fK",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-22",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "32e67b1b558b",
    "company": "CVS Health",
    "title": "Software Engineering Intern, Data & Intelligence",
@@ -16456,24 +16724,6 @@
     "United States"
    ],
    "url": "https://go.vansh.nyc/ff",
-   "source": "CSCareers (vanshb03)",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-10-21",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "46794dccdde4",
-   "company": "CVS Health",
-   "title": "Data Engineering Intern, Innovation & Technology",
-   "locations": [
-    "New York, NY"
-   ],
-   "url": "https://go.vansh.nyc/fk",
    "source": "CSCareers (vanshb03)",
    "category": "Data & ML",
    "terms": [],
@@ -24759,24 +25009,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "650c05448e25",
-   "company": "First Solar (US)",
-   "title": "Data Engineering Intern",
-   "locations": [
-    "Perrysburg, OH"
-   ],
-   "url": "https://go.vansh.nyc/K3",
-   "source": "CSCareers (vanshb03)",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-09-25",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "314bb4807978",
    "company": "First Solar (US)",
    "title": "Data Analytics Intern",
@@ -28961,6 +29193,26 @@
     "Fort Walton Beach, FL"
    ],
    "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Data-Scientist-Intern---Ft-Walton-Beach--FL_R0248409",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-31",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "4e6a4d5d3d0a",
+   "company": "Johnson & Johnson",
+   "title": "Data Science Co-op - Summer 2027",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Data-Science-Co-Op--Summer-2027_R-096746",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
    "terms": [
@@ -65828,26 +66080,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "6da076beb6e3",
-   "company": "Tesla",
-   "title": "Vehicle Accessories & Merchandise Product Intern - Global Merchandise",
-   "locations": [
-    "Hawthorne, CA"
-   ],
-   "url": "https://www.tesla.com/careers/search/job/283137",
-   "source": "Simplify Summer 2027",
-   "category": "Product",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-09-11",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "c21a123b28ac",
    "company": "Tesla",
    "title": "Software Engineer Intern - Data Platforms",
@@ -76799,9 +77031,9 @@
    "company": "Stripe",
    "title": "Data Analyst, Intern",
    "locations": [
-    "Toronto"
+    "New York, Seattle, South San Francisco HQ"
    ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8194287",
+   "url": "https://stripe.com/jobs/search?gh_jid=8194291",
    "source": "Greenhouse",
    "category": "Data & ML",
    "terms": [
@@ -76812,7 +77044,7 @@
    "posted": "2026-08-31",
    "pay": "$60/hr",
    "regions": [
-    "Canada"
+    "US"
    ],
    "first_seen": "2026-10-21"
   },
@@ -80054,27 +80286,6 @@
    "source": "Simplify Summer 2027",
    "category": "Quant",
    "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-25",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "debeefda15f0",
-   "company": "Johnson & Johnson",
-   "title": "Data Science Co-op - Spring 2027",
-   "locations": [
-    "Cincinnati, OH"
-   ],
-   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Data-Science-Co-Op--Spring-2027_R-095743",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Winter 2027",
     "Summer 2027"
    ],
    "posted": "2026-08-25",
