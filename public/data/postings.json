@@ -1,26 +1,34 @@
 {
- "updated_at": "2026-10-29T22:56:41+00:00",
- "count": 4584,
+ "updated_at": "2026-10-30T02:31:47+00:00",
+ "count": 4625,
  "sources": {
-  "list:SpeedyApply US": {
-   "ok": true,
-   "fetched": 815
-  },
   "list:Canadian Tech Internships (negarprh)": {
    "ok": true,
    "fetched": 293
   },
-  "list:SpeedyApply International": {
+  "list:SpeedyApply US": {
    "ok": true,
-   "fetched": 105
+   "fetched": 815
   },
   "list:SpeedyApply AI/ML": {
    "ok": true,
    "fetched": 628
   },
+  "list:CSCareers (vanshb03)": {
+   "ok": true,
+   "fetched": 1622
+  },
   "greenhouse:stripe": {
    "ok": true,
-   "fetched": 735
+   "fetched": 736
+  },
+  "list:SpeedyApply International": {
+   "ok": true,
+   "fetched": 105
+  },
+  "greenhouse:databricks": {
+   "ok": true,
+   "fetched": 902
   },
   "greenhouse:faire": {
    "ok": true,
@@ -28,99 +36,87 @@
   },
   "greenhouse:figma": {
    "ok": true,
-   "fetched": 142
-  },
-  "greenhouse:cloudflare": {
-   "ok": true,
-   "fetched": 463
-  },
-  "greenhouse:databricks": {
-   "ok": true,
-   "fetched": 905
+   "fetched": 141
   },
   "greenhouse:dropbox": {
    "ok": true,
    "fetched": 23
   },
-  "greenhouse:samsara": {
+  "greenhouse:cloudflare": {
    "ok": true,
-   "fetched": 319
-  },
-  "greenhouse:pinterest": {
-   "ok": true,
-   "fetched": 165
+   "fetched": 464
   },
   "greenhouse:affirm": {
    "ok": true,
    "fetched": 237
   },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4499
+  },
+  "greenhouse:samsara": {
+   "ok": true,
+   "fetched": 319
+  },
   "greenhouse:airbnb": {
    "ok": true,
    "fetched": 197
+  },
+  "greenhouse:pinterest": {
+   "ok": true,
+   "fetched": 165
+  },
+  "greenhouse:okta": {
+   "ok": true,
+   "fetched": 385
   },
   "greenhouse:robinhood": {
    "ok": true,
    "fetched": 167
   },
-  "list:Simplify Summer 2027": {
+  "greenhouse:lyft": {
    "ok": true,
-   "fetched": 4477
-  },
-  "greenhouse:coinbase": {
-   "ok": true,
-   "fetched": 234
+   "fetched": 179
   },
   "greenhouse:instacart": {
    "ok": true,
    "fetched": 93
   },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 388
-  },
   "greenhouse:hootsuite": {
    "ok": true,
    "fetched": 4
   },
-  "greenhouse:lyft": {
+  "greenhouse:coinbase": {
    "ok": true,
-   "fetched": 179
+   "fetched": 234
   },
-  "list:CSCareers (vanshb03)": {
+  "greenhouse:doordashusa": {
    "ok": true,
-   "fetched": 1600
+   "fetched": 441
   },
-  "greenhouse:scaleai": {
+  "greenhouse:discord": {
    "ok": true,
-   "fetched": 170
-  },
-  "greenhouse:roblox": {
-   "ok": true,
-   "fetched": 269
+   "fetched": 43
   },
   "greenhouse:anthropic": {
    "ok": true,
    "fetched": 672
   },
-  "greenhouse:discord": {
-   "ok": true,
-   "fetched": 44
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 58
-  },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 442
-  },
   "greenhouse:reddit": {
    "ok": true,
    "fetched": 163
   },
-  "greenhouse:asana": {
+  "greenhouse:roblox": {
    "ok": true,
-   "fetched": 111
+   "fetched": 268
+  },
+  "greenhouse:scaleai": {
+   "ok": true,
+   "fetched": 169
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 58
   },
   "greenhouse:datadog": {
    "ok": true,
@@ -130,29 +126,41 @@
    "ok": true,
    "fetched": 369
   },
+  "greenhouse:twitch": {
+   "ok": true,
+   "fetched": 60
+  },
+  "greenhouse:asana": {
+   "ok": true,
+   "fetched": 111
+  },
   "greenhouse:brex": {
    "ok": true,
    "fetched": 264
+  },
+  "greenhouse:verkada": {
+   "ok": true,
+   "fetched": 335
   },
   "greenhouse:gitlab": {
    "ok": true,
    "fetched": 236
   },
-  "greenhouse:verkada": {
-   "ok": true,
-   "fetched": 334
-  },
   "greenhouse:elastic": {
    "ok": true,
-   "fetched": 403
+   "fetched": 402
+  },
+  "ashby:linear": {
+   "ok": true,
+   "fetched": 32
   },
   "ashby:cohere": {
    "ok": true,
    "fetched": 122
   },
-  "ashby:linear": {
+  "ashby:wealthsimple": {
    "ok": true,
-   "fetched": 32
+   "fetched": 40
   },
   "ashby:ramp": {
    "ok": true,
@@ -162,10 +170,6 @@
    "ok": true,
    "fetched": 145
   },
-  "greenhouse:twitch": {
-   "ok": true,
-   "fetched": 60
-  },
   "ashby:1password": {
    "ok": true,
    "fetched": 90
@@ -174,17 +178,13 @@
    "ok": true,
    "fetched": 361
   },
-  "ashby:wealthsimple": {
-   "ok": true,
-   "fetched": 40
-  },
   "ashby:plaid": {
    "ok": true,
    "fetched": 129
   },
   "ashby:openai": {
    "ok": true,
-   "fetched": 813
+   "fetched": 814
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -220,7 +220,7 @@
   },
   "workday:Autodesk": {
    "ok": true,
-   "fetched": 23
+   "fetched": 10
   },
   "workday:NVIDIA": {
    "ok": true,
@@ -234,11 +234,11 @@
    "ok": true,
    "fetched": 114
   },
-  "workday:TD Bank": {
+  "workday:BMO": {
    "ok": true,
    "fetched": 200
   },
-  "workday:BMO": {
+  "workday:TD Bank": {
    "ok": true,
    "fetched": 200
   },
@@ -582,6 +582,339 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "dade13bce0b2",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern - Perception for Driving at the Limits",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "cf019ec90f3c",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern - Learning-Based Control for Safe Autonomous Driving",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "743e96f15d24",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern - World Models",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "640da1f080ea",
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Intern - Platform Research Systems Integration",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "url": "https://jobs.lever.co/tri/0e7063a7-7761-4843-bc28-bf7870fa44b3/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "bd5512f8b541",
+   "company": "V2X",
+   "title": "Electrical Engineer Intern",
+   "locations": [
+    "Indianapolis, IN"
+   ],
+   "url": "https://careers.gov2x.com/jobs/63854?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "bb39f728c566",
+   "company": "Samsung",
+   "title": "Systems Software Engineer Intern",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "7163b4b153da",
+   "company": "Hasbro",
+   "title": "Electrical Engineering Co-op",
+   "locations": [
+    "Boston, MA"
+   ],
+   "url": "https://job-boards.greenhouse.io/hasbro/jobs/4472128009",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "0c7ae578c4f7",
+   "company": "Overland AI",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "url": "https://ats.rippling.com/overland-ai/jobs/37dd9f44-cdb1-4e2e-98c5-800b9b8cb40e",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "429616ce28ab",
+   "company": "Lunar Energy",
+   "title": "Hardware Test Engineer Intern",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "url": "https://job-boards.greenhouse.io/lunarenergy/jobs/6237015004",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "34d036afb48e",
+   "company": "Northrop Grumman",
+   "title": "Systems Engineer Intern",
+   "locations": [
+    "Woodland Hills, LA"
+   ],
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Systems-Engineer-Intern---Woodland-Hills-CA_R10249319-1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "008480ce5ab9",
+   "company": "Geotab",
+   "title": "Data Governance & Operations Data Analyst Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Burnaby, BC, Canada",
+    "Oakville, ON, Canada"
+   ],
+   "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5444306008",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "0854b82fb02a",
+   "company": "Synopsys",
+   "title": "Technical Engineer Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://synopsys.avature.net/careers/JobDetail/19523",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "639946a0dd6c",
+   "company": "Cloudflare",
+   "title": "Product Manager Intern",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8274790",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "40315242a09a",
+   "company": "Waterworth",
+   "title": "Computer Science Co-op",
+   "locations": [
+    "Victoria, BC, Canada"
+   ],
+   "url": "https://apply.workable.com/waterworth/j/D450C48C96/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "6626e37b3d71",
+   "company": "Waggoner Financial",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Lansing, MI"
+   ],
+   "url": "https://apply.workable.com/waggoner-financial/j/FA0B644142/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "a0be9b0decbf",
+   "company": "Qualcomm",
+   "title": "Soft IP Engineer Co-op Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721862542",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "f5b8234ae2fb",
+   "company": "Axon",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Seattle, WA",
+    "Arlington County, Arlington, VA"
+   ],
+   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "70b4f8212d7d",
    "company": "JM Family Enterprises",
    "title": "Software Engineer Intern",
@@ -781,24 +1114,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "1e3f0404b74b",
-   "company": "PTC",
-   "title": "Arena Engineering Intern",
-   "locations": [
-    "San Mateo, CA"
-   ],
-   "url": "https://go.vansh.nyc/Zw",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-29",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "23fa481ad527",
    "company": "Qualcomm",
    "title": "Deep Learning Research Intern, Embodied AI Systems",
@@ -851,6 +1166,24 @@
    "pay": null,
    "regions": [
     "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "881b30d4c2b7",
+   "company": "Bosch Group",
+   "title": "IT Systems Engineering Intern (19 hours per week)",
+   "locations": [
+    "Roseville, CA, US"
+   ],
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158620079",
+   "source": "SmartRecruiters",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
    ],
    "first_seen": "2026-10-29"
   },
@@ -990,6 +1323,24 @@
     "WHISTLER, British Columbia, Canada"
    ],
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/WHISTLER-British-Columbia-Canada/Banking-Advisor-Intern_R-0000191626",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "8c87deae4c8e",
+   "company": "RBC",
+   "title": "Client Advisor Intern",
+   "locations": [
+    "WHISTLER, British Columbia, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/WHISTLER-British-Columbia-Canada/Client-Advisor-Intern_R-0000191628-1",
    "source": "Workday",
    "category": "Other",
    "terms": [],
@@ -2150,6 +2501,626 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "06f838d5d253",
+   "company": "Garda Capital Partners",
+   "title": "Software Engineer Intern - C#",
+   "locations": [
+    "Wayzata, MN"
+   ],
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/6238021004",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "d016f7bd95e5",
+   "company": "Austin Community College District",
+   "title": "GIS Intern",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://austincc.wd1.myworkdayjobs.com/external/job/Highland-Campus/GIS-Intern-at-ACC-Inc--Hourly-_R-10104",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "b4032e6e7835",
+   "company": "Faith Technologies",
+   "title": "GIS Intern",
+   "locations": [
+    "Menasha, WI"
+   ],
+   "url": "https://faithtechnologies.wd1.myworkdayjobs.com/fti/job/WI---Menasha/GIS-Internship_R12730-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e5aa0e685beb",
+   "company": "GlobalFoundries",
+   "title": "Digital Design Backend Engineering Intern - 3D and AI Flows",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "817cbd6ee74a",
+   "company": "Blackberry",
+   "title": "Application Engineering Student Intern",
+   "locations": [
+    "Ottawa, ON, Canada"
+   ],
+   "url": "https://bb.wd3.myworkdayjobs.com/Student/job/Ottawa-Ontario/Application-Engineering-Student_20260335",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "57cd92ea2876",
+   "company": "NVIDIA",
+   "title": "Compiler Software Engineer Intern",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "37caa9c89ab4",
+   "company": "Highmark Health",
+   "title": "Clinical and Population Health Graduate Intern",
+   "locations": [
+    "New Mexico",
+    "Washington",
+    "Kansas",
+    "Pennsylvania",
+    "North Dakota",
+    "Oregon",
+    "Delaware",
+    "Iowa",
+    "California",
+    "Washington, DC",
+    "Vermont",
+    "Wyoming",
+    "Connecticut",
+    "Texas",
+    "Montana",
+    "Florida",
+    "New Hampshire",
+    "Nevada",
+    "South Carolina",
+    "South Dakota",
+    "Georgia",
+    "Arizona",
+    "Mississippi",
+    "Tennessee",
+    "Virginia",
+    "Arkansas",
+    "Minnesota",
+    "Colorado",
+    "Nebraska",
+    "Rhode Island",
+    "Utah",
+    "Kentucky",
+    "West Virginia",
+    "NYC",
+    "Maryland",
+    "Hawaii",
+    "Wisconsin",
+    "Maine",
+    "Massachusetts",
+    "North Carolina",
+    "Oklahoma",
+    "Ohio",
+    "New Jersey",
+    "Indiana",
+    "Louisiana",
+    "Alaska",
+    "Michigan",
+    "Illinois",
+    "Alabama",
+    "Idaho"
+   ],
+   "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Clinical-and-Population-Health-Graduate-Intern_J288011",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "6f2d5e675346",
+   "company": "NVIDIA",
+   "title": "AI Systems Software Engineer Intern",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "c36688e8ff6e",
+   "company": "NVIDIA",
+   "title": "VLSI CAD Timing Intern - Applied AI",
+   "locations": [
+    "Santa Clara, CA",
+    "United States"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "7cab526ad10a",
+   "company": "Great American Insurance Company",
+   "title": "DevOps Developer Intern",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "62835872731c",
+   "company": "Great American Insurance Company",
+   "title": "IT Data Intern",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Data-Intern---Summer-2027_R9820",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "72e30e729405",
+   "company": "Great American Insurance Company",
+   "title": "Extreme Programming Engineer Intern",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2f9c10d83d3d",
+   "company": "Philips",
+   "title": "Data Engineer Co-op - Biocompatibility",
+   "locations": [
+    "Murrysville, PA"
+   ],
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Co-op---Data-Engineer--Biocompatibility----Murrysville--PA---January-to-June-2027_591730",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "0b0bd81f2ec3",
+   "company": "Axiom Space",
+   "title": "Enterprise Data Analyst Intern - Power BI & Data Quality",
+   "locations": [
+    "Houston, TX"
+   ],
+   "url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Enterprise-Data-Analyst-Intern--Power-BI---Data-Quality--Summer-2027-_JR100823",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "16a527169cfb",
+   "company": "Great American Insurance Company",
+   "title": "Content Publishing Developer Intern",
+   "locations": [
+    "Cincinnati, OH"
+   ],
+   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "f93ddb45fb3e",
+   "company": "Sanofi",
+   "title": "US Advanced Analytics Intern",
+   "locations": [
+    "Cambridge, MA",
+    "Morristown, NJ"
+   ],
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cambridge-MA/XMLNAME-2027-Summer-Intern-US-Advanced-Analytics-Cambridge-MA_R2865218",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "a37958ac6fd3",
+   "company": "CareSource",
+   "title": "AI Intern",
+   "locations": [
+    "Remote in USA"
+   ],
+   "url": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---AI-Intern_R14123",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2f1b65f7e0ee",
+   "company": "CareSource",
+   "title": "Military and Veterans Intern",
+   "locations": [
+    "Florida",
+    "Georgia"
+   ],
+   "url": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Florida-WFH/XMLNAME-2027-Summer-Internship-Program---CareSource-Military-and-Veterans-Intern_R14186-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "075fdbccad87",
+   "company": "CareSource",
+   "title": "Full Stack AI Development Intern",
+   "locations": [
+    "Remote in USA"
+   ],
+   "url": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Full-Stack-AI-Development-Intern-1_R14181",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "22512559ea44",
+   "company": "PTC",
+   "title": "Arena Engineering Intern",
+   "locations": [
+    "San Mateo, CA"
+   ],
+   "url": "https://ptc.wd1.myworkdayjobs.com/ptc/job/USA-San-Mateo-CA/Arena-Engineering-Intern_JR112955",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "add0d2cbb908",
+   "company": "Signify",
+   "title": "Product Management Intern",
+   "locations": [
+    "Peachtree City, GA"
+   ],
+   "url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Peachtree-City/Product-Management-Intern--Cooper-Lighting-Solutions---Spring-2027_366870",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "49819dd40030",
+   "company": "Leidos",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Annapolis Junction, MD"
+   ],
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "76dadacdc537",
+   "company": "Walmart",
+   "title": "Corporate Market Strategy Data Science Intern",
+   "locations": [
+    "Bentonville, AR"
+   ],
+   "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Always-AR-Bentonville-Home-Office/R-2690844--USA--Corporate-Intern---Market-Strategy-Data-Science-Intern_R-2690844",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "fd4dff84a9ca",
+   "company": "Walmart",
+   "title": "Corporate Intern: Data & Tech Transformation Intern",
+   "locations": [
+    "Bentonville, AR"
+   ],
+   "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Always-AR-Bentonville-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Data---Tech-Transformation-intern_R-2690457-1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "88bc421653a4",
+   "company": "Genius AI",
+   "title": "Engineering Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://jobs.ashbyhq.com/geniusai/06198681-5c9d-40fa-aa68-ac92b65227c4/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "0d4ead4b940f",
+   "company": "TMX Group",
+   "title": "Analyst – Market Insights Intern",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/Student-Intern---Analyst--Market-Insights--WinterTerm-_R-6586",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "cc585cb4dddb",
+   "company": "Genius AI",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://jobs.ashbyhq.com/geniusai/96ebddc5-6ed4-4e68-813b-55d44c315b27/application?embed=true",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "7f382bb8d41a",
+   "company": "Dee Zee",
+   "title": "Software Development Intern",
+   "locations": [
+    "Des Moines, IA"
+   ],
+   "url": "https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00471",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "95893fe12d3f",
+   "company": "ASML",
+   "title": "Optical Engineer Co-op Intern",
+   "locations": [
+    "Wilton, CT"
+   ],
+   "url": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Co-Op---Optical-Engineer--Internship-_J-00355324",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "13c9b9f9345d",
    "company": "Daimler Truck",
    "title": "Software Release Management Intern",
@@ -2485,6 +3456,190 @@
     "Sleepy Hollow, NY"
    ],
    "url": "https://go.vansh.nyc/Zk",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2ba789087d2a",
+   "company": "Geotab",
+   "title": "Data Analyst Intern",
+   "locations": [
+    "Burnaby, Canada",
+    "Oakville, Canada",
+    "Toronto, Canada"
+   ],
+   "url": "https://go.vansh.nyc/ZS",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "5ed60cc6e4e0",
+   "company": "SOTI",
+   "title": "Software Developer Intern, XSight",
+   "locations": [
+    "Mississauga, Canada"
+   ],
+   "url": "https://go.vansh.nyc/ZV",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "1e3f0404b74b",
+   "company": "Walmart",
+   "title": "Data & Tech Transformation Intern",
+   "locations": [
+    "Bentonville, AR"
+   ],
+   "url": "https://go.vansh.nyc/ZW",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "4469baed96be",
+   "company": "Zoox",
+   "title": "Autonomy and Geofence Expansion Intern",
+   "locations": [
+    "Foster City, CA"
+   ],
+   "url": "https://go.vansh.nyc/ZX",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "c73f3b0ccceb",
+   "company": "Zoox",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Foster City, CA"
+   ],
+   "url": "https://go.vansh.nyc/ZY",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2ce3945ce64d",
+   "company": "Vestmark Internship Program",
+   "title": "Cloud Engineer Co-op",
+   "locations": [
+    "Wakefield, MA"
+   ],
+   "url": "https://go.vansh.nyc/100",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "b4c783818a0b",
+   "company": "CareSource",
+   "title": "AI Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/105",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e7cd7bef19e8",
+   "company": "CareSource",
+   "title": "Full Stack AI Development Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/106",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "06be059d0049",
+   "company": "Genius AI",
+   "title": "Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/107",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "a5e56961f180",
+   "company": "Genius AI",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/108",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
    "terms": [],
@@ -5616,6 +6771,26 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "4a436a163e8c",
+   "company": "Glean",
+   "title": "Software Engineer - Intern - Summer 2027",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4747670005",
+   "source": "SpeedyApply US",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-27",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "bd4e91e73205",
    "company": "Great American Insurance Group",
    "title": "Platform Operations Developer Intern - Summer 2027",
@@ -6702,28 +7877,6 @@
    "category": "Data & ML",
    "terms": [
     "Summer 2027"
-   ],
-   "posted": "2026-10-26",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "4a436a163e8c",
-   "company": "Glean",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "SF",
-    "Mountain View, CA"
-   ],
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4747670005",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027",
-    "Fall 2027"
    ],
    "posted": "2026-10-26",
    "pay": null,
@@ -9664,26 +10817,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "3bea91a4287d",
-   "company": "Intuit",
-   "title": "Software Developer Co-op - Front End",
-   "locations": [
-    "Toronto, ON, Canada"
-   ],
-   "url": "https://jobs.intuit.com/job/toronto/winter-2027-software-developer-co-op-front-end-8-months/27595/102435217392",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-10-25",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "17471f4ed510",
    "company": "ConnectPrep",
    "title": "Data Analyst Intern",
@@ -11315,6 +12448,26 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "3bea91a4287d",
+   "company": "Intuit",
+   "title": "Software Developer Co-op, Front End (Winter 2027)",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://jobs.intuit.com/job/toronto/winter-2027-software-developer-co-op-front-end-8-months/27595/102435217392",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-25",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-10-29"
   },
@@ -19555,6 +20708,44 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "41f88ed2baa0",
+   "company": "Behaviour Interactive",
+   "title": "Product Management Intern - 7 Days to Die",
+   "locations": [
+    "Montreal, QC, Canada"
+   ],
+   "url": "https://jobs.lever.co/bhvr/540b00d3-8693-4c2b-9e98-10e33cb0ce62/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-16",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e6e0104d03be",
+   "company": "Scale AI",
+   "title": "Safety Research Scholar Intern",
+   "locations": [
+    "Remote in USA"
+   ],
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4744402005",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-16",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "6e67cae4f43f",
    "company": "General Motors",
    "title": "Research and Development Intern, System Safety",
@@ -21698,6 +22889,24 @@
    ],
    "url": "https://go.vansh.nyc/gj",
    "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-11",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "8e66930d6764",
+   "company": "Tencent",
+   "title": "Data Science Intern",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Data-Science-Intern_R108213",
+   "source": "SpeedyApply AI/ML",
    "category": "Data & ML",
    "terms": [],
    "posted": "2026-10-11",
@@ -25909,6 +27118,24 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "dbd0153fca5f",
+   "company": "Metova Federal",
+   "title": "AI Intern",
+   "locations": [
+    "Orlando, FL"
+   ],
+   "url": "https://go.vansh.nyc/ZU",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-23",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "171ef9a9c62f",
    "company": "GDIT",
    "title": "GDIT Summer Internship Program - Summer 2027 Generative AI Software Development Internship",
@@ -26538,6 +27765,24 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "2aac31252917",
+   "company": "Qualcomm",
+   "title": "Physical Mixed Layout Engineer Intern, Interim Engineering HW",
+   "locations": [
+    "Toronto, Canada"
+   ],
+   "url": "https://go.vansh.nyc/IH",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-17",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "96e9bf2e0138",
    "company": "Marvell",
    "title": "Data Center Silicon Hardware Engineering Co-op",
@@ -26640,6 +27885,26 @@
    "category": "Software",
    "terms": [],
    "posted": "2026-09-17",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "737b4ef61d2f",
+   "company": "V2X",
+   "title": "Artificial Intelligence Intern",
+   "locations": [
+    "Indianapolis, IN"
+   ],
+   "url": "https://careers.gov2x.com/jobs/62843?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-16",
    "pay": null,
    "regions": [
     "US"
@@ -27407,24 +28672,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "ae89e3ddc59c",
-   "company": "Businessolver",
-   "title": "Product Manager Intern",
-   "locations": [
-    "Remote in USA"
-   ],
-   "url": "https://job-boards.greenhouse.io/businessolverinvitationonly/jobs/8197663",
-   "source": "Simplify Summer 2027",
-   "category": "Product",
-   "terms": [],
-   "posted": "2026-09-11",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "c098bfc5c611",
    "company": "Microsoft",
    "title": "Technical Program Management Intern",
@@ -28133,6 +29380,26 @@
     "Summer 2027"
    ],
    "posted": "2026-09-09",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2ed6a8cf9b74",
+   "company": "AnaVation",
+   "title": "Computer Science Intern - Summer Program",
+   "locations": [
+    "San Antonio, TX"
+   ],
+   "url": "https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b/apply",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-08",
    "pay": null,
    "regions": [
     "US"
@@ -30301,24 +31568,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "4f36cd5594d7",
-   "company": "dmodel",
-   "title": "Technical Intern",
-   "locations": [
-    "SF"
-   ],
-   "url": "https://jobs.ashbyhq.com/dmodel/761f9285-496a-4033-848b-7045fdc0b77c/application?embed=true",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-08-26",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "51716d90d163",
    "company": "CCLIM - Quantitative Equity",
    "title": "Quantitative Equity Analyst Intern",
@@ -31068,326 +32317,6 @@
     "Summer 2027"
    ],
    "posted": "2026-08-15",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "395cdb73045e",
-   "company": "Goldman Sachs",
-   "title": "Summer Associate Intern - Multiple Teams",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171566?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "9cc152985471",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171535?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "bcbef4b39803",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Multiple Teams",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171563?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "cef9b4cc656a",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-   "locations": [
-    "West Palm Beach, FL"
-   ],
-   "url": "https://higher.gs.com/roles/181628?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "786d5419ff98",
-   "company": "Goldman Sachs",
-   "title": "Summer Associate Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171552?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "a91ac3e4c567",
-   "company": "Goldman Sachs",
-   "title": "Associate Intern - The Core Quantitative Strats",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171546?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "2075ea896795",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-   "locations": [
-    "Salt Lake City, UT"
-   ],
-   "url": "https://higher.gs.com/roles/171551?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "a1d3e43401d4",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171550?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "beaa88873132",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171548?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "7514870ef36b",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171532?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "03a199a941eb",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171534?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "732637a047e6",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171533?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "5e2f3fdd21d7",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - Americas - Engineering",
-   "locations": [
-    "Salt Lake City, UT"
-   ],
-   "url": "https://higher.gs.com/roles/171565?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "6ac5e7620895",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/171547?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "cf7aa99b36a7",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
-   "locations": [
-    "Salt Lake City, UT"
-   ],
-   "url": "https://higher.gs.com/roles/171549?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "4f71dfc0d3ca",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - Engineering",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171553?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
    "pay": null,
    "regions": [
     "US"
@@ -33931,6 +34860,24 @@
    "category": "Software",
    "terms": [],
    "posted": "2026-07-07",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "81d49126eb96",
+   "company": "Pennsylvania State University",
+   "title": "Research and Development Engineer Intern",
+   "locations": [
+    "University Park, State College, PA"
+   ],
+   "url": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Research-and-Development-Engineering-Intern_REQ_0000076214-1",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-07-04",
    "pay": null,
    "regions": [
     "US"
@@ -37814,26 +38761,6 @@
     "Cincinnati, OH"
    ],
    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-Op---Summer-2027_R-103629",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-18",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "71858670f528",
-   "company": "Marvell",
-   "title": "AI Data Science Intern",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Data-Science-Intern--MS---Summer-2027_2603846",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
    "terms": [
@@ -44812,24 +45739,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "8e6145653669",
-   "company": "Tencent",
-   "title": "Data Science Intern",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Data-Science-Intern_R108213",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-10-10",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "4e103808b02a",
    "company": "Arcesium",
    "title": "Software Engineer Intern",
@@ -50549,26 +51458,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "f372ef343f04",
-   "company": "Applied Materials",
-   "title": "Global Product Support Intern Master's",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Global-Product-Support-Intern--Master-s--Santa-Clara--CA-_R2628947",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-05",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "ca3b7725767b",
    "company": "Highmark Health",
    "title": "Market Analytics Graduate Intern",
@@ -52864,26 +53753,6 @@
    "category": "Data & ML",
    "terms": [
     "Winter 2027",
-    "Summer 2027"
-   ],
-   "posted": "2026-10-01",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "1f4fcbc6d2e2",
-   "company": "Great American Insurance Company",
-   "title": "Enterprise Analytics Intern",
-   "locations": [
-    "Cincinnati, OH"
-   ],
-   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Enterprise-Analytics-Intern---Summer-2027_R9650",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
     "Summer 2027"
    ],
    "posted": "2026-10-01",
@@ -56582,28 +57451,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "e3388d252d80",
-   "company": "ICF International",
-   "title": "Data Scientist Intern",
-   "locations": [
-    "Remote in USA",
-    "Reston, VA",
-    "Denver, CO"
-   ],
-   "url": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Scientist--Reston--VA--Denver--CO--Remote-_R2603252",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-09-24",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "7339bd55a79e",
    "company": "Rockwell Automation",
    "title": "AI Software Engineer Intern",
@@ -57886,24 +58733,6 @@
     "Houston, TX"
    ],
    "url": "https://hayselectricalservices.applytojob.com/apply/X0z5NLCjcR/Intern-Data-Analyst",
-   "source": "SpeedyApply AI/ML",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-09-23",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "a2f6ad7d5759",
-   "company": "Metova Federal",
-   "title": "AI Intern",
-   "locations": [
-    "Orlando, FL"
-   ],
-   "url": "https://jobs-cesi.icims.com/jobs/11367/ai-intern/job",
    "source": "SpeedyApply AI/ML",
    "category": "Data & ML",
    "terms": [],
@@ -61054,26 +61883,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "bdffa09e0cf8",
-   "company": "Qualcomm",
-   "title": "Physical Mixed Layout Engineer Intern - Canada - Interim Engineering Intern - HW",
-   "locations": [
-    "Toronto, ON, Canada"
-   ],
-   "url": "https://qualcomm.eightfold.ai/careers/job/446721142985",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-09-17",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "65f63f4e00b5",
    "company": "4AG Robotics",
    "title": "Robotics Software Co-op",
@@ -61986,6 +62795,24 @@
     "Toronto, ON"
    ],
    "url": "https://qualcomm.eightfold.ai/careers/job/446721140936",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-17",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-21"
+  },
+  {
+   "id": "bdffa09e0cf8",
+   "company": "Qualcomm",
+   "title": "Physical Mixed Layout Engineering Internship",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721142985",
    "source": "Canadian Tech Internships (negarprh)",
    "category": "Software",
    "terms": [],
@@ -77790,9 +78617,9 @@
    "company": "Stripe",
    "title": "Data Analyst, Intern",
    "locations": [
-    "New York, Seattle, South San Francisco HQ"
+    "Toronto"
    ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8194291",
+   "url": "https://stripe.com/jobs/search?gh_jid=8194287",
    "source": "Greenhouse",
    "category": "Data & ML",
    "terms": [
@@ -77803,7 +78630,7 @@
    "posted": "2026-08-31",
    "pay": "$60/hr",
    "regions": [
-    "US"
+    "Canada"
    ],
    "first_seen": "2026-10-21"
   },
