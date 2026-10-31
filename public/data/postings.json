@@ -1,26 +1,18 @@
 {
- "updated_at": "2026-10-31T17:54:24+00:00",
- "count": 4663,
+ "updated_at": "2026-10-31T21:24:09+00:00",
+ "count": 4675,
  "sources": {
   "list:SpeedyApply US": {
    "ok": true,
    "fetched": 815
   },
-  "list:Canadian Tech Internships (negarprh)": {
-   "ok": true,
-   "fetched": 286
-  },
-  "list:SpeedyApply International": {
-   "ok": true,
-   "fetched": 102
-  },
   "list:SpeedyApply AI/ML": {
    "ok": true,
    "fetched": 627
   },
-  "list:CSCareers (vanshb03)": {
+  "list:SpeedyApply International": {
    "ok": true,
-   "fetched": 1619
+   "fetched": 102
   },
   "greenhouse:stripe": {
    "ok": true,
@@ -30,6 +22,10 @@
    "ok": true,
    "fetched": 464
   },
+  "list:Canadian Tech Internships (negarprh)": {
+   "ok": true,
+   "fetched": 286
+  },
   "greenhouse:figma": {
    "ok": true,
    "fetched": 140
@@ -38,109 +34,117 @@
    "ok": true,
    "fetched": 67
   },
-  "greenhouse:dropbox": {
+  "list:CSCareers (vanshb03)": {
    "ok": true,
-   "fetched": 24
+   "fetched": 1631
   },
   "greenhouse:databricks": {
    "ok": true,
    "fetched": 901
   },
+  "greenhouse:samsara": {
+   "ok": true,
+   "fetched": 323
+  },
+  "greenhouse:dropbox": {
+   "ok": true,
+   "fetched": 24
+  },
   "greenhouse:airbnb": {
    "ok": true,
    "fetched": 202
-  },
-  "list:Simplify Summer 2027": {
-   "ok": true,
-   "fetched": 4534
-  },
-  "greenhouse:affirm": {
-   "ok": true,
-   "fetched": 244
-  },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 324
-  },
-  "greenhouse:pinterest": {
-   "ok": true,
-   "fetched": 170
-  },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 387
-  },
-  "greenhouse:coinbase": {
-   "ok": true,
-   "fetched": 250
-  },
-  "greenhouse:instacart": {
-   "ok": true,
-   "fetched": 96
-  },
-  "greenhouse:hootsuite": {
-   "ok": true,
-   "fetched": 4
   },
   "greenhouse:robinhood": {
    "ok": true,
    "fetched": 160
   },
+  "greenhouse:pinterest": {
+   "ok": true,
+   "fetched": 170
+  },
+  "greenhouse:affirm": {
+   "ok": true,
+   "fetched": 244
+  },
+  "greenhouse:coinbase": {
+   "ok": true,
+   "fetched": 254
+  },
   "greenhouse:lyft": {
    "ok": true,
    "fetched": 170
   },
-  "greenhouse:doordashusa": {
+  "greenhouse:instacart": {
    "ok": true,
-   "fetched": 439
+   "fetched": 96
   },
-  "greenhouse:anthropic": {
+  "greenhouse:okta": {
    "ok": true,
-   "fetched": 675
+   "fetched": 387
   },
-  "greenhouse:discord": {
+  "greenhouse:hootsuite": {
    "ok": true,
-   "fetched": 41
+   "fetched": 4
   },
   "greenhouse:scaleai": {
    "ok": true,
    "fetched": 170
   },
+  "greenhouse:discord": {
+   "ok": true,
+   "fetched": 41
+  },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4534
+  },
   "greenhouse:roblox": {
    "ok": true,
    "fetched": 268
   },
-  "greenhouse:reddit": {
+  "greenhouse:anthropic": {
    "ok": true,
-   "fetched": 163
+   "fetched": 675
   },
   "greenhouse:duolingo": {
    "ok": true,
    "fetched": 57
   },
+  "greenhouse:doordashusa": {
+   "ok": true,
+   "fetched": 439
+  },
+  "greenhouse:reddit": {
+   "ok": true,
+   "fetched": 163
+  },
   "greenhouse:datadog": {
    "ok": true,
    "fetched": 397
-  },
-  "greenhouse:twitch": {
-   "ok": true,
-   "fetched": 63
   },
   "greenhouse:asana": {
    "ok": true,
    "fetched": 110
   },
+  "greenhouse:mongodb": {
+   "ok": true,
+   "fetched": 366
+  },
   "greenhouse:brex": {
    "ok": true,
    "fetched": 263
   },
-  "greenhouse:gitlab": {
+  "greenhouse:twitch": {
    "ok": true,
-   "fetched": 238
+   "fetched": 63
   },
   "greenhouse:verkada": {
    "ok": true,
    "fetched": 335
+  },
+  "greenhouse:gitlab": {
+   "ok": true,
+   "fetched": 238
   },
   "greenhouse:elastic": {
    "ok": true,
@@ -150,17 +154,25 @@
    "ok": true,
    "fetched": 31
   },
+  "ashby:cohere": {
+   "ok": true,
+   "fetched": 122
+  },
   "ashby:1password": {
    "ok": true,
    "fetched": 87
   },
-  "greenhouse:mongodb": {
+  "ashby:wealthsimple": {
    "ok": true,
-   "fetched": 366
+   "fetched": 42
   },
   "ashby:ramp": {
    "ok": true,
-   "fetched": 171
+   "fetched": 172
+  },
+  "ashby:plaid": {
+   "ok": true,
+   "fetched": 132
   },
   "ashby:notion": {
    "ok": true,
@@ -170,21 +182,9 @@
    "ok": true,
    "fetched": 366
   },
-  "ashby:cohere": {
-   "ok": true,
-   "fetched": 122
-  },
-  "ashby:wealthsimple": {
-   "ok": true,
-   "fetched": 42
-  },
-  "ashby:plaid": {
-   "ok": true,
-   "fetched": 132
-  },
   "ashby:openai": {
    "ok": true,
-   "fetched": 812
+   "fetched": 810
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -206,21 +206,21 @@
    "ok": true,
    "fetched": 0
   },
-  "workday:Clio": {
-   "ok": true,
-   "fetched": 152
-  },
-  "workday:Autodesk": {
-   "ok": true,
-   "fetched": 6
-  },
   "workday:Salesforce": {
    "ok": true,
    "fetched": 200
   },
+  "workday:Clio": {
+   "ok": true,
+   "fetched": 152
+  },
   "workday:Motorola Solutions": {
    "ok": true,
    "fetched": 200
+  },
+  "workday:Autodesk": {
+   "ok": true,
+   "fetched": 6
   },
   "workday:NVIDIA": {
    "ok": true,
@@ -234,17 +234,17 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:BMO": {
+  "amazon": {
    "ok": true,
-   "fetched": 200
+   "fetched": 115
   },
   "workday:Intel": {
    "ok": true,
    "fetched": 200
   },
-  "amazon": {
+  "workday:BMO": {
    "ok": true,
-   "fetched": 115
+   "fetched": 200
   },
   "workday:RBC": {
    "ok": true,
@@ -372,6 +372,78 @@
     "Santa Clara, CA"
    ],
    "url": "https://go.vansh.nyc/12a",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "06b4bfe81da2",
+   "company": "Students Plus Startups",
+   "title": "Vroom Power Software Engineering Intern",
+   "locations": [
+    "San Antonio, TX"
+   ],
+   "url": "https://go.vansh.nyc/12s",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "5e2e76ecd42c",
+   "company": "GTI Energy",
+   "title": "Data Science Intern",
+   "locations": [
+    "Des Plaines, IL"
+   ],
+   "url": "https://go.vansh.nyc/12t",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "837178ea3331",
+   "company": "Economy Polymers & Chemicals",
+   "title": "AI & Business Systems Automation Intern",
+   "locations": [
+    "Houston, TX"
+   ],
+   "url": "https://go.vansh.nyc/12u",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "e1a1e52bc5ad",
+   "company": "Hendler Family Brewing Co.",
+   "title": "Software Engineering and IT Co-op",
+   "locations": [
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/12v",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
    "terms": [],
@@ -665,6 +737,42 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "5773e7e88547",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, Performance Tools",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12q",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "aacf28d6e242",
+   "company": "Virginia Tech Applied Research Corporation",
+   "title": "Research Intern, Applied AI & Software Development",
+   "locations": [
+    "Arlington, VA"
+   ],
+   "url": "https://go.vansh.nyc/12r",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "ebb38f3d4dc6",
    "company": "SOTI",
    "title": "QA Intern (May 2027, 12 months)",
@@ -713,6 +821,114 @@
    "terms": [
     "Summer 2027"
    ],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "086363560048",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, CPU Debugger",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12k",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "ecbc20950360",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, CPU Profiler",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12l",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "8184972b8809",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, DevOps",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12m",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "fcd526a9c20d",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, Audio",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12n",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "0bd655ab3b1b",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, Platform Security",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12o",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "f654a721c8d2",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, Connectivity",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12p",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
    "posted": "2026-10-28",
    "pay": null,
    "regions": [
@@ -3323,13 +3539,13 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "8657d5b1c947",
+   "id": "cf4b762f7ff6",
    "company": "Samsara",
    "title": "Account Development Representative Intern - Phoenix",
    "locations": [
     "Phoenix, Arizona, United States"
    ],
-   "url": "https://www.samsara.com/company/careers/roles/8319784?gh_jid=8319784",
+   "url": "https://www.samsara.com/company/careers/roles/8325056?gh_jid=8325056",
    "source": "Greenhouse",
    "category": "Other",
    "terms": [],
@@ -69873,9 +70089,9 @@
    "company": "Lyft",
    "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
    "locations": [
-    "New York, NY"
+    "San Francisco, CA"
    ],
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002",
    "source": "Greenhouse",
    "category": "Data & ML",
    "terms": [
