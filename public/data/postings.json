@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-31T21:24:09+00:00",
- "count": 4675,
+ "updated_at": "2026-11-01T00:23:45+00:00",
+ "count": 4709,
  "sources": {
   "list:SpeedyApply US": {
    "ok": true,
@@ -10,53 +10,41 @@
    "ok": true,
    "fetched": 627
   },
-  "list:SpeedyApply International": {
+  "list:CSCareers (vanshb03)": {
    "ok": true,
-   "fetched": 102
-  },
-  "greenhouse:stripe": {
-   "ok": true,
-   "fetched": 745
-  },
-  "greenhouse:cloudflare": {
-   "ok": true,
-   "fetched": 464
-  },
-  "list:Canadian Tech Internships (negarprh)": {
-   "ok": true,
-   "fetched": 286
-  },
-  "greenhouse:figma": {
-   "ok": true,
-   "fetched": 140
+   "fetched": 1707
   },
   "greenhouse:faire": {
    "ok": true,
    "fetched": 67
   },
-  "list:CSCareers (vanshb03)": {
+  "greenhouse:figma": {
    "ok": true,
-   "fetched": 1631
+   "fetched": 140
+  },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4534
   },
   "greenhouse:databricks": {
    "ok": true,
    "fetched": 901
   },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 323
-  },
   "greenhouse:dropbox": {
    "ok": true,
    "fetched": 24
   },
-  "greenhouse:airbnb": {
+  "greenhouse:cloudflare": {
    "ok": true,
-   "fetched": 202
+   "fetched": 464
   },
-  "greenhouse:robinhood": {
+  "greenhouse:samsara": {
    "ok": true,
-   "fetched": 160
+   "fetched": 323
+  },
+  "list:Canadian Tech Internships (negarprh)": {
+   "ok": true,
+   "fetched": 312
   },
   "greenhouse:pinterest": {
    "ok": true,
@@ -70,21 +58,37 @@
    "ok": true,
    "fetched": 254
   },
-  "greenhouse:lyft": {
+  "greenhouse:okta": {
    "ok": true,
-   "fetched": 170
+   "fetched": 387
+  },
+  "greenhouse:airbnb": {
+   "ok": true,
+   "fetched": 202
+  },
+  "greenhouse:robinhood": {
+   "ok": true,
+   "fetched": 160
   },
   "greenhouse:instacart": {
    "ok": true,
    "fetched": 96
   },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 387
-  },
   "greenhouse:hootsuite": {
    "ok": true,
    "fetched": 4
+  },
+  "greenhouse:doordashusa": {
+   "ok": true,
+   "fetched": 439
+  },
+  "greenhouse:anthropic": {
+   "ok": true,
+   "fetched": 675
+  },
+  "list:SpeedyApply International": {
+   "ok": true,
+   "fetched": 102
   },
   "greenhouse:scaleai": {
    "ok": true,
@@ -94,29 +98,17 @@
    "ok": true,
    "fetched": 41
   },
-  "list:Simplify Summer 2027": {
+  "greenhouse:lyft": {
    "ok": true,
-   "fetched": 4534
-  },
-  "greenhouse:roblox": {
-   "ok": true,
-   "fetched": 268
-  },
-  "greenhouse:anthropic": {
-   "ok": true,
-   "fetched": 675
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 57
-  },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 439
+   "fetched": 170
   },
   "greenhouse:reddit": {
    "ok": true,
    "fetched": 163
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 57
   },
   "greenhouse:datadog": {
    "ok": true,
@@ -134,53 +126,57 @@
    "ok": true,
    "fetched": 263
   },
-  "greenhouse:twitch": {
-   "ok": true,
-   "fetched": 63
-  },
   "greenhouse:verkada": {
    "ok": true,
    "fetched": 335
   },
-  "greenhouse:gitlab": {
+  "greenhouse:twitch": {
    "ok": true,
-   "fetched": 238
+   "fetched": 63
   },
   "greenhouse:elastic": {
    "ok": true,
    "fetched": 407
   },
-  "ashby:linear": {
+  "greenhouse:roblox": {
    "ok": true,
-   "fetched": 31
+   "fetched": 268
+  },
+  "greenhouse:gitlab": {
+   "ok": true,
+   "fetched": 238
   },
   "ashby:cohere": {
    "ok": true,
    "fetched": 122
   },
-  "ashby:1password": {
-   "ok": true,
-   "fetched": 87
-  },
-  "ashby:wealthsimple": {
-   "ok": true,
-   "fetched": 42
-  },
   "ashby:ramp": {
    "ok": true,
    "fetched": 172
   },
-  "ashby:plaid": {
+  "ashby:linear": {
    "ok": true,
-   "fetched": 132
+   "fetched": 31
   },
   "ashby:notion": {
    "ok": true,
    "fetched": 148
   },
+  "ashby:wealthsimple": {
+   "ok": true,
+   "fetched": 42
+  },
+  "ashby:1password": {
+   "ok": true,
+   "fetched": 87
+  },
   "ashby:snowflake": {
    "ok": true,
    "fetched": 366
+  },
+  "ashby:plaid": {
+   "ok": true,
+   "fetched": 132
   },
   "ashby:openai": {
    "ok": true,
@@ -194,13 +190,17 @@
    "ok": true,
    "fetched": 31
   },
+  "workday:Capital One": {
+   "ok": true,
+   "fetched": 200
+  },
   "workday:SOTI": {
    "ok": true,
    "fetched": 33
   },
-  "workday:Capital One": {
+  "greenhouse:stripe": {
    "ok": true,
-   "fetched": 200
+   "fetched": 745
   },
   "workday:Netflix": {
    "ok": true,
@@ -230,15 +230,15 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:TD Bank": {
-   "ok": true,
-   "fetched": 200
-  },
   "amazon": {
    "ok": true,
    "fetched": 115
   },
   "workday:Intel": {
+   "ok": true,
+   "fetched": 200
+  },
+  "workday:TD Bank": {
    "ok": true,
    "fetched": 200
   },
@@ -252,60 +252,6 @@
   }
  },
  "postings": [
-  {
-   "id": "afac01a2d401",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://go.vansh.nyc/12g",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-31",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "349ad75dc60b",
-   "company": "NVIDIA",
-   "title": "Autonomous Vehicles and Robotics Intern",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://go.vansh.nyc/12h",
-   "source": "CSCareers (vanshb03)",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-10-31",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "50be2ccef846",
-   "company": "NVIDIA",
-   "title": "Deep Learning Intern",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://go.vansh.nyc/12j",
-   "source": "CSCareers (vanshb03)",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-10-31",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
   {
    "id": "769614063285",
    "company": "Pyrotek",
@@ -383,6 +329,60 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "afac01a2d401",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://go.vansh.nyc/12g",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "349ad75dc60b",
+   "company": "NVIDIA",
+   "title": "Autonomous Vehicles and Robotics Intern",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://go.vansh.nyc/12h",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "50be2ccef846",
+   "company": "NVIDIA",
+   "title": "Deep Learning Intern",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://go.vansh.nyc/12j",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "06b4bfe81da2",
    "company": "Students Plus Startups",
    "title": "Vroom Power Software Engineering Intern",
@@ -451,6 +451,626 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "f5523334d3be",
+   "company": "ADT",
+   "title": "Technology & Engineering Intern",
+   "locations": [
+    "Boca Raton, FL"
+   ],
+   "url": "https://go.vansh.nyc/12y",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "9de094a4b9a7",
+   "company": "Arcesium",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/12z",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "d5d9d8bb3878",
+   "company": "Arista Networks",
+   "title": "Software Engineer Intern, C/C++",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/12B",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "58fb82af6ae8",
+   "company": "Braze",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/12D",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "e23a500a3ed5",
+   "company": "C&S Wholesale Grocers",
+   "title": "IS Intern, Data Analytics & Data Science",
+   "locations": [
+    "Edison, NJ"
+   ],
+   "url": "https://go.vansh.nyc/12E",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "d308d38d6770",
+   "company": "Capstone Investment Advisors",
+   "title": "Execution Tech Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/12F",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "b31793c24166",
+   "company": "Cohen & Steers",
+   "title": "Associate Intern, Information Security",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/12I",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "580d973f6b32",
+   "company": "IDEMIA",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/12W",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "4cf76a99ea14",
+   "company": "IDEMIA",
+   "title": "Software Engineering Intern, Enrollment and Credentialing Services",
+   "locations": [
+    "Brentwood, TN"
+   ],
+   "url": "https://go.vansh.nyc/12X",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "7b819d3b9040",
+   "company": "Intercontinental Exchange",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/130",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "9ad50c237a1e",
+   "company": "Intercontinental Exchange",
+   "title": "Software Developer Intern",
+   "locations": [
+    "Jacksonville, FL"
+   ],
+   "url": "https://go.vansh.nyc/133",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "68a6c2ecc2c9",
+   "company": "Intercontinental Exchange",
+   "title": "Software Development Engineer in Test Intern",
+   "locations": [
+    "Atlanta, GA"
+   ],
+   "url": "https://go.vansh.nyc/135",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "7fa00c7e4280",
+   "company": "Intercontinental Exchange",
+   "title": "Cybersecurity Architect Intern",
+   "locations": [
+    "Atlanta, GA"
+   ],
+   "url": "https://go.vansh.nyc/136",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "42faa65b104b",
+   "company": "Iridium Communications",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "McLean, VA",
+    "Tempe, AZ",
+    "Leesburg, VA",
+    "Chandler, AZ"
+   ],
+   "url": "https://go.vansh.nyc/137",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "5194f9c28adb",
+   "company": "Ixian Robotics",
+   "title": "Software Intern",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/138",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "3318859fef6d",
+   "company": "Keenfinity",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Lincoln, NE"
+   ],
+   "url": "https://go.vansh.nyc/139",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "77f99546bfa2",
+   "company": "KLA",
+   "title": "Software Engineering Intern, C++ and Unix",
+   "locations": [
+    "Milpitas, CA"
+   ],
+   "url": "https://go.vansh.nyc/13b",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "8132e71ffdd8",
+   "company": "Laminar",
+   "title": "Technical Intern",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/13c",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "9f0e74ff0e43",
+   "company": "Midland States Bank",
+   "title": "Security Analyst Intern",
+   "locations": [
+    "St. Louis, MO"
+   ],
+   "url": "https://go.vansh.nyc/13d",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "3603b9605634",
+   "company": "New York ISO",
+   "title": "IT Software Development Intern",
+   "locations": [
+    "Rensselaer, NY"
+   ],
+   "url": "https://go.vansh.nyc/13f",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "aaae4abd0b39",
+   "company": "One Robot",
+   "title": "Machine Learning Intern",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/13h",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "c576518e4680",
+   "company": "Patreon",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/13j",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "846a2cb77bb7",
+   "company": "Relling",
+   "title": "Robotics Software Engineering Intern",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/13m",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "7a4e9dc71900",
+   "company": "ShopBack",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/13p",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "cb1f9e8faac7",
+   "company": "TobogganLabs",
+   "title": "Data Science Intern",
+   "locations": [
+    "Montreal, Canada"
+   ],
+   "url": "https://go.vansh.nyc/13r",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "56c86939f639",
+   "company": "USAFacts",
+   "title": "AI & Software Engineering Intern",
+   "locations": [
+    "Bellevue, WA"
+   ],
+   "url": "https://go.vansh.nyc/13s",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "150235dd174e",
+   "company": "Vantor",
+   "title": "AI Engineer Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/13t",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "1ec90cfab6fe",
+   "company": "Wabtec",
+   "title": "LEAD Information Technology Intern",
+   "locations": [
+    "Pittsburgh, PA"
+   ],
+   "url": "https://go.vansh.nyc/13u",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "58526acae542",
+   "company": "West Bend Insurance",
+   "title": "Data Scientist Intern",
+   "locations": [
+    "West Bend, WI"
+   ],
+   "url": "https://go.vansh.nyc/13w",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "d6d61eefa09a",
+   "company": "West Bend Insurance",
+   "title": "IT Software Engineer Intern",
+   "locations": [
+    "West Bend, WI"
+   ],
+   "url": "https://go.vansh.nyc/13x",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "2a2b28bbfaec",
+   "company": "Western Magnetics",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "South San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/13y",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "194077861401",
+   "company": "Wurl",
+   "title": "Data Science Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/13z",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "c76f060f256f",
+   "company": "Foresters Financial",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Toronto, Canada"
+   ],
+   "url": "https://go.vansh.nyc/13E",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "4c00302d9db3",
+   "company": "Solink",
+   "title": "Software Engineer Co-op, Agents",
+   "locations": [
+    "Remote",
+    "Canada"
+   ],
+   "url": "https://go.vansh.nyc/13K",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-30",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-10-31"
   },
@@ -847,24 +1467,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "ecbc20950360",
-   "company": "Nintendo",
-   "title": "Software Engineer Intern, CPU Profiler",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://go.vansh.nyc/12l",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-28",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
    "id": "8184972b8809",
    "company": "Nintendo",
    "title": "Software Engineer Intern, DevOps",
@@ -890,24 +1492,6 @@
     "Redmond, WA"
    ],
    "url": "https://go.vansh.nyc/12n",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-28",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "0bd655ab3b1b",
-   "company": "Nintendo",
-   "title": "Software Engineer Intern, Platform Security",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://go.vansh.nyc/12o",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
    "terms": [],
@@ -1889,6 +2473,44 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "0bd655ab3b1b",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, Platform Security",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12o",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-21",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "a4620d32da0b",
+   "company": "Rhoda AI",
+   "title": "Software Engineer Intern, Rhoda Platform",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "url": "https://go.vansh.nyc/13n",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-21",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "1c3edde43529",
    "company": "Carnegie Mellon University",
    "title": "AI Security Research Intern - Summer 2027",
@@ -2522,6 +3144,24 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "ee4fd96253c7",
+   "company": "TensorWave",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Las Vegas, NV"
+   ],
+   "url": "https://go.vansh.nyc/13q",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-05",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "c330aaf9a9b4",
    "company": "Intel",
    "title": "AI Solution Architect Graduate Intern",
@@ -2578,6 +3218,42 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "595ca3f685a1",
+   "company": "Range",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "McLean, VA"
+   ],
+   "url": "https://go.vansh.nyc/13l",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-02",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "8dcee98ae768",
+   "company": "ShopBack",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://go.vansh.nyc/13o",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-02",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "bcfc39a31052",
    "company": "General Motors",
    "title": "2027 Summer Intern - Software Verification Engineer - AV/AI Platform",
@@ -2609,6 +3285,24 @@
    "category": "Data & ML",
    "terms": [],
    "posted": "2026-10-02",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "b32bcac86ccb",
+   "company": "Nordson",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "East Providence, RI"
+   ],
+   "url": "https://go.vansh.nyc/13g",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-01",
    "pay": null,
    "regions": [
     "US"
@@ -3078,6 +3772,26 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "ce5c7d642a31",
+   "company": "Parallel Systems",
+   "title": "Product Management Intern",
+   "locations": [
+    "Los Angeles, CA"
+   ],
+   "url": "https://go.vansh.nyc/13i",
+   "source": "CSCareers (vanshb03)",
+   "category": "Product",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-09-29",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "4e600b660bb4",
    "company": "AeroVironment",
    "title": "Titan-SV Software Engineer Intern",
@@ -3188,6 +3902,24 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "2b1418272970",
+   "company": "ZipRecruiter",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Santa Monica, CA"
+   ],
+   "url": "https://go.vansh.nyc/13A",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-24",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "fc5c20e467e9",
    "company": "Franklin Electric",
    "title": "Summer 2027 Electrical/Software Engineering Co-op",
@@ -3222,6 +3954,24 @@
     "Summer 2027"
    ],
    "posted": "2026-09-23",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "ecbc20950360",
+   "company": "Nintendo",
+   "title": "Software Engineer Intern, CPU Profiler",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/12l",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-09-22",
    "pay": null,
    "regions": [
     "US"
@@ -3440,6 +4190,27 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "4fd4c7cd222f",
+   "company": "InfiniteQuant",
+   "title": "Quantitative Developer Intern",
+   "locations": [
+    "Dubai - United Arab Emirates",
+    "NYC"
+   ],
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-09-03",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "157ee62e8af4",
    "company": "Booz Allen",
    "title": "University - 2027 Summer Games Software Developer Intern - Annapolis Junction - MD",
@@ -3518,20 +4289,20 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "9b6fb9e8c36d",
-   "company": "InfiniteQuant",
-   "title": "Quantitative Developer Internship - Summer 2027",
+   "id": "ddbabdbeee7e",
+   "company": "Trane Technologies",
+   "title": "AI & Analytics Intern",
    "locations": [
-    "Dubai - United Arab Emirates",
-    "NYC"
+    "Minneapolis, MN",
+    "Davidson, NC"
    ],
-   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134",
+   "url": "https://careers.tranetechnologies.com/global/en/job/JR-7591",
    "source": "Simplify Summer 2027",
-   "category": "Quant",
+   "category": "Data & ML",
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-08-24",
+   "posted": "2026-08-31",
    "pay": null,
    "regions": [
     "US"
@@ -8367,26 +9138,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "e1f65e0ba915",
-   "company": "Qualcomm",
-   "title": "Deep Learning Research Intern - Embodied AI - Interim Engineering Intern - Systems",
-   "locations": [
-    "Markham, ON, Canada"
-   ],
-   "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-29",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
    "id": "dfa7a50fd567",
    "company": "Meta",
    "title": "Research Scientist Intern - Scam and Trust",
@@ -9948,6 +10699,26 @@
    "source": "Simplify Summer 2027",
    "category": "Software",
    "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e1f65e0ba915",
+   "company": "Qualcomm",
+   "title": "Deep Learning Research Intern - Embodied AI - Interim Engineering Intern - Systems",
+   "locations": [
+    "Markham, ON, Canada"
+   ],
+   "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
    "posted": "2026-10-28",
    "pay": null,
    "regions": [
@@ -12678,7 +13449,9 @@
    "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Operations---Data-Analyst-Co-op--8-Months-_JR26091348",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
-   "terms": [],
+   "terms": [
+    "Winter 2027"
+   ],
    "posted": "2026-10-27",
    "pay": null,
    "regions": [
@@ -39271,24 +40044,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "f807a6e760e3",
-   "company": "Rhoda ai",
-   "title": "Software Engineer Intern - Rhoda Platform",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rhoda-ai/9a57c8ff-dd2b-4547-a46a-44658a699ba5",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-21",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "56b06bb30b8a",
    "company": "Rivian",
    "title": "Software Engineering Intern - Vehicle Controls - January - August 2027",
@@ -54584,24 +55339,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "44d7e622d870",
-   "company": "TensorWave",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Las Vegas, NV"
-   ],
-   "url": "https://jobs.ashbyhq.com/tensorwave/39091eeb-13fc-46a7-b7e5-0d4584ac53ab",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-05",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "6d0d6b6369ff",
    "company": "TensorWave",
    "title": "Developer Community Engagement Intern",
@@ -56076,42 +56813,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "dc3ae63ef4ac",
-   "company": "Range",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "McLean, VA"
-   ],
-   "url": "https://jobs.ashbyhq.com/range/5fe3697d-b5b3-4772-9de4-1551cb726718",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-02",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "7720370cf76d",
-   "company": "ShopBack",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "url": "https://jobs.lever.co/shopback-2/640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-02",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "69d24b7fadba",
    "company": "ShopBack",
    "title": "Software Engineer Intern",
@@ -56892,24 +57593,6 @@
     "Rochester, NY"
    ],
    "url": "https://apply.workable.com/mindex/j/84B10DB922/",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-01",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "7d582e124b3d",
-   "company": "Nordson",
-   "title": "Intern - Software Engineering",
-   "locations": [
-    "East Providence, RI"
-   ],
-   "url": "https://nordsonhcm.wd501.myworkdayjobs.com/en-US/nordsoncareers/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006",
    "source": "SpeedyApply US",
    "category": "Software",
    "terms": [],
@@ -58352,26 +59035,6 @@
    "source": "SpeedyApply US",
    "category": "Software",
    "terms": [],
-   "posted": "2026-09-29",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "ee55786448a1",
-   "company": "GITAI",
-   "title": "Field-Deployed Software Engineering Intern - Fall 2026 / Spring 2027",
-   "locations": [
-    "Los Angeles, CA"
-   ],
-   "url": "https://job-boards.greenhouse.io/gitai/jobs/5437128008",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [
-    "Winter 2027"
-   ],
    "posted": "2026-09-29",
    "pay": null,
    "regions": [
@@ -60244,24 +60907,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "919d7078048d",
-   "company": "ZipRecruiter",
-   "title": "Software Engineer - Intern",
-   "locations": [
-    "Santa Monica, CA"
-   ],
-   "url": "https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-09-24",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "ac92b27da5f6",
    "company": "Semtech",
    "title": "Firmware Design Intern",
@@ -61955,24 +62600,6 @@
     "Rochester, NY"
    ],
    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=70ecdaa7-b61c-4840-949e-ed4d182ebd6c&jobId=617144",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-09-22",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "9d6b6dad5344",
-   "company": "Cowboy Space",
-   "title": "Intern - Software Engineering - 2027",
-   "locations": [
-    "San Carlos, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
    "source": "SpeedyApply US",
    "category": "Software",
    "terms": [],
