@@ -1,30 +1,34 @@
 {
- "updated_at": "2026-11-07T20:08:36+00:00",
- "count": 5052,
+ "updated_at": "2026-11-07T23:52:55+00:00",
+ "count": 5053,
  "sources": {
+  "list:SpeedyApply AI/ML": {
+   "ok": true,
+   "fetched": 592
+  },
   "list:SpeedyApply US": {
    "ok": true,
    "fetched": 796
-  },
-  "list:Canadian Tech Internships (negarprh)": {
-   "ok": true,
-   "fetched": 278
-  },
-  "list:SpeedyApply International": {
-   "ok": true,
-   "fetched": 105
   },
   "greenhouse:stripe": {
    "ok": true,
    "fetched": 766
   },
+  "list:SpeedyApply International": {
+   "ok": true,
+   "fetched": 105
+  },
   "greenhouse:databricks": {
    "ok": true,
-   "fetched": 923
+   "fetched": 922
   },
-  "list:SpeedyApply AI/ML": {
+  "greenhouse:figma": {
    "ok": true,
-   "fetched": 592
+   "fetched": 145
+  },
+  "list:Canadian Tech Internships (negarprh)": {
+   "ok": true,
+   "fetched": 278
   },
   "greenhouse:cloudflare": {
    "ok": true,
@@ -38,37 +42,41 @@
    "ok": true,
    "fetched": 33
   },
-  "greenhouse:figma": {
+  "greenhouse:airbnb": {
    "ok": true,
-   "fetched": 145
+   "fetched": 205
   },
   "greenhouse:affirm": {
    "ok": true,
    "fetched": 222
   },
-  "list:CSCareers (vanshb03)": {
-   "ok": true,
-   "fetched": 2232
-  },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 316
-  },
   "greenhouse:pinterest": {
    "ok": true,
    "fetched": 168
   },
-  "greenhouse:airbnb": {
+  "greenhouse:samsara": {
    "ok": true,
-   "fetched": 205
+   "fetched": 315
   },
-  "greenhouse:robinhood": {
+  "list:CSCareers (vanshb03)": {
    "ok": true,
-   "fetched": 150
+   "fetched": 2237
+  },
+  "greenhouse:okta": {
+   "ok": true,
+   "fetched": 375
+  },
+  "greenhouse:hootsuite": {
+   "ok": true,
+   "fetched": 9
   },
   "greenhouse:instacart": {
    "ok": true,
    "fetched": 90
+  },
+  "greenhouse:robinhood": {
+   "ok": true,
+   "fetched": 150
   },
   "greenhouse:lyft": {
    "ok": true,
@@ -78,57 +86,45 @@
    "ok": true,
    "fetched": 284
   },
-  "list:Simplify Summer 2027": {
-   "ok": true,
-   "fetched": 4719
-  },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 375
-  },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 439
-  },
   "greenhouse:scaleai": {
    "ok": true,
    "fetched": 168
-  },
-  "greenhouse:anthropic": {
-   "ok": true,
-   "fetched": 675
-  },
-  "greenhouse:hootsuite": {
-   "ok": true,
-   "fetched": 9
   },
   "greenhouse:discord": {
    "ok": true,
    "fetched": 27
   },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4714
+  },
   "greenhouse:roblox": {
    "ok": true,
    "fetched": 270
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 59
   },
   "greenhouse:reddit": {
    "ok": true,
    "fetched": 163
   },
+  "greenhouse:anthropic": {
+   "ok": true,
+   "fetched": 675
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 59
+  },
+  "greenhouse:doordashusa": {
+   "ok": true,
+   "fetched": 439
+  },
   "greenhouse:datadog": {
    "ok": true,
    "fetched": 400
   },
-  "greenhouse:verkada": {
+  "greenhouse:mongodb": {
    "ok": true,
-   "fetched": 343
-  },
-  "greenhouse:brex": {
-   "ok": true,
-   "fetched": 268
+   "fetched": 375
   },
   "greenhouse:twitch": {
    "ok": true,
@@ -138,41 +134,49 @@
    "ok": true,
    "fetched": 108
   },
-  "greenhouse:elastic": {
-   "ok": true,
-   "fetched": 425
-  },
   "greenhouse:gitlab": {
    "ok": true,
    "fetched": 248
+  },
+  "greenhouse:brex": {
+   "ok": true,
+   "fetched": 268
+  },
+  "greenhouse:verkada": {
+   "ok": true,
+   "fetched": 343
+  },
+  "greenhouse:elastic": {
+   "ok": true,
+   "fetched": 425
   },
   "ashby:linear": {
    "ok": true,
    "fetched": 32
   },
-  "ashby:notion": {
-   "ok": true,
-   "fetched": 154
-  },
-  "greenhouse:mongodb": {
-   "ok": true,
-   "fetched": 375
-  },
   "ashby:cohere": {
    "ok": true,
    "fetched": 124
   },
+  "ashby:notion": {
+   "ok": true,
+   "fetched": 154
+  },
+  "ashby:wealthsimple": {
+   "ok": true,
+   "fetched": 42
+  },
   "ashby:ramp": {
    "ok": true,
-   "fetched": 171
+   "fetched": 169
   },
   "ashby:1password": {
    "ok": true,
    "fetched": 78
   },
-  "ashby:wealthsimple": {
+  "ashby:snowflake": {
    "ok": true,
-   "fetched": 42
+   "fetched": 372
   },
   "ashby:plaid": {
    "ok": true,
@@ -181,10 +185,6 @@
   "ashby:openai": {
    "ok": true,
    "fetched": 819
-  },
-  "ashby:snowflake": {
-   "ok": true,
-   "fetched": 372
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -214,19 +214,15 @@
    "ok": true,
    "fetched": 155
   },
-  "workday:Autodesk": {
-   "ok": true,
-   "fetched": 7
-  },
   "workday:Motorola Solutions": {
    "ok": true,
    "fetched": 200
   },
-  "workday:NVIDIA": {
+  "workday:Autodesk": {
    "ok": true,
-   "fetched": 200
+   "fetched": 7
   },
-  "workday:Adobe": {
+  "workday:NVIDIA": {
    "ok": true,
    "fetched": 200
   },
@@ -234,7 +230,11 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:TD Bank": {
+  "workday:Adobe": {
+   "ok": true,
+   "fetched": 200
+  },
+  "workday:Intel": {
    "ok": true,
    "fetched": 200
   },
@@ -242,13 +242,13 @@
    "ok": true,
    "fetched": 200
   },
+  "workday:TD Bank": {
+   "ok": true,
+   "fetched": 200
+  },
   "amazon": {
    "ok": true,
    "fetched": 116
-  },
-  "workday:Intel": {
-   "ok": true,
-   "fetched": 200
   }
  },
  "postings": [
@@ -514,6 +514,79 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "ebf180e23b73",
+   "company": "Marmon Holdings",
+   "title": "AI Technology Solutions Intern",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://go.vansh.nyc/1mo",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "e9fd194be6f1",
+   "company": "Axiom Consultants",
+   "title": "AI Developer Intern",
+   "locations": [
+    "Rockville, MD"
+   ],
+   "url": "https://go.vansh.nyc/1mp",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "03708fdc0043",
+   "company": "AFL",
+   "title": "Web Design/Development Intern",
+   "locations": [
+    "Duncan, SC"
+   ],
+   "url": "https://go.vansh.nyc/1mq",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "dd2e24970afc",
+   "company": "Enovation Controls",
+   "title": "Product Content Automation Intern",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/1mr",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "9ec516206204",
    "company": "MITRE",
    "title": "Computer Science or Software Engineering Intern",
@@ -521,6 +594,24 @@
     "McLean, VA"
    ],
    "url": "https://go.vansh.nyc/1lX",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-05",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "11ba974641e5",
+   "company": "Moody's",
+   "title": "Applied AI & Analytics Intern",
+   "locations": [
+    "Newark, NJ"
+   ],
+   "url": "https://go.vansh.nyc/1mn",
    "source": "CSCareers (vanshb03)",
    "category": "Data & ML",
    "terms": [],
@@ -963,46 +1054,6 @@
     "Winter 2027"
    ],
    "posted": "2026-08-20",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-07"
-  },
-  {
-   "id": "2075ea896795",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-   "locations": [
-    "Salt Lake City, UT"
-   ],
-   "url": "https://higher.gs.com/roles/171551?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-07"
-  },
-  {
-   "id": "beaa88873132",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171548?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
    "pay": null,
    "regions": [
     "US"
@@ -9922,24 +9973,6 @@
     "Scottsdale, AZ"
    ],
    "url": "https://careers-gdms.icims.com/jobs/75776/job?mobile=true&needsRedirect=false",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
-   "terms": [],
-   "posted": "2026-10-21",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "3b5752a2eccc",
-   "company": "Garmin",
-   "title": "Electrical Design Engineer Intern",
-   "locations": [
-    "Tucson, AZ"
-   ],
-   "url": "https://careers.garmin.com/jobs/19383?icims=1",
    "source": "Simplify Summer 2027",
    "category": "Hardware",
    "terms": [],
@@ -35269,26 +35302,6 @@
    "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Graduate-Intern_J289845",
    "source": "Simplify Summer 2027",
    "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-25",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "3079b267c1e1",
-   "company": "The Federal Reserve System",
-   "title": "Innovation Intern",
-   "locations": [
-    "Atlanta, GA"
-   ],
-   "url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Innovation-Intern_R-0000033884",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
    "terms": [
     "Summer 2027"
    ],
