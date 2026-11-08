@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-07T23:52:55+00:00",
- "count": 5053,
+ "updated_at": "2026-11-08T05:50:23+00:00",
+ "count": 5078,
  "sources": {
   "list:SpeedyApply AI/ML": {
    "ok": true,
@@ -10,25 +10,21 @@
    "ok": true,
    "fetched": 796
   },
-  "greenhouse:stripe": {
+  "list:Canadian Tech Internships (negarprh)": {
    "ok": true,
-   "fetched": 766
-  },
-  "list:SpeedyApply International": {
-   "ok": true,
-   "fetched": 105
-  },
-  "greenhouse:databricks": {
-   "ok": true,
-   "fetched": 922
+   "fetched": 278
   },
   "greenhouse:figma": {
    "ok": true,
    "fetched": 145
   },
-  "list:Canadian Tech Internships (negarprh)": {
+  "list:SpeedyApply International": {
    "ok": true,
-   "fetched": 278
+   "fetched": 105
+  },
+  "greenhouse:stripe": {
+   "ok": true,
+   "fetched": 766
   },
   "greenhouse:cloudflare": {
    "ok": true,
@@ -42,61 +38,69 @@
    "ok": true,
    "fetched": 33
   },
-  "greenhouse:airbnb": {
+  "greenhouse:databricks": {
    "ok": true,
-   "fetched": 205
+   "fetched": 920
+  },
+  "greenhouse:samsara": {
+   "ok": true,
+   "fetched": 316
   },
   "greenhouse:affirm": {
    "ok": true,
    "fetched": 222
   },
+  "greenhouse:airbnb": {
+   "ok": true,
+   "fetched": 205
+  },
   "greenhouse:pinterest": {
    "ok": true,
    "fetched": 168
-  },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 315
-  },
-  "list:CSCareers (vanshb03)": {
-   "ok": true,
-   "fetched": 2237
-  },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 375
-  },
-  "greenhouse:hootsuite": {
-   "ok": true,
-   "fetched": 9
-  },
-  "greenhouse:instacart": {
-   "ok": true,
-   "fetched": 90
   },
   "greenhouse:robinhood": {
    "ok": true,
    "fetched": 150
   },
-  "greenhouse:lyft": {
+  "list:CSCareers (vanshb03)": {
    "ok": true,
-   "fetched": 167
+   "fetched": 2253
+  },
+  "greenhouse:instacart": {
+   "ok": true,
+   "fetched": 90
   },
   "greenhouse:coinbase": {
    "ok": true,
    "fetched": 284
   },
-  "greenhouse:scaleai": {
+  "greenhouse:okta": {
    "ok": true,
-   "fetched": 168
+   "fetched": 375
+  },
+  "greenhouse:lyft": {
+   "ok": true,
+   "fetched": 166
   },
   "greenhouse:discord": {
    "ok": true,
    "fetched": 27
   },
-  "list:Simplify Summer 2027": {
+  "greenhouse:hootsuite": {
    "ok": true,
-   "fetched": 4714
+   "fetched": 9
+  },
+  "greenhouse:scaleai": {
+   "ok": true,
+   "fetched": 168
+  },
+  "greenhouse:doordashusa": {
+   "ok": true,
+   "fetched": 439
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 59
   },
   "greenhouse:roblox": {
    "ok": true,
@@ -110,65 +114,61 @@
    "ok": true,
    "fetched": 675
   },
-  "greenhouse:duolingo": {
+  "greenhouse:asana": {
    "ok": true,
-   "fetched": 59
-  },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 439
-  },
-  "greenhouse:datadog": {
-   "ok": true,
-   "fetched": 400
-  },
-  "greenhouse:mongodb": {
-   "ok": true,
-   "fetched": 375
+   "fetched": 108
   },
   "greenhouse:twitch": {
    "ok": true,
    "fetched": 55
   },
-  "greenhouse:asana": {
+  "list:Simplify Summer 2027": {
    "ok": true,
-   "fetched": 108
-  },
-  "greenhouse:gitlab": {
-   "ok": true,
-   "fetched": 248
+   "fetched": 4731
   },
   "greenhouse:brex": {
    "ok": true,
    "fetched": 268
   },
+  "greenhouse:datadog": {
+   "ok": true,
+   "fetched": 401
+  },
+  "greenhouse:gitlab": {
+   "ok": true,
+   "fetched": 248
+  },
   "greenhouse:verkada": {
    "ok": true,
    "fetched": 343
   },
-  "greenhouse:elastic": {
+  "greenhouse:mongodb": {
    "ok": true,
-   "fetched": 425
-  },
-  "ashby:linear": {
-   "ok": true,
-   "fetched": 32
+   "fetched": 374
   },
   "ashby:cohere": {
    "ok": true,
    "fetched": 124
   },
-  "ashby:notion": {
+  "ashby:ramp": {
    "ok": true,
-   "fetched": 154
+   "fetched": 169
+  },
+  "ashby:linear": {
+   "ok": true,
+   "fetched": 32
+  },
+  "greenhouse:elastic": {
+   "ok": true,
+   "fetched": 425
   },
   "ashby:wealthsimple": {
    "ok": true,
    "fetched": 42
   },
-  "ashby:ramp": {
+  "ashby:notion": {
    "ok": true,
-   "fetched": 169
+   "fetched": 154
   },
   "ashby:1password": {
    "ok": true,
@@ -184,7 +184,7 @@
   },
   "ashby:openai": {
    "ok": true,
-   "fetched": 819
+   "fetched": 818
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -194,35 +194,27 @@
    "ok": true,
    "fetched": 37
   },
-  "workday:Capital One": {
-   "ok": true,
-   "fetched": 200
-  },
   "workday:SOTI": {
    "ok": true,
    "fetched": 39
+  },
+  "workday:Capital One": {
+   "ok": true,
+   "fetched": 200
   },
   "workday:Netflix": {
    "ok": true,
    "fetched": 0
   },
-  "workday:Salesforce": {
-   "ok": true,
-   "fetched": 200
-  },
   "workday:Clio": {
    "ok": true,
    "fetched": 155
-  },
-  "workday:Motorola Solutions": {
-   "ok": true,
-   "fetched": 200
   },
   "workday:Autodesk": {
    "ok": true,
    "fetched": 7
   },
-  "workday:NVIDIA": {
+  "workday:Salesforce": {
    "ok": true,
    "fetched": 200
   },
@@ -230,11 +222,23 @@
    "ok": true,
    "fetched": 200
   },
+  "workday:Motorola Solutions": {
+   "ok": true,
+   "fetched": 200
+  },
+  "workday:NVIDIA": {
+   "ok": true,
+   "fetched": 200
+  },
   "workday:Adobe": {
    "ok": true,
    "fetched": 200
   },
-  "workday:Intel": {
+  "amazon": {
+   "ok": true,
+   "fetched": 116
+  },
+  "workday:TD Bank": {
    "ok": true,
    "fetched": 200
   },
@@ -242,13 +246,9 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:TD Bank": {
+  "workday:Intel": {
    "ok": true,
    "fetched": 200
-  },
-  "amazon": {
-   "ok": true,
-   "fetched": 116
   }
  },
  "postings": [
@@ -307,24 +307,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "5fa2e5053800",
-   "company": "Springs Window Fashions",
-   "title": "Textile Engineering Analytics & Software Intern",
-   "locations": [
-    "Middleton, WI"
-   ],
-   "url": "https://go.vansh.nyc/1me",
-   "source": "CSCareers (vanshb03)",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-11-07",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-07"
-  },
-  {
    "id": "5fdc0de8aa06",
    "company": "empirical",
    "title": "Software Engineering Intern",
@@ -352,6 +334,25 @@
    "url": "https://go.vansh.nyc/1mh",
    "source": "CSCareers (vanshb03)",
    "category": "Other",
+   "terms": [],
+   "posted": "2026-11-07",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "714694d1c8cd",
+   "company": "UMG Contingent Worker Company",
+   "title": "Data Engineer Co-op",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/1mF",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
    "terms": [],
    "posted": "2026-11-07",
    "pay": null,
@@ -587,6 +588,133 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "21020d656c33",
+   "company": "Group 1 Automotive",
+   "title": "IT Intern",
+   "locations": [
+    "Houston, TX"
+   ],
+   "url": "https://go.vansh.nyc/1ms",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "0a56aa63cb3d",
+   "company": "Rambus",
+   "title": "Digital Design Intern",
+   "locations": [
+    "Johns Creek, GA"
+   ],
+   "url": "https://go.vansh.nyc/1mt",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "a0e32d4e93d0",
+   "company": "Rockefeller Capital Management",
+   "title": "Analyst Intern, Core Platforms",
+   "locations": [
+    "Hamilton, NJ"
+   ],
+   "url": "https://go.vansh.nyc/1mu",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "ce306076b16e",
+   "company": "Rockefeller Capital Management",
+   "title": "Analyst Intern, Information Security",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/1mv",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "8ee53a39fa65",
+   "company": "SDSU Research Foundation",
+   "title": "Undergraduate Student Intern, Port Contamination Project",
+   "locations": [
+    "San Diego, CA"
+   ],
+   "url": "https://go.vansh.nyc/1mw",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "06556bf5e742",
+   "company": "United Wholesale Mortgage",
+   "title": "Technology Intern Program",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/1mx",
+   "source": "CSCareers (vanshb03)",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "e5fac8bc7046",
+   "company": "West Bend Insurance",
+   "title": "Data Solution Engineer Intern",
+   "locations": [
+    "West Bend, WI"
+   ],
+   "url": "https://go.vansh.nyc/1my",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "9ec516206204",
    "company": "MITRE",
    "title": "Computer Science or Software Engineering Intern",
@@ -773,6 +901,24 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "b4e27bc684f7",
+   "company": "Citizens Energy Group",
+   "title": "Meter Services Data Analytics Intern",
+   "locations": [
+    "Indianapolis, IN"
+   ],
+   "url": "https://go.vansh.nyc/1mM",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-22",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "d740685e0f6d",
    "company": "ICF",
    "title": "2027 Summer Intern - AI Engineer - Reston - VA",
@@ -864,6 +1010,24 @@
    "category": "Software",
    "terms": [],
    "posted": "2026-09-25",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "5fa2e5053800",
+   "company": "Springs Window Fashions",
+   "title": "Textile Engineering Analytics & Software Intern",
+   "locations": [
+    "Middleton, WI"
+   ],
+   "url": "https://go.vansh.nyc/1me",
+   "source": "CSCareers (vanshb03)",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-09-20",
    "pay": null,
    "regions": [
     "US"
@@ -984,6 +1148,26 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "898d88ff7a07",
+   "company": "Stryten",
+   "title": "Industrial or Mechanical Engineering Intern",
+   "locations": [
+    "Salina, KS"
+   ],
+   "url": "https://jobs.stryten.com/jobs/5809?icims=1",
+   "source": "Simplify Summer 2027",
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-30",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "5562b455314d",
    "company": "Northwood Space",
    "title": "Supply Chain Data & Analytics Intern",
@@ -1023,13 +1207,13 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "618eca47ce81",
+   "id": "cf4b762f7ff6",
    "company": "Samsara",
    "title": "Account Development Representative Intern - Phoenix",
    "locations": [
     "Phoenix, Arizona, United States"
    ],
-   "url": "https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799",
+   "url": "https://www.samsara.com/company/careers/roles/8325056?gh_jid=8325056",
    "source": "Greenhouse",
    "category": "Other",
    "terms": [],
@@ -1054,6 +1238,326 @@
     "Winter 2027"
    ],
    "posted": "2026-08-20",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "395cdb73045e",
+   "company": "Goldman Sachs",
+   "title": "Summer Associate Intern - Multiple Teams",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171566?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "9cc152985471",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171535?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "bcbef4b39803",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Multiple Teams",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171563?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "cef9b4cc656a",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+   "locations": [
+    "West Palm Beach, FL"
+   ],
+   "url": "https://higher.gs.com/roles/181628?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "786d5419ff98",
+   "company": "Goldman Sachs",
+   "title": "Summer Associate Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171552?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "a91ac3e4c567",
+   "company": "Goldman Sachs",
+   "title": "Associate Intern - The Core Quantitative Strats",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171546?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "2075ea896795",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171551?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "a1d3e43401d4",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171550?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "beaa88873132",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171548?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "7514870ef36b",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171532?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "03a199a941eb",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171534?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "732637a047e6",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171533?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "5e2f3fdd21d7",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Engineering",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171565?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "6ac5e7620895",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171547?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "cf7aa99b36a7",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171549?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Quant",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "4f71dfc0d3ca",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Engineering",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171553?type=students",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-08-14",
    "pay": null,
    "regions": [
     "US"
@@ -39556,24 +40060,6 @@
     "Remote - USA"
    ],
    "url": "https://allstate.wd5.myworkdayjobs.com/en-US/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285",
-   "source": "SpeedyApply AI/ML",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-10-22",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "34f13eb71d1e",
-   "company": "Citizens Energy Group",
-   "title": "Meter Services Data Analytics Intern",
-   "locations": [
-    "Indianapolis, IN"
-   ],
-   "url": "https://careers-citizensenergygroup.icims.com/jobs/3458/meter-services-data-analytics-intern/job",
    "source": "SpeedyApply AI/ML",
    "category": "Data & ML",
    "terms": [],
@@ -79859,9 +80345,9 @@
    "company": "Lyft",
    "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
    "locations": [
-    "New York, NY"
+    "San Francisco, CA"
    ],
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002",
    "source": "Greenhouse",
    "category": "Data & ML",
    "terms": [
