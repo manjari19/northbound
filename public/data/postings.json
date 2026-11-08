@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-08T18:27:57+00:00",
- "count": 5055,
+ "updated_at": "2026-11-08T22:24:45+00:00",
+ "count": 5050,
  "sources": {
   "list:SpeedyApply US": {
    "ok": true,
    "fetched": 799
   },
-  "list:CSCareers (vanshb03)": {
+  "list:SpeedyApply International": {
    "ok": true,
-   "fetched": 2263
+   "fetched": 105
+  },
+  "list:Canadian Tech Internships (negarprh)": {
+   "ok": true,
+   "fetched": 275
   },
   "list:SpeedyApply AI/ML": {
    "ok": true,
    "fetched": 608
   },
-  "list:Canadian Tech Internships (negarprh)": {
+  "greenhouse:databricks": {
    "ok": true,
-   "fetched": 278
-  },
-  "list:SpeedyApply International": {
-   "ok": true,
-   "fetched": 105
-  },
-  "greenhouse:stripe": {
-   "ok": true,
-   "fetched": 766
+   "fetched": 922
   },
   "greenhouse:faire": {
    "ok": true,
    "fetched": 68
   },
+  "list:CSCareers (vanshb03)": {
+   "ok": true,
+   "fetched": 2272
+  },
+  "greenhouse:stripe": {
+   "ok": true,
+   "fetched": 766
+  },
   "greenhouse:figma": {
    "ok": true,
    "fetched": 145
-  },
-  "greenhouse:databricks": {
-   "ok": true,
-   "fetched": 922
   },
   "greenhouse:cloudflare": {
    "ok": true,
@@ -46,18 +46,6 @@
    "ok": true,
    "fetched": 33
   },
-  "greenhouse:affirm": {
-   "ok": true,
-   "fetched": 222
-  },
-  "list:Simplify Summer 2027": {
-   "ok": true,
-   "fetched": 4707
-  },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 314
-  },
   "greenhouse:airbnb": {
    "ok": true,
    "fetched": 205
@@ -66,25 +54,37 @@
    "ok": true,
    "fetched": 168
   },
+  "greenhouse:samsara": {
+   "ok": true,
+   "fetched": 314
+  },
+  "greenhouse:affirm": {
+   "ok": true,
+   "fetched": 222
+  },
   "greenhouse:okta": {
    "ok": true,
    "fetched": 375
+  },
+  "greenhouse:coinbase": {
+   "ok": true,
+   "fetched": 283
+  },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4705
   },
   "greenhouse:robinhood": {
    "ok": true,
    "fetched": 150
   },
-  "greenhouse:instacart": {
-   "ok": true,
-   "fetched": 90
-  },
   "greenhouse:hootsuite": {
    "ok": true,
    "fetched": 9
   },
-  "greenhouse:coinbase": {
+  "greenhouse:instacart": {
    "ok": true,
-   "fetched": 283
+   "fetched": 90
   },
   "greenhouse:lyft": {
    "ok": true,
@@ -94,14 +94,6 @@
    "ok": true,
    "fetched": 439
   },
-  "greenhouse:anthropic": {
-   "ok": true,
-   "fetched": 675
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 59
-  },
   "greenhouse:discord": {
    "ok": true,
    "fetched": 27
@@ -109,6 +101,14 @@
   "greenhouse:scaleai": {
    "ok": true,
    "fetched": 168
+  },
+  "greenhouse:anthropic": {
+   "ok": true,
+   "fetched": 675
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 59
   },
   "greenhouse:roblox": {
    "ok": true,
@@ -118,18 +118,6 @@
    "ok": true,
    "fetched": 163
   },
-  "greenhouse:asana": {
-   "ok": true,
-   "fetched": 108
-  },
-  "greenhouse:mongodb": {
-   "ok": true,
-   "fetched": 374
-  },
-  "greenhouse:verkada": {
-   "ok": true,
-   "fetched": 343
-  },
   "greenhouse:twitch": {
    "ok": true,
    "fetched": 55
@@ -138,25 +126,45 @@
    "ok": true,
    "fetched": 401
   },
-  "greenhouse:gitlab": {
+  "greenhouse:asana": {
    "ok": true,
-   "fetched": 248
+   "fetched": 108
   },
   "greenhouse:brex": {
    "ok": true,
    "fetched": 268
   },
+  "greenhouse:verkada": {
+   "ok": true,
+   "fetched": 343
+  },
+  "greenhouse:gitlab": {
+   "ok": true,
+   "fetched": 248
+  },
+  "greenhouse:mongodb": {
+   "ok": true,
+   "fetched": 374
+  },
   "greenhouse:elastic": {
    "ok": true,
-   "fetched": 425
+   "fetched": 426
   },
   "ashby:linear": {
    "ok": true,
    "fetched": 32
   },
+  "ashby:wealthsimple": {
+   "ok": true,
+   "fetched": 42
+  },
   "ashby:1password": {
    "ok": true,
    "fetched": 78
+  },
+  "ashby:cohere": {
+   "ok": true,
+   "fetched": 124
   },
   "ashby:notion": {
    "ok": true,
@@ -166,25 +174,17 @@
    "ok": true,
    "fetched": 169
   },
-  "ashby:wealthsimple": {
-   "ok": true,
-   "fetched": 42
-  },
-  "ashby:cohere": {
-   "ok": true,
-   "fetched": 124
-  },
   "ashby:snowflake": {
    "ok": true,
    "fetched": 372
   },
-  "ashby:plaid": {
-   "ok": true,
-   "fetched": 141
-  },
   "ashby:openai": {
    "ok": true,
    "fetched": 816
+  },
+  "ashby:plaid": {
+   "ok": true,
+   "fetched": 141
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -214,13 +214,13 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:Autodesk": {
-   "ok": true,
-   "fetched": 7
-  },
   "workday:Motorola Solutions": {
    "ok": true,
    "fetched": 200
+  },
+  "workday:Autodesk": {
+   "ok": true,
+   "fetched": 7
   },
   "workday:NVIDIA": {
    "ok": true,
@@ -234,13 +234,13 @@
    "ok": true,
    "fetched": 200
   },
-  "amazon": {
-   "ok": true,
-   "fetched": 116
-  },
   "workday:BMO": {
    "ok": true,
    "fetched": 200
+  },
+  "amazon": {
+   "ok": true,
+   "fetched": 116
   },
   "workday:TD Bank": {
    "ok": true,
@@ -799,24 +799,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-08"
-  },
-  {
-   "id": "65165fe6e693",
-   "company": "Pebl",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Toronto, ON,"
-   ],
-   "url": "https://jobs.ashbyhq.com/pebl/49d8b355-620b-4dde-be4b-5489abf4c9cf/",
-   "source": "Canadian Tech Internships (negarprh)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-13",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-08"
   },
@@ -11384,27 +11366,6 @@
     "Summer 2027"
    ],
    "posted": "2026-09-30",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "e33ffe3c80c3",
-   "company": "Iridium Communications",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Tempe, AZ",
-    "McLean, VA"
-   ],
-   "url": "https://careers-iridium.icims.com/jobs/5136/job?mobile=true&needsRedirect=false",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-09-29",
    "pay": null,
    "regions": [
     "US"
@@ -22894,24 +22855,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "7b819d3b9040",
-   "company": "Intercontinental Exchange",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "New York, NY"
-   ],
-   "url": "https://go.vansh.nyc/130",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-30",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
    "id": "68a6c2ecc2c9",
    "company": "Intercontinental Exchange",
    "title": "Software Development Engineer in Test Intern",
@@ -22937,27 +22880,6 @@
     "Atlanta, GA"
    ],
    "url": "https://go.vansh.nyc/136",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-30",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "42faa65b104b",
-   "company": "Iridium Communications",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "McLean, VA",
-    "Tempe, AZ",
-    "Leesburg, VA",
-    "Chandler, AZ"
-   ],
-   "url": "https://go.vansh.nyc/137",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
    "terms": [],
@@ -23776,6 +23698,24 @@
     "United States"
    ],
    "url": "https://go.vansh.nyc/hN",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-23",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "7b819d3b9040",
+   "company": "Intercontinental Exchange",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/130",
    "source": "CSCareers (vanshb03)",
    "category": "Software",
    "terms": [],
@@ -62860,46 +62800,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "02d4ae16e8dd",
-   "company": "Workday",
-   "title": "Software Development Engineer Intern (Winter 2027)",
-   "locations": [
-    "Vancouver, BC"
-   ],
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807",
-   "source": "Canadian Tech Internships (negarprh)",
-   "category": "Software",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-10-09",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
-   "id": "956ff53101ca",
-   "company": "Workday",
-   "title": "Product Manager Intern (Winter 2027)",
-   "locations": [
-    "Vancouver, BC"
-   ],
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Product-Manager-Intern_JR-0110808",
-   "source": "Canadian Tech Internships (negarprh)",
-   "category": "Product",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-10-09",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-10-21"
   },
