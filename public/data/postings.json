@@ -1,19 +1,7 @@
 {
- "updated_at": "2026-11-15T07:05:01+00:00",
- "count": 5221,
+ "updated_at": "2026-11-15T14:41:27+00:00",
+ "count": 5214,
  "sources": {
-  "list:SpeedyApply AI/ML": {
-   "ok": true,
-   "fetched": 635
-  },
-  "greenhouse:stripe": {
-   "ok": true,
-   "fetched": 785
-  },
-  "list:Canadian Tech Internships (negarprh)": {
-   "ok": true,
-   "fetched": 258
-  },
   "list:SpeedyApply US": {
    "ok": true,
    "fetched": 812
@@ -21,6 +9,22 @@
   "list:SpeedyApply International": {
    "ok": true,
    "fetched": 103
+  },
+  "greenhouse:stripe": {
+   "ok": true,
+   "fetched": 785
+  },
+  "list:SpeedyApply AI/ML": {
+   "ok": true,
+   "fetched": 635
+  },
+  "greenhouse:databricks": {
+   "ok": true,
+   "fetched": 895
+  },
+  "list:Canadian Tech Internships (negarprh)": {
+   "ok": true,
+   "fetched": 258
   },
   "greenhouse:faire": {
    "ok": true,
@@ -30,61 +34,61 @@
    "ok": true,
    "fetched": 139
   },
-  "greenhouse:databricks": {
-   "ok": true,
-   "fetched": 895
-  },
   "greenhouse:cloudflare": {
    "ok": true,
    "fetched": 479
-  },
-  "greenhouse:samsara": {
-   "ok": true,
-   "fetched": 319
-  },
-  "greenhouse:dropbox": {
-   "ok": true,
-   "fetched": 44
   },
   "greenhouse:airbnb": {
    "ok": true,
    "fetched": 214
   },
-  "greenhouse:affirm": {
-   "ok": true,
-   "fetched": 217
-  },
   "greenhouse:pinterest": {
    "ok": true,
    "fetched": 163
   },
+  "greenhouse:dropbox": {
+   "ok": true,
+   "fetched": 44
+  },
+  "greenhouse:samsara": {
+   "ok": true,
+   "fetched": 319
+  },
+  "greenhouse:affirm": {
+   "ok": true,
+   "fetched": 217
+  },
   "list:CSCareers (vanshb03)": {
    "ok": true,
-   "fetched": 2458
-  },
-  "greenhouse:coinbase": {
-   "ok": true,
-   "fetched": 265
+   "fetched": 2457
   },
   "greenhouse:okta": {
    "ok": true,
-   "fetched": 362
+   "fetched": 361
   },
-  "greenhouse:lyft": {
+  "greenhouse:hootsuite": {
    "ok": true,
-   "fetched": 148
+   "fetched": 12
   },
   "greenhouse:robinhood": {
    "ok": true,
    "fetched": 165
   },
+  "greenhouse:lyft": {
+   "ok": true,
+   "fetched": 148
+  },
   "greenhouse:instacart": {
    "ok": true,
    "fetched": 85
   },
-  "greenhouse:hootsuite": {
+  "greenhouse:coinbase": {
    "ok": true,
-   "fetched": 12
+   "fetched": 265
+  },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 59
   },
   "greenhouse:discord": {
    "ok": true,
@@ -98,25 +102,25 @@
    "ok": true,
    "fetched": 145
   },
+  "list:Simplify Summer 2027": {
+   "ok": true,
+   "fetched": 4674
+  },
   "greenhouse:roblox": {
    "ok": true,
    "fetched": 271
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 59
-  },
-  "greenhouse:anthropic": {
-   "ok": true,
-   "fetched": 669
   },
   "greenhouse:asana": {
    "ok": true,
    "fetched": 109
   },
-  "list:Simplify Summer 2027": {
+  "greenhouse:doordashusa": {
    "ok": true,
-   "fetched": 4681
+   "fetched": 428
+  },
+  "greenhouse:anthropic": {
+   "ok": true,
+   "fetched": 668
   },
   "greenhouse:brex": {
    "ok": true,
@@ -130,45 +134,41 @@
    "ok": true,
    "fetched": 58
   },
-  "greenhouse:verkada": {
-   "ok": true,
-   "fetched": 346
-  },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 428
-  },
-  "greenhouse:gitlab": {
-   "ok": true,
-   "fetched": 251
-  },
   "greenhouse:mongodb": {
    "ok": true,
    "fetched": 390
+  },
+  "greenhouse:gitlab": {
+   "ok": true,
+   "fetched": 254
+  },
+  "greenhouse:verkada": {
+   "ok": true,
+   "fetched": 346
   },
   "greenhouse:elastic": {
    "ok": true,
    "fetched": 400
   },
-  "ashby:ramp": {
-   "ok": true,
-   "fetched": 180
-  },
   "ashby:linear": {
    "ok": true,
    "fetched": 33
-  },
-  "ashby:wealthsimple": {
-   "ok": true,
-   "fetched": 41
   },
   "ashby:cohere": {
    "ok": true,
    "fetched": 121
   },
+  "ashby:wealthsimple": {
+   "ok": true,
+   "fetched": 41
+  },
   "ashby:notion": {
    "ok": true,
    "fetched": 165
+  },
+  "ashby:ramp": {
+   "ok": true,
+   "fetched": 180
   },
   "ashby:1password": {
    "ok": true,
@@ -184,7 +184,7 @@
   },
   "ashby:openai": {
    "ok": true,
-   "fetched": 839
+   "fetched": 840
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -194,13 +194,13 @@
    "ok": true,
    "fetched": 37
   },
-  "workday:Capital One": {
-   "ok": true,
-   "fetched": 200
-  },
   "workday:SOTI": {
    "ok": true,
    "fetched": 41
+  },
+  "workday:Capital One": {
+   "ok": true,
+   "fetched": 200
   },
   "workday:Netflix": {
    "ok": true,
@@ -210,19 +210,15 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:Autodesk": {
-   "ok": true,
-   "fetched": 7
-  },
   "workday:Clio": {
    "ok": true,
    "fetched": 161
   },
-  "workday:Motorola Solutions": {
+  "workday:Autodesk": {
    "ok": true,
-   "fetched": 200
+   "fetched": 7
   },
-  "workday:Adobe": {
+  "workday:Motorola Solutions": {
    "ok": true,
    "fetched": 200
   },
@@ -234,7 +230,11 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:Intel": {
+  "amazon": {
+   "ok": true,
+   "fetched": 119
+  },
+  "workday:Adobe": {
    "ok": true,
    "fetched": 200
   },
@@ -242,9 +242,9 @@
    "ok": true,
    "fetched": 200
   },
-  "amazon": {
+  "workday:Intel": {
    "ok": true,
-   "fetched": 119
+   "fetched": 200
   },
   "workday:BMO": {
    "ok": true,
@@ -271,23 +271,158 @@
    "first_seen": "2026-11-15"
   },
   {
-   "id": "0e3b9b19f796",
-   "company": "Eight Sleep",
-   "title": "Firmware Intern",
+   "id": "344bef27c5a0",
+   "company": "Blizzard Entertainment",
+   "title": "Animation & Cinematic Tools Engineering Intern - Animation & Cinematic Tools Engineering",
    "locations": [
-    "San Francisco, CA",
-    "New York, NY",
-    "Washington, DC",
-    "Austin, TX"
+    "Irvine, CA"
    ],
-   "url": "https://go.vansh.nyc/1zP",
-   "source": "CSCareers (vanshb03)",
-   "category": "Hardware",
-   "terms": [],
-   "posted": "2026-11-14",
+   "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Animation---Cinematic-Tools-Engineering_R028350",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-12",
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "a16cea202480",
+   "company": "JM Family",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Deerfield Beach, FL"
+   ],
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/en-US/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199",
+   "source": "SpeedyApply US",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "77b92d7de2aa",
+   "company": "JM Family",
+   "title": "Software Analyst Intern",
+   "locations": [
+    "Deerfield Beach, FL"
+   ],
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/en-US/jmfamily_external/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187",
+   "source": "SpeedyApply US",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "2c025c35be77",
+   "company": "JM Family",
+   "title": "Data Engineering Intern",
+   "locations": [
+    "Deerfield Beach, FL"
+   ],
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/en-US/jmfamily_external/job/Florida---Deerfield-Beach/Data-Engineering-Intern_JR105086",
+   "source": "SpeedyApply AI/ML",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "a9485108eb67",
+   "company": "Bank of Montreal",
+   "title": "UX/UI Designer Co-op Intern (Winter 2027)",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://bmo.wd3.myworkdayjobs.com/Campus/job/Toronto-ON-CAN/UX-UI-Designer--Winter-2027--Co-op-Internship---8-months_R260026951",
+   "source": "Canadian Tech Internships (negarprh)",
+   "category": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-11-02",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "02d4ae16e8dd",
+   "company": "Workday",
+   "title": "Software Development Engineer Intern",
+   "locations": [
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-10-08",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "48b60d5a1f64",
+   "company": "Workday",
+   "title": "Machine Learning Engineer Intern",
+   "locations": [
+    "Toronto, ON, Canada",
+    "Vancouver, BC, Canada"
+   ],
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Winter 2027",
+    "Summer 2027"
+   ],
+   "posted": "2026-10-08",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "0a1b1d407669",
+   "company": "Genesys",
+   "title": "Web Software Developer Intern - WFM",
+   "locations": [
+    "Toronto, ON, Canada"
+   ],
+   "url": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-06",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-15"
   },
@@ -412,26 +547,6 @@
    "first_seen": "2026-11-15"
   },
   {
-   "id": "2075ea896795",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-   "locations": [
-    "Salt Lake City, UT"
-   ],
-   "url": "https://higher.gs.com/roles/171551?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-15"
-  },
-  {
    "id": "a1d3e43401d4",
    "company": "Goldman Sachs",
    "title": "Summer Analyst Intern",
@@ -439,26 +554,6 @@
     "NYC"
    ],
    "url": "https://higher.gs.com/roles/171550?type=students",
-   "source": "Simplify Summer 2027",
-   "category": "Quant",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-08-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-15"
-  },
-  {
-   "id": "beaa88873132",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171548?type=students",
    "source": "Simplify Summer 2027",
    "category": "Quant",
    "terms": [
@@ -812,62 +907,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "ad956f1de246",
-   "company": "Motorola Solutions",
-   "title": "Global Education Intern (Summer 2027 Internship)",
-   "locations": [
-    "Chicago, IL, More..."
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Global-Education-Intern--Summer-2027-Internship-_R70403",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "93704f5c03af",
-   "company": "Intel",
-   "title": "PnP Lab Eng. Intern Worker",
-   "locations": [
-    "Costa Rica, San Jose"
-   ],
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/PnP-Lab-Eng-Intern-Worker_JR0289168",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "f7299d99f53a",
-   "company": "Intel",
-   "title": "Power Integrity Intern Worker Engineer",
-   "locations": [
-    "Costa Rica, San Jose"
-   ],
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Power-Integrity-Intern-Worker-Engineer_JR0289171",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "59f8520c895a",
    "company": "NextEra Energy",
    "title": "Software Engineering Intern - Technical",
@@ -975,28 +1014,6 @@
     "Pittsfield, MA"
    ],
    "url": "https://careers-gdms.icims.com/jobs/75487/job?mobile=true&needsRedirect=false",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
-   "terms": [],
-   "posted": "2026-11-13",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "568edd00a099",
-   "company": "Eight Sleep",
-   "title": "Firmware Intern",
-   "locations": [
-    "Washington, DC",
-    "SF",
-    "Austin, TX",
-    "LA",
-    "NYC"
-   ],
-   "url": "https://jobs.ashbyhq.com/eightsleep/8da94996-2820-4964-b2b8-0ed151dd4f1b/application?embed=true",
    "source": "Simplify Summer 2027",
    "category": "Hardware",
    "terms": [],
@@ -1190,13 +1207,13 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "401579234e6c",
+   "id": "ad956f1de246",
    "company": "Motorola Solutions",
-   "title": "Operations - 2027 Summer Internship",
+   "title": "Global Education Intern (Summer 2027 Internship)",
    "locations": [
-    "Chicago, IL"
+    "Chicago, IL, More..."
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Operations---2027-Summer-Internship_R67655",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Global-Education-Intern--Summer-2027-Internship-_R70403",
    "source": "Workday",
    "category": "Other",
    "terms": [
@@ -1210,15 +1227,33 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "3881eeb8d0c7",
-   "company": "Motorola Solutions",
-   "title": "Global Sales Operations - 2027 Internship",
+   "id": "93704f5c03af",
+   "company": "Intel",
+   "title": "PnP Lab Eng. Intern Worker",
    "locations": [
-    "Chicago, IL"
+    "Costa Rica, San Jose"
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Global-Sales-Operations---2027-Internship_R69254",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/PnP-Lab-Eng-Intern-Worker_JR0289168",
    "source": "Workday",
    "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "f7299d99f53a",
+   "company": "Intel",
+   "title": "Power Integrity Intern Worker Engineer",
+   "locations": [
+    "Costa Rica, San Jose"
+   ],
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Power-Integrity-Intern-Worker-Engineer_JR0289171",
+   "source": "Workday",
+   "category": "Software",
    "terms": [],
    "posted": "2026-11-13",
    "pay": null,
@@ -1504,6 +1539,44 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "401579234e6c",
+   "company": "Motorola Solutions",
+   "title": "Operations - 2027 Summer Internship",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Operations---2027-Summer-Internship_R67655",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-12",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "3881eeb8d0c7",
+   "company": "Motorola Solutions",
+   "title": "Global Sales Operations - 2027 Internship",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Global-Sales-Operations---2027-Internship_R69254",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-12",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "4556e702df9b",
    "company": "Motorola Solutions",
    "title": "Finance & Accounting Intern (2027 Internship)",
@@ -1514,7 +1587,7 @@
    "source": "Workday",
    "category": "Other",
    "terms": [],
-   "posted": "2026-11-12",
+   "posted": "2026-11-11",
    "pay": null,
    "regions": [
     "US"
@@ -1534,7 +1607,7 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-11-12",
+   "posted": "2026-11-11",
    "pay": null,
    "regions": [
     "US"
@@ -1554,44 +1627,6 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-11-12",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "325d9b7059d0",
-   "company": "Motorola Solutions",
-   "title": "IT M&A Integration Analyst - 2027 Summer Internship (Chicago Hybrid)",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/IT-M-A-Integration-Analyst---2026-Summer-Internship--Chicago-Hybrid-_R70464",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "e843e47d7faa",
-   "company": "Adobe",
-   "title": "2027 Intern - FP&A Finance & Reporting",
-   "locations": [
-    "San Jose"
-   ],
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---FP-A-Finance---Reporting_R173005",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
    "posted": "2026-11-11",
    "pay": null,
    "regions": [
@@ -1758,15 +1793,35 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "ea6f2dada28f",
-   "company": "Intel",
-   "title": "HR IT Software Engineer Intern",
+   "id": "325d9b7059d0",
+   "company": "Motorola Solutions",
+   "title": "IT M&A Integration Analyst - 2027 Summer Internship (Chicago Hybrid)",
    "locations": [
-    "Costa Rica, San Jose"
+    "Chicago, IL"
    ],
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/HR-IT-Software-Engineer-Intern_JR0288637",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/IT-M-A-Integration-Analyst---2026-Summer-Internship--Chicago-Hybrid-_R70464",
    "source": "Workday",
    "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "e843e47d7faa",
+   "company": "Adobe",
+   "title": "2027 Intern - FP&A Finance & Reporting",
+   "locations": [
+    "San Jose"
+   ],
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---FP-A-Finance---Reporting_R173005",
+   "source": "Workday",
+   "category": "Other",
    "terms": [],
    "posted": "2026-11-10",
    "pay": null,
@@ -1785,6 +1840,24 @@
    "url": "https://jobs.paccar.com/job/Chillicothe-Data-Analyst-Intern-OH-45601-8829/1455610233/?ats=successfactors",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-09",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "ea6f2dada28f",
+   "company": "Intel",
+   "title": "HR IT Software Engineer Intern",
+   "locations": [
+    "Costa Rica, San Jose"
+   ],
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/HR-IT-Software-Engineer-Intern_JR0288637",
+   "source": "Workday",
+   "category": "Software",
    "terms": [],
    "posted": "2026-11-09",
    "pay": null,
@@ -1974,24 +2047,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "71bf37ed172c",
-   "company": "Motorola Solutions",
-   "title": "Software Presales Enablement Intern - Summer Internship 2027",
-   "locations": [
-    "Illinois Remote Work, More..."
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-07",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "d07aeb913f69",
    "company": "L3Harris Technologies",
    "title": "Data Architect Intern",
@@ -2048,15 +2103,15 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "77e8b039eaae",
-   "company": "Intel",
-   "title": "GPU Architecture Graduate Intern",
+   "id": "71bf37ed172c",
+   "company": "Motorola Solutions",
+   "title": "Software Presales Enablement Intern - Summer Internship 2027",
    "locations": [
-    "US, California, Folsom"
+    "Illinois Remote Work, More..."
    ],
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228",
    "source": "Workday",
-   "category": "Other",
+   "category": "Software",
    "terms": [],
    "posted": "2026-11-06",
    "pay": null,
@@ -2084,13 +2139,13 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "de1246871026",
-   "company": "Adobe",
-   "title": "2027 Intern - Brand Creative",
+   "id": "77e8b039eaae",
+   "company": "Intel",
+   "title": "GPU Architecture Graduate Intern",
    "locations": [
-    "San Francisco"
+    "US, California, Folsom"
    ],
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/XMLNAME-2027-Intern---Brand-Creative_R173411",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529",
    "source": "Workday",
    "category": "Other",
    "terms": [],
@@ -2212,13 +2267,13 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "bb7f7ebda211",
-   "company": "Motorola Solutions",
-   "title": "Presales Business Manager - Internship 2027",
+   "id": "de1246871026",
+   "company": "Adobe",
+   "title": "2027 Intern - Brand Creative",
    "locations": [
-    "Allen, TX (TX139), More..."
+    "San Francisco"
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Business-Manager---Internship-2027_R70094",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/XMLNAME-2027-Intern---Brand-Creative_R173411",
    "source": "Workday",
    "category": "Other",
    "terms": [],
@@ -2279,6 +2334,24 @@
    "url": "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125",
    "source": "SpeedyApply US",
    "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-03",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "bb7f7ebda211",
+   "company": "Motorola Solutions",
+   "title": "Presales Business Manager - Internship 2027",
+   "locations": [
+    "Allen, TX (TX139), More..."
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Business-Manager---Internship-2027_R70094",
+   "source": "Workday",
+   "category": "Other",
    "terms": [],
    "posted": "2026-11-03",
    "pay": null,
@@ -2484,6 +2557,24 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "083c4c82b602",
+   "company": "Dominion Energy",
+   "title": "Power Systems Time-Series Analytics Intern",
+   "locations": [
+    "Glen Allen, VA"
+   ],
+   "url": "https://careers.dominionenergy.com/job/GLEN-ALLEN-Intern-Power-Systems-Time-Series-Analytics-VA-23060/1444045200/?ats=successfactors",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-10-27",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "946111d11552",
    "company": "Motorola Solutions",
    "title": "Motorola Solutions Foundation - 2027 Summer Internship",
@@ -2496,24 +2587,6 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-10-28",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "083c4c82b602",
-   "company": "Dominion Energy",
-   "title": "Power Systems Time-Series Analytics Intern",
-   "locations": [
-    "Glen Allen, VA"
-   ],
-   "url": "https://careers.dominionenergy.com/job/GLEN-ALLEN-Intern-Power-Systems-Time-Series-Analytics-VA-23060/1444045200/?ats=successfactors",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [],
    "posted": "2026-10-27",
    "pay": null,
    "regions": [
@@ -2534,7 +2607,7 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "US"
@@ -2552,7 +2625,7 @@
    "source": "Workday",
    "category": "Software",
    "terms": [],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "US"
@@ -2572,7 +2645,7 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "US"
@@ -2592,7 +2665,7 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "US"
@@ -2612,7 +2685,7 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "US"
@@ -2654,64 +2727,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "8e5b01f94e39",
-   "company": "Motorola Solutions",
-   "title": "Mechanical Engineering Intern - Summer 2027",
-   "locations": [
-    "Schaumburg, IL"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mechanical-Engineering-Intern---Summer-2027_R69727",
-   "source": "Workday",
-   "category": "Hardware",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-23",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "d5a36bd3a4ac",
-   "company": "Motorola Solutions",
-   "title": "Presale Systems Engineer - Summer 2027 Internship",
-   "locations": [
-    "Brooklyn, NY, More..."
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Brooklyn-NY/Presale-Systems-Engineer---Summer-2027-Internship_R69755",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-10-23",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "c14fd32925e4",
-   "company": "Intel",
-   "title": "Compiler Engineering Graduate Intern",
-   "locations": [
-    "Canada, Toronto"
-   ],
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-23",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-14"
   },
@@ -2793,20 +2808,60 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "ecbaa06a45ab",
-   "company": "Adobe",
-   "title": "2027 Intern - Emerging Technology & Innovation",
+   "id": "8e5b01f94e39",
+   "company": "Motorola Solutions",
+   "title": "Mechanical Engineering Intern - Summer 2027",
    "locations": [
-    "San Jose"
+    "Schaumburg, IL"
    ],
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mechanical-Engineering-Intern---Summer-2027_R69727",
    "source": "Workday",
-   "category": "Other",
-   "terms": [],
+   "category": "Hardware",
+   "terms": [
+    "Summer 2027"
+   ],
    "posted": "2026-10-22",
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "d5a36bd3a4ac",
+   "company": "Motorola Solutions",
+   "title": "Presale Systems Engineer - Summer 2027 Internship",
+   "locations": [
+    "Brooklyn, NY, More..."
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Brooklyn-NY/Presale-Systems-Engineer---Summer-2027-Internship_R69755",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-10-22",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "c14fd32925e4",
+   "company": "Intel",
+   "title": "Compiler Engineering Graduate Intern",
+   "locations": [
+    "Canada, Toronto"
+   ],
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-22",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-14"
   },
@@ -2865,18 +2920,16 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "b1c4e604ce44",
-   "company": "Motorola Solutions",
-   "title": "Presale Systems Engineer - Summer 2027 Internship",
+   "id": "ecbaa06a45ab",
+   "company": "Adobe",
+   "title": "2027 Intern - Emerging Technology & Innovation",
    "locations": [
-    "Massachusetts Remote Work, More..."
+    "San Jose"
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
    "source": "Workday",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
+   "category": "Other",
+   "terms": [],
    "posted": "2026-10-21",
    "pay": null,
    "regions": [
@@ -2905,34 +2958,18 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "1d0abdeffd56",
+   "id": "b1c4e604ce44",
    "company": "Motorola Solutions",
-   "title": "Corporate Strategy Intern (2027)",
+   "title": "Presale Systems Engineer - Summer 2027 Internship",
    "locations": [
-    "Chicago, IL"
+    "Massachusetts Remote Work, More..."
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Corporate-Strategy-Intern--2027-_R68875",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640",
    "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-10-20",
-   "pay": null,
-   "regions": [
-    "US"
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
    ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "b9fe9ad98bdb",
-   "company": "Adobe",
-   "title": "2027 Intern - Experience Researcher",
-   "locations": [
-    "San Jose"
-   ],
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Experience-Researcher_R172996",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
    "posted": "2026-10-20",
    "pay": null,
    "regions": [
@@ -2953,6 +2990,42 @@
    "terms": [
     "Summer 2027"
    ],
+   "posted": "2026-10-19",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "1d0abdeffd56",
+   "company": "Motorola Solutions",
+   "title": "Corporate Strategy Intern (2027)",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Corporate-Strategy-Intern--2027-_R68875",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-19",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "b9fe9ad98bdb",
+   "company": "Adobe",
+   "title": "2027 Intern - Experience Researcher",
+   "locations": [
+    "San Jose"
+   ],
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Experience-Researcher_R172996",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
    "posted": "2026-10-19",
    "pay": null,
    "regions": [
@@ -3645,26 +3718,6 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "ef3b56041118",
-   "company": "Corning",
-   "title": "Optical Metrology Engineer Intern",
-   "locations": [
-    "Fairport, NY"
-   ],
-   "url": "https://corningjobs.corning.com/job/Fairport-Optical-Metrology-Engineering-Intern-Summer-2027-NY-14450/1433462600/?ats=successfactors",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-09-24",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
    "id": "ec1d702ff169",
    "company": "Erie Insurance Group",
    "title": "Data Intern 2",
@@ -4263,174 +4316,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "fe9147663208",
-   "company": "Salesforce",
-   "title": "Summer 2027 Intern - Sales Immersion, Financial Services",
-   "locations": [
-    "New York - New York"
-   ],
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/New-York---New-York/Summer-2027-Intern---Sales-Immersion--Financial-Services_JR368293-1",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "20f183745970",
-   "company": "TD Bank",
-   "title": "Intern - TDS",
-   "locations": [
-    "Houston, Texas"
-   ],
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Houston-Texas/Intern---TDS_R_1522219",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "2747a2589f5e",
-   "company": "TD Bank",
-   "title": "Commercial Banking Intern / Co-Op (Winter 2027)",
-   "locations": [
-    "Victoria, British Columbia"
-   ],
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Victoria-British-Columbia/Commercial-Banking-Intern---Co-Op--Winter-2027-_R_1503924-1",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "60673e6a06ea",
-   "company": "RBC (students)",
-   "title": "Co-op Student",
-   "locations": [
-    "TORONTO, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Co-op-Student_R-0000191711",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "7bce2a54fbb2",
-   "company": "RBC",
-   "title": "Client Advisor Intern",
-   "locations": [
-    "BRANTFORD, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/BRANTFORD-Ontario-Canada/Client-Advisor-Intern_R-0000192635",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "8c87deae4c8e",
-   "company": "RBC",
-   "title": "Client Advisor Intern",
-   "locations": [
-    "WHISTLER, British Columbia, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/WHISTLER-British-Columbia-Canada/Client-Advisor-Intern_R-0000191628-1",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "f20d63aded71",
-   "company": "RBC",
-   "title": "Client Advisor Intern",
-   "locations": [
-    "LONDON, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LONDON-Ontario-Canada/Client-Advisor-Intern_R-0000192633",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "3fc10446c812",
-   "company": "RBC",
-   "title": "Banking Advisor Intern",
-   "locations": [
-    "LONDON, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LONDON-Ontario-Canada/Banking-Advisor-Intern_R-0000192612",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "ce88318ae5d3",
-   "company": "BMO",
-   "title": "Private Wealth Administrative Assistant, Winter 2027 (Co-op/Internship) - 4 months",
-   "locations": [
-    "Toronto, ON, CAN"
-   ],
-   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Private-Wealth-Administrative-Assistant--Winter-2027--Co-op-Internship----4-months_R260029087",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-13"
   },
@@ -5666,6 +5551,174 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "fe9147663208",
+   "company": "Salesforce",
+   "title": "Summer 2027 Intern - Sales Immersion, Financial Services",
+   "locations": [
+    "New York - New York"
+   ],
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/New-York---New-York/Summer-2027-Intern---Sales-Immersion--Financial-Services_JR368293-1",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "20f183745970",
+   "company": "TD Bank",
+   "title": "Intern - TDS",
+   "locations": [
+    "Houston, Texas"
+   ],
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Houston-Texas/Intern---TDS_R_1522219",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "2747a2589f5e",
+   "company": "TD Bank",
+   "title": "Commercial Banking Intern / Co-Op (Winter 2027)",
+   "locations": [
+    "Victoria, British Columbia"
+   ],
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Victoria-British-Columbia/Commercial-Banking-Intern---Co-Op--Winter-2027-_R_1503924-1",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "60673e6a06ea",
+   "company": "RBC (students)",
+   "title": "Co-op Student",
+   "locations": [
+    "TORONTO, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Co-op-Student_R-0000191711",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "7bce2a54fbb2",
+   "company": "RBC",
+   "title": "Client Advisor Intern",
+   "locations": [
+    "BRANTFORD, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/BRANTFORD-Ontario-Canada/Client-Advisor-Intern_R-0000192635",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "8c87deae4c8e",
+   "company": "RBC",
+   "title": "Client Advisor Intern",
+   "locations": [
+    "WHISTLER, British Columbia, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/WHISTLER-British-Columbia-Canada/Client-Advisor-Intern_R-0000191628-1",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "f20d63aded71",
+   "company": "RBC",
+   "title": "Client Advisor Intern",
+   "locations": [
+    "LONDON, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LONDON-Ontario-Canada/Client-Advisor-Intern_R-0000192633",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "3fc10446c812",
+   "company": "RBC",
+   "title": "Banking Advisor Intern",
+   "locations": [
+    "LONDON, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LONDON-Ontario-Canada/Banking-Advisor-Intern_R-0000192612",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ce88318ae5d3",
+   "company": "BMO",
+   "title": "Private Wealth Administrative Assistant, Winter 2027 (Co-op/Internship) - 4 months",
+   "locations": [
+    "Toronto, ON, CAN"
+   ],
+   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Private-Wealth-Administrative-Assistant--Winter-2027--Co-op-Internship----4-months_R260029087",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-11-13",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-13"
   },
@@ -7881,26 +7934,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "c2412f3ed061",
-   "company": "Bank of Montreal",
-   "title": "Workforce Analyst Co-op Intern",
-   "locations": [
-    "Toronto, ON, Canada"
-   ],
-   "url": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Workforce-Analyst--Winter-2027--Co-op-Internship----8-Months_R260024513",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-08-18",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "21ecf4d5ffc6",
    "company": "Huawei",
    "title": "Engineer Co-op - Openjiuwen AI Agent Platform",
@@ -7971,26 +8004,6 @@
     "US"
    ],
    "first_seen": "2026-11-13"
-  },
-  {
-   "id": "fcf21093dd4b",
-   "company": "Capital One",
-   "title": "Intern, Strategy Analyst - Summer 2027",
-   "locations": [
-    "Toronto, ON"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Strategy-Analyst---Summer-2027_R243855-1",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-13",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-12"
   },
   {
    "id": "8666058a2ecf",
@@ -8567,6 +8580,26 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "fcf21093dd4b",
+   "company": "Capital One",
+   "title": "Intern, Strategy Analyst - Summer 2027",
+   "locations": [
+    "Toronto, ON"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Strategy-Analyst---Summer-2027_R243855-1",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-12",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-12"
   },
@@ -10049,26 +10082,6 @@
    ],
    "posted": "2026-11-06",
    "pay": "$60/hr",
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "ce1cf595a024",
-   "company": "JM Family",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "Deerfield Beach, FL"
-   ],
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-04",
-   "pay": null,
    "regions": [
     "US"
    ],
@@ -11701,26 +11714,6 @@
    "first_seen": "2026-11-11"
   },
   {
-   "id": "7202606b3bf6",
-   "company": "Motorola Solutions",
-   "title": "Software System Technologist Intern (Summer 2027 Internship)",
-   "locations": [
-    "Allen, TX (TX139)"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-11"
-  },
-  {
    "id": "19bfd682b36c",
    "company": "SAS",
    "title": "Summer 2027 - EVAAS Instructional Design e-Learning Developer Intern",
@@ -11933,24 +11926,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-11"
-  },
-  {
-   "id": "b3755d9ffb98",
-   "company": "Clio",
-   "title": "Project Coordinator, Co-op",
-   "locations": [
-    "Vancouver"
-   ],
-   "url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Project-Coordinator--Co-op_REQ-5568",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-11"
   },
@@ -12836,6 +12811,26 @@
    "first_seen": "2026-11-11"
   },
   {
+   "id": "7202606b3bf6",
+   "company": "Motorola Solutions",
+   "title": "Software System Technologist Intern (Summer 2027 Internship)",
+   "locations": [
+    "Allen, TX (TX139)"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-11"
+  },
+  {
    "id": "53795d66e2f7",
    "company": "HP",
    "title": "Cloud Engineering Intern - HP IQ",
@@ -12906,6 +12901,24 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "b3755d9ffb98",
+   "company": "Clio",
+   "title": "Project Coordinator, Co-op",
+   "locations": [
+    "Vancouver"
+   ],
+   "url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Project-Coordinator--Co-op_REQ-5568",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-11"
   },
@@ -14571,64 +14584,6 @@
    "first_seen": "2026-11-10"
   },
   {
-   "id": "ea0c6db12d08",
-   "company": "RBC",
-   "title": "Relationship Manager Intern, Business Markets",
-   "locations": [
-    "LANGLEY, British Columbia, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LANGLEY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Markets_R-0000192413",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "cc74f4fbfdfb",
-   "company": "BMO",
-   "title": "R260025949 Portfolio Assistant, Winter 2027 (Co-op/Internship), Brossard - 4 months",
-   "locations": [
-    "Brossard, QC, CAN"
-   ],
-   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Brossard-QC-CAN/R260025949-Portfolio-Assistant--Winter-2027--Co-op-Internship---Brossard---4-months_R260026726",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "ccdb5262d389",
-   "company": "BMO",
-   "title": "Treasury & Payment Solutions Strategy Intern, Summer 2027 (10 weeks)",
-   "locations": [
-    "Chicago, IL, USA"
-   ],
-   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Chicago-IL-USA/Treasury---Payment-Solutions-Strategy-Intern--Summer-2027--10-weeks-_R260031397",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-11",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "67fde94558bd",
    "company": "Meta",
    "title": "Research Scientist Intern - AI Core Machine Learning",
@@ -16040,6 +15995,64 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "ea0c6db12d08",
+   "company": "RBC",
+   "title": "Relationship Manager Intern, Business Markets",
+   "locations": [
+    "LANGLEY, British Columbia, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LANGLEY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Markets_R-0000192413",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "cc74f4fbfdfb",
+   "company": "BMO",
+   "title": "R260025949 Portfolio Assistant, Winter 2027 (Co-op/Internship), Brossard - 4 months",
+   "locations": [
+    "Brossard, QC, CAN"
+   ],
+   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Brossard-QC-CAN/R260025949-Portfolio-Assistant--Winter-2027--Co-op-Internship---Brossard---4-months_R260026726",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "ccdb5262d389",
+   "company": "BMO",
+   "title": "Treasury & Payment Solutions Strategy Intern, Summer 2027 (10 weeks)",
+   "locations": [
+    "Chicago, IL, USA"
+   ],
+   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Chicago-IL-USA/Treasury---Payment-Solutions-Strategy-Intern--Summer-2027--10-weeks-_R260031397",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-10",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "d331a7a22d7b",
    "company": "Amazon",
    "title": "Pathways Operations Manager Intern – Summer 2027 (Canada-Wide Opportunities)",
@@ -16850,24 +16863,6 @@
    "first_seen": "2026-11-10"
   },
   {
-   "id": "58b45fbdc122",
-   "company": "SOTI",
-   "title": "Software Developer Intern (May 2027 - 12 months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-06",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "098a274cb20c",
    "company": "V2X",
    "title": "AI Engineering Intern",
@@ -16904,6 +16899,24 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "58b45fbdc122",
+   "company": "SOTI",
+   "title": "Software Developer Intern (May 2027 - 12 months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-05",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-10"
   },
@@ -17693,24 +17706,6 @@
     "US"
    ],
    "first_seen": "2026-11-10"
-  },
-  {
-   "id": "b9dfe2e758d7",
-   "company": "RBC",
-   "title": "Banking Advisor Intern",
-   "locations": [
-    "AMHERSTBURG, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/AMHERSTBURG-Ontario-Canada/Banking-Advisor-Intern_R-0000192237",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-10",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-09"
   },
   {
    "id": "caf735c88df4",
@@ -19055,6 +19050,24 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "b9dfe2e758d7",
+   "company": "RBC",
+   "title": "Banking Advisor Intern",
+   "locations": [
+    "AMHERSTBURG, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/AMHERSTBURG-Ontario-Canada/Banking-Advisor-Intern_R-0000192237",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-09",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-11-09"
   },
@@ -21112,26 +21125,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "ba752ad57f83",
-   "company": "JM Family",
-   "title": "Data Engineer Intern",
-   "locations": [
-    "Deerfield Beach, FL"
-   ],
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Data-Engineering-Intern_JR105086",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-07"
-  },
-  {
    "id": "e5fac8bc7046",
    "company": "West Bend Insurance",
    "title": "Data Solution Engineer Intern",
@@ -21484,24 +21477,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "1f49347c65c8",
-   "company": "RBC",
-   "title": "Financial Advisor Intern",
-   "locations": [
-    "HAMILTON, Ontario, Canada"
-   ],
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/HAMILTON-Ontario-Canada/Financial-Advisor_R-0000184478",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-07",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-06"
   },
@@ -22788,6 +22763,24 @@
    "terms": [
     "Winter 2027"
    ],
+   "posted": "2026-11-06",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "1f49347c65c8",
+   "company": "RBC",
+   "title": "Financial Advisor Intern",
+   "locations": [
+    "HAMILTON, Ontario, Canada"
+   ],
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/HAMILTON-Ontario-Canada/Financial-Advisor_R-0000184478",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
    "posted": "2026-11-06",
    "pay": null,
    "regions": [
@@ -24291,42 +24284,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "350aec7dbdb1",
-   "company": "SOTI",
-   "title": "Performance Test Engineer Intern (May 2027 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Performance-Test-Engineer-Intern--May-2027-12-Months-_R10626",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-06",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "761552201e3c",
-   "company": "SOTI",
-   "title": "Quality Assurance Specialist Intern - Android (May 2027 - 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Quality-Assurance-Specialist-Intern---Android--May-2027---12-Months-_R10651",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-11-06",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
    "id": "75c54bc05b4a",
    "company": "Liberty Mutual",
    "title": "Analyst Development Intern",
@@ -25535,6 +25492,42 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "350aec7dbdb1",
+   "company": "SOTI",
+   "title": "Performance Test Engineer Intern (May 2027 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Performance-Test-Engineer-Intern--May-2027-12-Months-_R10626",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-05",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "761552201e3c",
+   "company": "SOTI",
+   "title": "Quality Assurance Specialist Intern - Android (May 2027 - 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Quality-Assurance-Specialist-Intern---Android--May-2027---12-Months-_R10651",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-11-05",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-05"
+  },
+  {
    "id": "f92e83ce067e",
    "company": "John Deere",
    "title": "Product Engineering Student Intern - Product Engineering",
@@ -26196,44 +26189,6 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "f96f7679d968",
-   "company": "JM Family",
-   "title": "Analytics Intern",
-   "locations": [
-    "Deerfield Beach, FL"
-   ],
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Analytics-Intern_JR105200",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "ce1abd8294e9",
-   "company": "JM Family",
-   "title": "Software Analyst Intern",
-   "locations": [
-    "Deerfield Beach, FL"
-   ],
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [],
    "posted": "2026-11-04",
    "pay": null,
    "regions": [
@@ -27407,7 +27362,7 @@
    "source": "Workday",
    "category": "Software",
    "terms": [],
-   "posted": "2026-10-27",
+   "posted": "2026-10-26",
    "pay": null,
    "regions": [
     "Canada"
@@ -28026,24 +27981,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "7145778cfb12",
-   "company": "Genesys",
-   "title": "Web Software Developer Intern, WFM",
-   "locations": [
-    "Toronto, Canada"
-   ],
-   "url": "https://go.vansh.nyc/1hJ",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-08",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-05"
   },
@@ -29841,24 +29778,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-04"
-  },
-  {
-   "id": "5c49d4b27b33",
-   "company": "TC Energy",
-   "title": "Enterprise Security Intern, Detection & Response",
-   "locations": [
-    "Calgary, Canada"
-   ],
-   "url": "https://go.vansh.nyc/1gW",
-   "source": "CSCareers (vanshb03)",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-04"
   },
@@ -33726,26 +33645,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "664847b1db20",
-   "company": "Bank of Montreal",
-   "title": "UX/UI Designer Co-op Intern",
-   "locations": [
-    "Toronto, ON, Canada"
-   ],
-   "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/UX-UI-Designer--Winter-2027--Co-op-Internship---8-months_R260026951-1",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-11-02",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-02"
   },
@@ -37628,42 +37527,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "ebb38f3d4dc6",
-   "company": "SOTI",
-   "title": "QA Intern (May 2027, 12 months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/QA-Intern--May-2027--12-months-_R10610",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-30",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "98863d4bea08",
-   "company": "SOTI",
-   "title": "Software Developer Intern - SOTI XSight (May 2027 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--May-2027-12-Months-_R10611",
-   "source": "Workday",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-10-30",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
    "id": "4ffe42079391",
    "company": "AXA",
    "title": "Underwriting Data & Analytics Intern",
@@ -37720,13 +37583,31 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "39e814be349a",
+   "id": "ebb38f3d4dc6",
    "company": "SOTI",
-   "title": "Cloud Administrator Intern (January 2027 - 12 months)",
+   "title": "QA Intern (May 2027, 12 months)",
    "locations": [
     "Mississauga, Canada – Meadowvale Office (HQ)"
    ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Cloud-Administrator--Intern-_R10569",
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/QA-Intern--May-2027--12-months-_R10610",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-29",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "98863d4bea08",
+   "company": "SOTI",
+   "title": "Software Developer Intern - SOTI XSight (May 2027 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--May-2027-12-Months-_R10611",
    "source": "Workday",
    "category": "Software",
    "terms": [],
@@ -37830,6 +37711,24 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "39e814be349a",
+   "company": "SOTI",
+   "title": "Cloud Administrator Intern (January 2027 - 12 months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Cloud-Administrator--Intern-_R10569",
+   "source": "Workday",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-10-28",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "0aff170440c2",
    "company": "RTX",
    "title": "Electrical Engineer Intern",
@@ -37846,60 +37745,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "8ba360fbb8ce",
-   "company": "SOTI",
-   "title": "Marketing Coordinator Intern (May 2027 - 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Marketing-Coordinator-Intern--May-2027---12-Months-_R10621",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-10-24",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "914c65ec7f17",
-   "company": "SOTI",
-   "title": "Associate Product Manager Intern (SOTI Connect) (May 2027 - 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Associate-Product-Manager-Intern--SOTI-Connect---May-2027---12-Months-_R10615",
-   "source": "Workday",
-   "category": "Product",
-   "terms": [],
-   "posted": "2026-10-24",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
-   "id": "3f678f4b4294",
-   "company": "SOTI",
-   "title": "Associate Product Manager Intern (May 2027 - 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Associate-Product-Manager-Intern--May-2027---12-Months-_R10638",
-   "source": "Workday",
-   "category": "Product",
-   "terms": [],
-   "posted": "2026-10-24",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-10-31"
   },
@@ -37976,6 +37821,60 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "8ba360fbb8ce",
+   "company": "SOTI",
+   "title": "Marketing Coordinator Intern (May 2027 - 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Marketing-Coordinator-Intern--May-2027---12-Months-_R10621",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-23",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "914c65ec7f17",
+   "company": "SOTI",
+   "title": "Associate Product Manager Intern (SOTI Connect) (May 2027 - 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Associate-Product-Manager-Intern--SOTI-Connect---May-2027---12-Months-_R10615",
+   "source": "Workday",
+   "category": "Product",
+   "terms": [],
+   "posted": "2026-10-23",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "3f678f4b4294",
+   "company": "SOTI",
+   "title": "Associate Product Manager Intern (May 2027 - 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Associate-Product-Manager-Intern--May-2027---12-Months-_R10638",
+   "source": "Workday",
+   "category": "Product",
+   "terms": [],
+   "posted": "2026-10-23",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-10-31"
   },
@@ -38298,24 +38197,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "04814b084a82",
-   "company": "SOTI",
-   "title": "Marketing Program Coordinator Intern (May 2027 - 12 Months)",
-   "locations": [
-    "Mississauga, Canada – Meadowvale Office (HQ)"
-   ],
-   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Marketing-Program-Coordinator-Intern--May-2027---12-Months-_R10612",
-   "source": "Workday",
-   "category": "Other",
-   "terms": [],
-   "posted": "2026-10-17",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-10-31"
-  },
-  {
    "id": "855a1c855e3e",
    "company": "RBC (students)",
    "title": "Intern",
@@ -38384,6 +38265,24 @@
    "pay": null,
    "regions": [
     "US"
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "04814b084a82",
+   "company": "SOTI",
+   "title": "Marketing Program Coordinator Intern (May 2027 - 12 Months)",
+   "locations": [
+    "Mississauga, Canada – Meadowvale Office (HQ)"
+   ],
+   "url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Marketing-Program-Coordinator-Intern--May-2027---12-Months-_R10612",
+   "source": "Workday",
+   "category": "Other",
+   "terms": [],
+   "posted": "2026-10-16",
+   "pay": null,
+   "regions": [
+    "Canada"
    ],
    "first_seen": "2026-10-31"
   },
@@ -52136,24 +52035,6 @@
    "url": "https://jobs.ashbyhq.com/ixianrobotics/23738c13-3881-402e-9919-85683052d233/application?embed=true",
    "source": "Simplify Summer 2027",
    "category": "Software",
-   "terms": [],
-   "posted": "2026-10-21",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-29"
-  },
-  {
-   "id": "f70c9bd606d0",
-   "company": "Ixian Robotics",
-   "title": "Hardware Intern",
-   "locations": [
-    "SF"
-   ],
-   "url": "https://jobs.ashbyhq.com/ixianrobotics/f974d07a-0186-4cc9-8c63-ef962dd06f0b/application?embed=true",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
    "terms": [],
    "posted": "2026-10-21",
    "pay": null,
@@ -72360,26 +72241,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "cde4abb3391b",
-   "company": "Vertex Pharmaceuticals",
-   "title": "People Research and Analytics Co-op - People Research and Analytics - Human Resources",
-   "locations": [
-    "Boston, MA"
-   ],
-   "url": "https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Spring-2027-Co-op--People-Research-and-Analytics--Human-Resources_REQ-31103-1",
-   "source": "Simplify Summer 2027",
-   "category": "Data & ML",
-   "terms": [
-    "Winter 2027"
-   ],
-   "posted": "2026-10-07",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "b3f60dd7b5c9",
    "company": "NVIDIA",
    "title": "Research Intern - Spatial Intelligence",
@@ -85936,9 +85797,9 @@
    "company": "Lyft",
    "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
    "locations": [
-    "San Francisco, CA"
+    "New York, NY"
    ],
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
    "source": "Greenhouse",
    "category": "Data & ML",
    "terms": [
