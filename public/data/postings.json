@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-22T20:59:37+00:00",
- "count": 5094,
+ "updated_at": "2026-11-23T01:32:18+00:00",
+ "count": 5093,
  "sources": {
   "list:SpeedyApply International": {
    "ok": true,
@@ -10,29 +10,21 @@
    "ok": true,
    "fetched": 790
   },
-  "list:Canadian Tech Internships (negarprh)": {
-   "ok": true,
-   "fetched": 234
-  },
   "list:SpeedyApply AI/ML": {
    "ok": true,
    "fetched": 662
   },
-  "greenhouse:stripe": {
+  "list:Canadian Tech Internships (negarprh)": {
    "ok": true,
-   "fetched": 778
+   "fetched": 234
   },
   "greenhouse:figma": {
    "ok": true,
    "fetched": 147
   },
-  "list:CSCareers (vanshb03)": {
+  "greenhouse:stripe": {
    "ok": true,
-   "fetched": 2487
-  },
-  "greenhouse:databricks": {
-   "ok": true,
-   "fetched": 893
+   "fetched": 778
   },
   "greenhouse:faire": {
    "ok": true,
@@ -40,19 +32,23 @@
   },
   "greenhouse:cloudflare": {
    "ok": true,
-   "fetched": 504
+   "fetched": 503
   },
-  "greenhouse:samsara": {
+  "greenhouse:databricks": {
    "ok": true,
-   "fetched": 300
+   "fetched": 895
   },
   "greenhouse:dropbox": {
    "ok": true,
    "fetched": 47
   },
-  "greenhouse:airbnb": {
+  "greenhouse:samsara": {
    "ok": true,
-   "fetched": 203
+   "fetched": 301
+  },
+  "list:CSCareers (vanshb03)": {
+   "ok": true,
+   "fetched": 2485
   },
   "greenhouse:affirm": {
    "ok": true,
@@ -62,61 +58,65 @@
    "ok": true,
    "fetched": 174
   },
+  "greenhouse:airbnb": {
+   "ok": true,
+   "fetched": 203
+  },
+  "greenhouse:robinhood": {
+   "ok": true,
+   "fetched": 163
+  },
+  "greenhouse:instacart": {
+   "ok": true,
+   "fetched": 92
+  },
+  "greenhouse:lyft": {
+   "ok": true,
+   "fetched": 145
+  },
+  "greenhouse:okta": {
+   "ok": true,
+   "fetched": 373
+  },
+  "greenhouse:hootsuite": {
+   "ok": true,
+   "fetched": 18
+  },
   "greenhouse:coinbase": {
    "ok": true,
    "fetched": 252
   },
   "list:Simplify Summer 2027": {
    "ok": true,
-   "fetched": 4487
-  },
-  "greenhouse:okta": {
-   "ok": true,
-   "fetched": 373
-  },
-  "greenhouse:robinhood": {
-   "ok": true,
-   "fetched": 163
-  },
-  "greenhouse:lyft": {
-   "ok": true,
-   "fetched": 145
-  },
-  "greenhouse:instacart": {
-   "ok": true,
-   "fetched": 92
-  },
-  "greenhouse:hootsuite": {
-   "ok": true,
-   "fetched": 18
+   "fetched": 4489
   },
   "greenhouse:discord": {
    "ok": true,
    "fetched": 29
   },
-  "greenhouse:doordashusa": {
-   "ok": true,
-   "fetched": 408
-  },
   "greenhouse:scaleai": {
    "ok": true,
    "fetched": 166
-  },
-  "greenhouse:roblox": {
-   "ok": true,
-   "fetched": 259
-  },
-  "greenhouse:duolingo": {
-   "ok": true,
-   "fetched": 54
   },
   "greenhouse:anthropic": {
    "ok": true,
    "fetched": 636
   },
+  "greenhouse:duolingo": {
+   "ok": true,
+   "fetched": 54
+  },
+  "greenhouse:doordashusa": {
+   "ok": true,
+   "fetched": 408
+  },
   "greenhouse:reddit": {
    "ok": true,
    "fetched": 148
+  },
+  "greenhouse:roblox": {
+   "ok": true,
+   "fetched": 259
   },
   "greenhouse:datadog": {
    "ok": true,
@@ -130,14 +130,6 @@
    "ok": true,
    "fetched": 111
   },
-  "greenhouse:mongodb": {
-   "ok": true,
-   "fetched": 417
-  },
-  "greenhouse:gitlab": {
-   "ok": true,
-   "fetched": 246
-  },
   "greenhouse:brex": {
    "ok": true,
    "fetched": 249
@@ -146,13 +138,25 @@
    "ok": true,
    "fetched": 352
   },
-  "ashby:cohere": {
+  "greenhouse:gitlab": {
    "ok": true,
-   "fetched": 124
+   "fetched": 246
+  },
+  "greenhouse:elastic": {
+   "ok": true,
+   "fetched": 382
   },
   "ashby:linear": {
    "ok": true,
    "fetched": 32
+  },
+  "greenhouse:mongodb": {
+   "ok": true,
+   "fetched": 417
+  },
+  "ashby:cohere": {
+   "ok": true,
+   "fetched": 124
   },
   "ashby:notion": {
    "ok": true,
@@ -162,29 +166,25 @@
    "ok": true,
    "fetched": 187
   },
+  "ashby:1password": {
+   "ok": true,
+   "fetched": 80
+  },
+  "ashby:snowflake": {
+   "ok": true,
+   "fetched": 374
+  },
   "ashby:wealthsimple": {
    "ok": true,
    "fetched": 38
-  },
-  "greenhouse:elastic": {
-   "ok": true,
-   "fetched": 382
   },
   "ashby:plaid": {
    "ok": true,
    "fetched": 147
   },
-  "ashby:1password": {
-   "ok": true,
-   "fetched": 80
-  },
   "ashby:openai": {
    "ok": true,
    "fetched": 852
-  },
-  "ashby:snowflake": {
-   "ok": true,
-   "fetched": 374
   },
   "smartrecruiters:BoschGroup": {
    "ok": true,
@@ -234,7 +234,7 @@
    "ok": true,
    "fetched": 200
   },
-  "workday:TD Bank": {
+  "workday:Intel": {
    "ok": true,
    "fetched": 200
   },
@@ -242,11 +242,11 @@
    "ok": true,
    "fetched": 124
   },
-  "workday:BMO": {
+  "workday:TD Bank": {
    "ok": true,
    "fetched": 200
   },
-  "workday:Intel": {
+  "workday:BMO": {
    "ok": true,
    "fetched": 200
   }
@@ -822,6 +822,26 @@
    "first_seen": "2026-11-22"
   },
   {
+   "id": "35401a5ad3c1",
+   "company": "Draper",
+   "title": "Operational Analysis Intern - Summer 2027",
+   "locations": [
+    "Cambridge, MA"
+   ],
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Operational-Analysis-Intern--Summer-2027-_JR003182",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-19",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
    "id": "2dca8628492d",
    "company": "Hewlett Packard Enterprise",
    "title": "Software Development Intern - AI-Assisted Development - Winter 2027 / Stagiaire en développement de logiciel - développement assisté par l’IA - Hiver 2027",
@@ -838,6 +858,42 @@
    "pay": null,
    "regions": [
     "Canada"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "69debdb8f0ee",
+   "company": "Samsung",
+   "title": "Business Operations & Data Analytics Intern",
+   "locations": [
+    "Plano, TX"
+   ],
+   "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6555-Excellence-Way-Plano-TX-USA/Business-Operations---Data-Analytics-Intern_R122135",
+   "source": "Simplify Summer 2027",
+   "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-18",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "20e880b74020",
+   "company": "Megger",
+   "title": "Product Manager Intern",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://megger.wd3.myworkdayjobs.com/MeggerCareers/job/Dallas-United-States/Product-Manager-Intern_JR100870",
+   "source": "Simplify Summer 2027",
+   "category": "Product",
+   "terms": [],
+   "posted": "2026-11-18",
+   "pay": null,
+   "regions": [
+    "US"
    ],
    "first_seen": "2026-11-22"
   },
@@ -905,6 +961,64 @@
    "url": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Bothell-WA-USA/COOP---EFI-FIT-Intern_260005313-1",
    "source": "Simplify Summer 2027",
    "category": "Data & ML",
+   "terms": [],
+   "posted": "2026-11-17",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "d80ac1a9af66",
+   "company": "Sallie Mae",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Newark, DE"
+   ],
+   "url": "https://sallie-mae.wd5.myworkdayjobs.com/Careers/job/Newark-DE/Software-Engineering-Intern_R26_000688",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Summer 2027"
+   ],
+   "posted": "2026-11-17",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "4121f95e7024",
+   "company": "QSL",
+   "title": "Software Development and Artificial Intelligence Intern",
+   "locations": [
+    "Québec City, QC, Canada"
+   ],
+   "url": "https://jobs.smartrecruiters.com/QSL/744000162086264",
+   "source": "Simplify Summer 2027",
+   "category": "Software",
+   "terms": [
+    "Winter 2027"
+   ],
+   "posted": "2026-11-17",
+   "pay": null,
+   "regions": [
+    "Canada"
+   ],
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "c6b1e5457c33",
+   "company": "T.D. Williamson",
+   "title": "Engineering Intern",
+   "locations": [
+    "Tulsa, OK"
+   ],
+   "url": "https://go.vansh.nyc/1Gy",
+   "source": "CSCareers (vanshb03)",
+   "category": "Software",
    "terms": [],
    "posted": "2026-11-17",
    "pay": null,
@@ -1382,28 +1496,6 @@
    "first_seen": "2026-11-22"
   },
   {
-   "id": "e6b2de8972a7",
-   "company": "Tyler Technologies",
-   "title": "Software Development Intern - Summer 2027",
-   "locations": [
-    "Yarmouth, ME",
-    "Orono, ME",
-    "Falmouth, ME"
-   ],
-   "url": "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-09-21",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-22"
-  },
-  {
    "id": "8bde40fa1c4d",
    "company": "Applied Materials",
    "title": "2027 Software Engineering Intern - Masters - Santa Clara - CA",
@@ -1573,13 +1665,13 @@
    "first_seen": "2026-11-22"
   },
   {
-   "id": "8657d5b1c947",
+   "id": "618eca47ce81",
    "company": "Samsara",
    "title": "Account Development Representative Intern - Phoenix",
    "locations": [
     "Phoenix, Arizona, United States"
    ],
-   "url": "https://www.samsara.com/company/careers/roles/8319784?gh_jid=8319784",
+   "url": "https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799",
    "source": "Greenhouse",
    "category": "Other",
    "terms": [],
@@ -3031,24 +3123,6 @@
    "terms": [
     "Summer 2027"
    ],
-   "posted": "2026-11-19",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-21"
-  },
-  {
-   "id": "f361616645c1",
-   "company": "Samsung",
-   "title": "Business Operations & Data Analytics Intern",
-   "locations": [
-    "Plano, TX"
-   ],
-   "url": "https://sec.wd3.myworkdayjobs.com/en-US/samsung_careers/job/6555-Excellence-Way-Plano-TX-USA/Business-Operations---Data-Analytics-Intern_R122135",
-   "source": "SpeedyApply AI/ML",
-   "category": "Data & ML",
-   "terms": [],
    "posted": "2026-11-19",
    "pay": null,
    "regions": [
@@ -10781,42 +10855,6 @@
    "pay": null,
    "regions": [
     "US"
-   ],
-   "first_seen": "2026-11-21"
-  },
-  {
-   "id": "1e80d68a7ea7",
-   "company": "Plusgrade",
-   "title": "Applied AI Engineer Intern",
-   "locations": [
-    "Toronto, Canada"
-   ],
-   "url": "https://go.vansh.nyc/1gq",
-   "source": "CSCareers (vanshb03)",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "Canada"
-   ],
-   "first_seen": "2026-11-21"
-  },
-  {
-   "id": "4a351042166b",
-   "company": "Plusgrade",
-   "title": "Applied AI Test Engineer Intern",
-   "locations": [
-    "Toronto, Canada"
-   ],
-   "url": "https://go.vansh.nyc/1gu",
-   "source": "CSCareers (vanshb03)",
-   "category": "Data & ML",
-   "terms": [],
-   "posted": "2026-11-04",
-   "pay": null,
-   "regions": [
-    "Canada"
    ],
    "first_seen": "2026-11-21"
   },
@@ -34778,24 +34816,6 @@
    "first_seen": "2026-11-19"
   },
   {
-   "id": "fca2aa1ec159",
-   "company": "Sallie Mae",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Newark, DE"
-   ],
-   "url": "https://sallie-mae.wd5.myworkdayjobs.com/en-US/careers/job/Newark-DE/Software-Engineering-Intern_R26_000688",
-   "source": "SpeedyApply US",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-18",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-19"
-  },
-  {
    "id": "cea2efa789d2",
    "company": "Soros Fund Management",
    "title": "Quantitative Strategist Intern",
@@ -37104,6 +37124,24 @@
    "first_seen": "2026-11-17"
   },
   {
+   "id": "1df2000386de",
+   "company": "HexArmor",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "Atlanta, GA"
+   ],
+   "url": "https://job-boards.greenhouse.io/hexarmor/jobs/8206200003",
+   "source": "SpeedyApply US",
+   "category": "Software",
+   "terms": [],
+   "posted": "2026-11-17",
+   "pay": null,
+   "regions": [
+    "US"
+   ],
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "f4c47a284f34",
    "company": "i3 Corps",
    "title": "Embedded Systems Reverse Engineer Intern",
@@ -37190,24 +37228,6 @@
    "pay": null,
    "regions": [
     "Canada"
-   ],
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "1df2000386de",
-   "company": "HexArmor",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "Atlanta, GA"
-   ],
-   "url": "https://job-boards.greenhouse.io/hexarmor/jobs/8206200003",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [],
-   "posted": "2026-11-16",
-   "pay": null,
-   "regions": [
-    "US"
    ],
    "first_seen": "2026-11-17"
   },
@@ -39757,26 +39777,6 @@
     "Winter 2027"
    ],
    "posted": "2026-11-14",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "59f8520c895a",
-   "company": "NextEra Energy",
-   "title": "Software Engineering Intern - Technical",
-   "locations": [
-    "St Paul, MN"
-   ],
-   "url": "https://jobs.nexteraenergy.com/job/Juno-Beach-Summer-Intern-Technical-FL-33408/1450749000/?ats=successfactors",
-   "source": "Simplify Summer 2027",
-   "category": "Software",
-   "terms": [
-    "Summer 2027"
-   ],
-   "posted": "2026-11-13",
    "pay": null,
    "regions": [
     "US"
@@ -52377,24 +52377,6 @@
    "category": "Data & ML",
    "terms": [],
    "posted": "2026-10-12",
-   "pay": null,
-   "regions": [
-    "US"
-   ],
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "3c01d0d7fdaa",
-   "company": "Werfen",
-   "title": "R&D Systems Hardware Engineering Co-op",
-   "locations": [
-    "Bedford, MA"
-   ],
-   "url": "https://careers-werfen.icims.com/jobs/11153/job?mobile=true&needsRedirect=false",
-   "source": "Simplify Summer 2027",
-   "category": "Hardware",
-   "terms": [],
-   "posted": "2026-10-09",
    "pay": null,
    "regions": [
     "US"
